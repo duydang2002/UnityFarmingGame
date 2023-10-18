@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{42D44FD4-B525-9036-DDF6-F8120218A1D6}</ProjectGuid>
+    <ProjectGuid>{3F89F5C3-54F2-AA4A-8340-764828F523EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\ClockManager.cs" />
+    <Compile Include="Assets\Script\TestPush.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
     <Compile Include="Assets\Script\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\TestScript\ClockManager.cs" />

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 66
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 91
+  controlID: 67
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 85
+  controlID: 68
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,8 +243,8 @@ MonoBehaviour:
     y: 0
     width: 456.80005
     height: 514.4
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 92
+  controlID: 114
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 1518.9585, y: 866.11523, z: -0.63708794}
     speed: 2
-    m_Value: {x: 1520.9633, y: 887.3521, z: -0.13951811}
+    m_Value: {x: 1518.9585, y: 866.11523, z: -0.63708794}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 245.75748
     speed: 2
-    m_Value: 196.00058
+    m_Value: 245.75748
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -840,23 +840,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be1a00000a270000
-      m_LastClickedID: 0
+      m_SelectedIDs: d4780000
+      m_LastClickedID: 30932
       m_ExpandedIDs: fefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: TimeManager
+        m_OriginalName: TimeManager
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 31066
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 283.2
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1063,25 +1063,23 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Script
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 0
   m_StartGridSize: 39
-  m_LastFolders:
-  - Assets/Script
+  m_LastFolders: []
   m_LastFoldersGridSize: 39
-  m_LastProjectPath: C:\Users\T590\OneDrive\Documents\Unity\Stardew Valley
+  m_LastProjectPath: C:\Users\T590\OneDrive\Documents\GitHub\UnityFarmingGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a8830000
     m_LastClickedID: 33704
-    m_ExpandedIDs: 00000000f2790000f4790000f6790000f8790000fa790000327a0000367a00000c7c00000e7c0000107c0000127c0000147c0000167c0000187c00001a7c00001c7c0000
+    m_ExpandedIDs: 00000000f2790000f4790000f6790000f8790000fa790000327a0000367a00000c7c00000e7c0000107c0000127c0000147c0000167c0000187c00001a7c00001c7c00001e7c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1109,7 +1107,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 564}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f2790000f4790000f6790000f8790000fa790000327a0000367a00000c7c00000e7c0000107c0000127c0000147c0000167c0000187c00001a7c0000b8840000ba840000
+    m_ExpandedIDs: ffffffff00000000f2790000f4790000f6790000f8790000fa790000327a0000367a00000c7c00000e7c0000107c0000127c0000147c0000167c0000187c00001a7c00001c7c00001e7c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

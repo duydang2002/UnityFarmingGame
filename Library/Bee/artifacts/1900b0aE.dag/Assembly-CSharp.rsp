@@ -395,6 +395,7 @@
 "Assets/Script/LogPickUp.cs"
 "Assets/Script/LootContainerInteract.cs"
 "Assets/Script/MainCharacterControl.cs"
+"Assets/Script/TestPush.cs"
 "Assets/Script/TestScript/ClockManager.cs"
 "Assets/Script/TestScript/StardewClock.cs"
 "Assets/Script/TestScript/TimeManager.cs"
