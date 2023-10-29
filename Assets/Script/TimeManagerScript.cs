@@ -34,12 +34,8 @@ namespace DateTimeNameSpace {
             
             dateTime = new DateTime(1, season - 1, 1, 6, 0 );
            
-           // Debug.Log($"Starting Date :  {dateTime.StartingDate(2)}");
             Debug.Log($"Summer Solstice :  {dateTime.SummerSolstice(4)}");
-            //Debug.Log($"Starting Date :  {dateTime.StartingDate(2)}");
             Debug.Log($"Starting of a season :  {dateTime.StartOfSeason(1, 3)}");
-           // Debug.Log($"Starting of winter :  {dateTime.StartOfWinter(3)}");
-
         }
 
         // Start is called before the first frame update
