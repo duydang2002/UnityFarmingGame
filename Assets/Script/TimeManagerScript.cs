@@ -32,7 +32,8 @@ namespace DateTimeNameSpace {
         private void Awake()
         {
             
-            dateTime = new DateTime(1, season - 1, 1, 6, 0 );
+            dateTime = new DateTime(1, 0, 1, 12, 0 );
+             
            
             Debug.Log($"Summer Solstice :  {dateTime.SummerSolstice(4)}");
             Debug.Log($"Starting of a season :  {dateTime.StartOfSeason(1, 3)}");
@@ -48,12 +49,10 @@ namespace DateTimeNameSpace {
         void Update()
         {
             currentTimeBetweenTicks += Time.deltaTime;
-
             if (currentTimeBetweenTicks >= timeBetweenTicks)
             {
                 currentTimeBetweenTicks = 0;
                 Tick();
-              
             }
         }
 
@@ -66,6 +65,7 @@ namespace DateTimeNameSpace {
 
         void AdvanceTime()
         {
+            Debug.Log(tickSecondsIncrease);
             dateTime.AdvanceMinutes(tickSecondsIncrease);
 
             OnDateTimeChanged?.Invoke(dateTime);
@@ -157,7 +157,6 @@ namespace DateTimeNameSpace {
 
         private void AdvanceDay()
         {
-            day++;
             if (day + 1 > (Days)7)
             {
                 day = (Days)1;

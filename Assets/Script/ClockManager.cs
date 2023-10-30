@@ -46,16 +46,17 @@ public class Clock : MonoBehaviour
         Time.text = dateTime.TimeToString();
         Season.text = dateTime.Season.ToString();
         Week.text = $"WK: {dateTime.CurrentWeek}";
+         
         //weatherSprite.sprite = weatherSprites[(int)WeatherManager.currentWeather];
 
         float t = (float)dateTime.Hour / 24f;
-
+        
         float newRotation = Mathf.Lerp(0, 360, t);
         ClockFace.localEulerAngles = new Vector3(0, 0, newRotation + startingRotation);
-
         float dayNightT = dayNightCurve.Evaluate(t);
-
         sunlight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, dayNightT);
+        Debug.Log("t " + t + " " + " day night" + dayNightT + " intensity" + sunlight.intensity + " Current week" + dateTime.TotalNumWeeks+ " Num day" + dateTime.TotalNumDays);
+
     }
-   
+
 }
