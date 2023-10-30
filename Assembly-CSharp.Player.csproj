@@ -59,26 +59,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Interactable.cs" />
+    <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\LogPickUp.cs" />
+    <Compile Include="Assets\Script\InventoryButton.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\ToolHit.cs" />
-    <Compile Include="Assets\Script\TestScript\TimeManager.cs" />
-    <Compile Include="Assets\Script\TestScript\StardewClock.cs" />
     <Compile Include="Assets\Script\WeatherManager.cs" />
     <Compile Include="Assets\Script\HightlightController.cs" />
+    <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
+    <Compile Include="Assets\Script\ItemContainer.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
-    <Compile Include="Assets\Script\ClockManager.cs" />
+    <Compile Include="Assets\Script\Item.cs" />
     <Compile Include="Assets\Script\TestPush.cs" />
+    <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
-    <Compile Include="Assets\Script\TimeManagerScript.cs" />
-    <Compile Include="Assets\Script\TestScript\ClockManager.cs" />
+    <Compile Include="Assets\Script\InventoryPanel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Element\Handle\ToolPng\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Element\Handle\ToolPng\License premium.txt" />
+    <None Include="Assets\Element\Handle\ToolPng\License free.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -90,6 +95,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Element\Handle\Spritesheet\uipack_rpg_sheet.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

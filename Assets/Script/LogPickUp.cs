@@ -11,15 +11,12 @@ public class LogPickUp : MonoBehaviour
     [SerializeField] float ttl = 10f;
     [SerializeField] float waitingSecond = 1f;
 
+    public Item item;
+    public int count = 1;
+
     private void Awake()
     {
         player = GameManager.instance.player.transform;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
@@ -53,6 +50,15 @@ public class LogPickUp : MonoBehaviour
             speed * Time.deltaTime);
 
         if (distance < 0.1f){
+            // *TODO* should be moved into specified controller rather than being checked here
+            if (GameManager.instance.inventoryContainer != null)
+            {
+                GameManager.instance.inventoryContainer.Add(item, count);
+            }
+            else
+            {
+                Debug.LogWarning("No inventory container attached to the game manager");
+            }
             Destroy(gameObject);
         }
     }
