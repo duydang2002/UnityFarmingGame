@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LogPickUp : MonoBehaviour
+public class PickUpItem : MonoBehaviour
 {
     Transform player;
     [SerializeField] float speed = 5f;
@@ -61,5 +61,13 @@ public class LogPickUp : MonoBehaviour
             }
             Destroy(gameObject);
         }
+    }
+    public void Set(Item item, int count)
+    {
+        this.item = item;
+        this.count = count;
+
+        SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+        renderer.sprite = item.icon;
     }
 }

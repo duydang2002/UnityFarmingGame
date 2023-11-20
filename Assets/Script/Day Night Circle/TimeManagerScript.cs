@@ -65,7 +65,6 @@ namespace DateTimeNameSpace {
 
         void AdvanceTime()
         {
-            Debug.Log(tickSecondsIncrease);
             dateTime.AdvanceMinutes(tickSecondsIncrease);
 
             OnDateTimeChanged?.Invoke(dateTime);

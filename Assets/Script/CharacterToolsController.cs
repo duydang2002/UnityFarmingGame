@@ -13,7 +13,6 @@ using UnityEngine;
         [SerializeField] private LayerMask playerMask;
         private void Awake()
         {
-        Debug.Log("test Log");
             character = GetComponent<MainCharacterControl>();
             rgbd2d = GetComponent<Rigidbody2D>();
         }
@@ -34,7 +33,6 @@ using UnityEngine;
         private void UseTool()
         {
         Vector2 position = rgbd2d.position + character.lastMotionVector*offsetDistance;
-        Debug.Log(position + " " + rgbd2d.position);
             
             Collider2D[] collider2s = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
             

@@ -56,7 +56,6 @@ public class Clock : MonoBehaviour
         ClockFace.localEulerAngles = new Vector3(0, 0, newRotation + startingRotation);
         float dayNightT = dayNightCurve.Evaluate(t);
         sunlight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, dayNightT);
-        Debug.Log("t " + t + " " + " day night" + dayNightT + " intensity" + sunlight.intensity + " Current week" + dateTime.TotalNumWeeks+ " Num day" + dateTime.TotalNumDays);
 
     }
 
