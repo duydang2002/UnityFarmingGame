@@ -4,28 +4,33 @@ using UnityEngine;
 
 public class DogWP : MonoBehaviour
 {
-    public GameObject[] waypoints;
-    int currentWP = 0;
+    [SerializeField]
+    Transform[] waypoints;
 
-    public float speed = 10.0f;
-    public float rotSpeed = 10.0f;
-    public float rotDistance = 3.0f;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    float moveSpeed = 0.5f;
+    int waypointIndex = 0;
+    private void Start()
     {
-        
+        transform.position = waypoints[waypointIndex].transform.position;
+    }
+    private void Update()
+    {
+        Move();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Move()
     {
-        if (Vector2.Distance(this.transform.position, waypoints[currentWP].transform.position) < rotSpeed)
-            currentWP++;
-        if (currentWP > waypoints.Length)
-            currentWP = 0;
+        transform.position = Vector2.Lerp(transform.position, waypoints[waypointIndex].position, moveSpeed * Time.deltaTime);
 
-        Quaternion lookatWP = Quaternion.LookRotation(waypoints[currentWP].transform.position - this.transform.position);
-        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, lookatWP, rotSpeed * Time.deltaTime);
-        this.transform.Translate(0,0,speed * Time.deltaTime);
+        float distance = Vector2.Distance(transform.position, waypoints[waypointIndex].position);
+        if (distance < 0.01f)
+        {
+            waypointIndex++;
+            if (waypointIndex == waypoints.Length)
+            {
+                waypointIndex = 0;
+            }
+        }
     }
 }
