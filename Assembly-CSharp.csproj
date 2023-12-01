@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\PickUpItem.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
+    <Compile Include="Assets\Script\DogWP.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
