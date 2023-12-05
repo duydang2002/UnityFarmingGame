@@ -17,6 +17,7 @@ public class WeatherManager : MonoBehaviour
     [Header("=== Debug Options ====")]
     public bool forceRain = false;
     public bool forceSunny = false;
+    public bool forceSnow = false;
 
     public static Action<Weather> OnWeatherChange;
     private int currentWeatherTick = 0;
@@ -60,6 +61,11 @@ public class WeatherManager : MonoBehaviour
                     rainParticles.Play();
                     rainDropParticles.Play();
                     break;
+                case Weather.Snow:
+                    rainParticles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+                    rainDropParticles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+                    snowParticles.Play();
+                    break;
                 default:
                     break;
             }
@@ -93,6 +99,7 @@ public class WeatherManager : MonoBehaviour
         int randomWeather = 0;
         if (forceSunny) randomWeather = (int)Weather.Sunny;
         else if (forceRain) randomWeather = (int)Weather.Rainny;
+        else if(forceSnow) randomWeather = (int)Weather.Snow;
         else randomWeather = UnityEngine.Random.Range(0, 2);
         return (Weather)randomWeather;
     }
@@ -102,6 +109,5 @@ public class WeatherManager : MonoBehaviour
         Sunny = 0,
         Rainny = 1,
         Snow = 2,
-        WEATHER_MAX = Snow
     }
 }
