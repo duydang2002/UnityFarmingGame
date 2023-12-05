@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 Library/*
-=======
-.vs
-Library/*
-Temp/*
->>>>>>> main
 Temp/UnityLockfile
 Temp/FSTimeGet-9a9f317fc16086644bb44cf42fd9b295
 Temp/workerlic
@@ -13,6 +7,7 @@ Temp/FSTimeGet-eca2379c1b0615c469ab7b3d42eea83f
 Temp/FSTimeGet-7b49dfc07f307fc42a1dc00c3f057c17
 Temp/Burst/burst-aotvx5m45fk.wyw/lib_burst_generated_part_a185c62eba2497c95197140e5282b27a.obj
 Temp/Burst/burst-aotvx5m45fk.wyw/lib_burst_generated_part_a185c62eba2497c95197140e5282b27a.gbc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,3 +21,7 @@ Library/ArtifactDB
 >>>>>>> parent of c8223c6a (Git update)
 =======
 >>>>>>> parent of c8223c6a (Git update)
+=======
+Temp/*
+Logs/*
+>>>>>>> parent of 02029e9f (Merge Main into Duy)
