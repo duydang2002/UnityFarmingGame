@@ -40,6 +40,10 @@ public class ItemDragAndDropController : MonoBehaviour
                         worldPosition,
                         itemSlot.item,
                         itemSlot.count);
+
+                    //MainCharacterControl.
+                    itemSlot.Clear();
+                    itemIcon.SetActive(false);
                 }
             }
         }
