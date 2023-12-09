@@ -8,9 +8,19 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        characterController = FindObjectOfType<MainCharacterControl>();
     }
 
     public GameObject player;
     public ItemContainer inventoryContainer;
     public ItemDragAndDropController dragAndDropController;
+    public MainCharacterControl characterController;
+    public void MoveMainCharacterTo(Vector2 targetPosition)
+    {
+        
+        if (characterController != null)
+        {
+            characterController.MoveTo(targetPosition);
+        }
+    }
 }

@@ -11,8 +11,12 @@ public class ItemDragAndDropController : MonoBehaviour
     [SerializeField] ItemSlot itemSlot;
     [SerializeField] GameObject itemIcon;
     RectTransform iconTransform;
-    Image itemIconImage;  
-
+    Image itemIconImage;
+    MainCharacterControl mainCharacter;
+    private void Awake()
+    {
+         mainCharacter = FindObjectOfType<MainCharacterControl>();
+    }
 
 
     // Start is called before the first frame update
@@ -35,6 +39,10 @@ public class ItemDragAndDropController : MonoBehaviour
                 {
                     Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     worldPosition.z = 0;
+                    Vector2 pos = new Vector2(worldPosition.x, worldPosition.y);
+                    
+                    mainCharacter.setPosition(pos);
+                    mainCharacter.setAuto(true);
 
                     ItemSpawnManager.instance.SpawnItem(
                         worldPosition,
