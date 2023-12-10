@@ -10,6 +10,8 @@ public class NPC_Controller : Interactable
     private BoxCollider2D boxCollider;
     Transform player;
     Animator animatorMove;
+
+    [SerializeField] GameObject introPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,11 +34,11 @@ public class NPC_Controller : Interactable
         animatorMove.SetFloat("Horizontal", -horizontal);
         animatorMove.SetFloat("Vertical", -vertical);
 
- /*       float x = transform.position.x - player.position.x;
-        float y = transform.position.y - player.position.y;
-        if (x <0)
-        {
+        introPanel.SetActive(true);
 
-        }*/
+    }
+    public void Hide()
+    {
+        introPanel.SetActive(false);
     }
 }

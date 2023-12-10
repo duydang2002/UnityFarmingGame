@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\ToolHit.cs" />
     <Compile Include="Assets\Script\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Script\WeatherManager.cs" />
+    <Compile Include="Assets\Script\IntroductionController.cs" />
     <Compile Include="Assets\Script\HightlightController.cs" />
     <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
