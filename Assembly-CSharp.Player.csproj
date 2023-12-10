@@ -62,7 +62,6 @@
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
-    <Compile Include="Assets\NPC_Controller.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\ToolHit.cs" />
@@ -75,6 +74,7 @@
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\Script\NPC_Controller.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />

@@ -22,10 +22,10 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 9127399630755233532}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: Vertical
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: Vertical
 --- !u!1107 &-6509352390067521723
 AnimatorStateMachine:
   serializedVersion: 6
@@ -57,7 +57,13 @@ AnimatorController:
   m_Name: NCP_Idle
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Blend
+  - m_Name: Vertical
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Horizontal
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -82,7 +88,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle
+  m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 3f3a3a17fc407744aa986fcc7073254e, type: 2}
@@ -116,8 +122,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: Blend
-  m_BlendParameterY: Blend
+  m_BlendParameter: Vertical
+  m_BlendParameterY: Horizontal
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
