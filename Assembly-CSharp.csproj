@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
+    <Compile Include="Assets\NPC_Controller.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\ToolHit.cs" />
