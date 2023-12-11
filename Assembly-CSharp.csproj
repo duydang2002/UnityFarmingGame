@@ -77,9 +77,11 @@
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
+    <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
+    <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
   </ItemGroup>
