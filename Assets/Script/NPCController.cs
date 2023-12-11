@@ -4,13 +4,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class NPC_Controller : Interactable
+public class NPCController : Interactable
 {
 
     private BoxCollider2D boxCollider;
     Transform player;
     Animator animatorMove;
 
+    [SerializeField] DialogueContainer dialogueContainer;
     [SerializeField] GameObject introPanel;
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,8 @@ public class NPC_Controller : Interactable
         animatorMove.SetFloat("Horizontal", -horizontal);
         animatorMove.SetFloat("Vertical", -vertical);
 
-        introPanel.SetActive(true);
+        //introPanel.SetActive(true);
+        GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
 
     }
     public void Hide()

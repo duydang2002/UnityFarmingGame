@@ -15,12 +15,13 @@ public class GameManager : MonoBehaviour
     public ItemContainer inventoryContainer;
     public ItemDragAndDropController dragAndDropController;
     public MainCharacterControl characterController;
-    public void MoveMainCharacterTo(Vector2 targetPosition)
+    public DialogueSystem dialogueSystem;
+   /* public void MoveMainCharacterTo(Vector2 targetPosition)
     {
         
         if (characterController != null)
         {
             characterController.MoveTo(targetPosition);
         }
-    }
+    }*/
 }
