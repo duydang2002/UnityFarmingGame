@@ -42,9 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: RainEffect
-    uniqueID: 2043832687
-    locked: 0
   - name: Surface
     uniqueID: 769216317
     locked: 0
