@@ -19,13 +19,10 @@ public class TreeCuttable : Interactable
             position.x += spread *UnityEngine.Random.value-spread/2;
             position.y += spread * UnityEngine.Random.value - spread / 2;
             GameObject go = Instantiate(pickUpDrop);
-            GameObject go2 = Instantiate(highLightMarker);
-            
             go.transform.position = position;
-            position.y += 0.5f;
-            go2.transform.position = position;
         }
         Destroy(gameObject);
+        
     }
     // Start is called before the first frame update
     void Awake()

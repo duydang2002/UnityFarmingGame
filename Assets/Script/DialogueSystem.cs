@@ -85,7 +85,7 @@ public class DialogueSystem : MonoBehaviour
     private void UpdatePortrait()
     {
         portrait.sprite = currentDialogue.npc.portrait;
-        nameText.text = currentDialogue.npc.name;
+        nameText.text = currentDialogue.npc.Name;
     }
 
     private void Conclude()
