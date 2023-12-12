@@ -2956,6 +2956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hightlighter: {fileID: 28112688}
+  questMark: {fileID: 946253810}
 --- !u!114 &504339662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51538,6 +51539,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4203638203ce51149b2627b150c4fa38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &946253810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5532311938463666180, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+  m_PrefabInstance: {fileID: 8213431620435575041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &957675453
 GameObject:
   m_ObjectHideFlags: 0
@@ -53144,7 +53150,7 @@ Transform:
   m_GameObject: {fileID: 1525261354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.18, z: 0}
+  m_LocalPosition: {x: 1.32, y: 1.08, z: 0}
   m_LocalScale: {x: 0.1528268, y: 0.1528268, z: 0.1528268}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53209,6 +53215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 2097275357}
   introPanel: {fileID: 37091100}
+  hightlightController: {fileID: 504339661}
 --- !u!1 &1540592855
 GameObject:
   m_ObjectHideFlags: 0
@@ -55428,7 +55435,7 @@ MonoBehaviour:
   levelStr: {fileID: 957675455}
   expImg: {fileID: 424904430}
   maxLevel: 100
-  currentExp: 120
+  currentExp: 50
 --- !u!1001 &2102383596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55859,6 +55866,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7615ffa7c380d940bf22ea2aa292d07, type: 3}
+--- !u!1001 &8213431620435575041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955205817961245807, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5532311938463666180, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
+      propertyPath: m_Name
+      value: QuestMark
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2063249d14e50cd43b97446b2d9a8cac, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -55885,3 +55949,4 @@ SceneRoots:
   - {fileID: 1562335433}
   - {fileID: 37091101}
   - {fileID: 1525261357}
+  - {fileID: 8213431620435575041}

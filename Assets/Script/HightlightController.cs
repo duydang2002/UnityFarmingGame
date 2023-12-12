@@ -5,6 +5,7 @@ using UnityEngine;
 public class HightlightController : MonoBehaviour
 {
     [SerializeField] GameObject hightlighter;
+    [SerializeField] GameObject questMark;
     GameObject currentTarget;
     public void Hightlight(GameObject target)
     {
@@ -22,6 +23,22 @@ public class HightlightController : MonoBehaviour
         position.y += 0.7f;
         hightlighter.transform.position = position;
         
+    }
+    public void QuestAppear(GameObject target)
+    {
+        if (currentTarget == target)
+        {
+            return;
+        }
+        currentTarget = target;
+        Vector3 position = target.transform.position;
+        QuestAppear(position);
+    }
+    public void QuestAppear(Vector3 position)
+    {
+        questMark.SetActive(true);
+        position.y += 0.5f;
+        questMark.transform.position = position;
     }
 
     public void Hide()
