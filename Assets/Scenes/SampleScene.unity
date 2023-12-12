@@ -506,6 +506,7 @@ MonoBehaviour:
   portrait: {fileID: 1571273209}
   visibleTextPercent: 0
   timePerletter: 0.05
+  levelManager: {fileID: 2097275353}
 --- !u!1001 &62168925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1928,7 +1929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bebbf47aa392ff499ca67b661700526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: {fileID: 0}
 --- !u!1 &297399584
 GameObject:
   m_ObjectHideFlags: 0
@@ -53207,7 +53207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab92e93c73e53cf4d82a4db1c5de6381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 11400000, guid: 8f2e95f888dc02b4cac8428c2a153d03, type: 2}
+  levelManager: {fileID: 2097275357}
   introPanel: {fileID: 37091100}
 --- !u!1 &1540592855
 GameObject:
@@ -55428,7 +55428,7 @@ MonoBehaviour:
   levelStr: {fileID: 957675455}
   expImg: {fileID: 424904430}
   maxLevel: 100
-  currentExp: 60
+  currentExp: 120
 --- !u!1001 &2102383596
 PrefabInstance:
   m_ObjectHideFlags: 0

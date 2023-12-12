@@ -14,6 +14,7 @@ public class DialogueSystem : MonoBehaviour
     [Range(0f, 1f)]
     [SerializeField] float visibleTextPercent;
     [SerializeField] float timePerletter = 0.05f;
+    [SerializeField] GameObject levelManager;
     float totalTimetoType, currentTime;
     string lineToShow;
 
