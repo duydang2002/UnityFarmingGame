@@ -7,5 +7,4 @@ public class DialogueContainer : ScriptableObject
 {
     public List<string> line;
     public NPC npc;
-
 }

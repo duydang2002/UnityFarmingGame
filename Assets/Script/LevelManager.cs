@@ -36,23 +36,37 @@ public class LevelManager : MonoBehaviour
     {
         setLevelString();
         setExpBarWidth();
+        if (currentExp >= expToNextLevel[currentLevel] && currentLevel < maxLevel)
+        {
+            currentLevel += 1;
+            currentExp -= expToNextLevel[currentLevel - 1];
+        }
     }
     public void AddExp(int expToAdd)
     {
         currentExp += expToAdd;
-        if(currentLevel >= expToNextLevel[currentLevel] && currentLevel < maxLevel) {
+        /*if(currentExp >= expToNextLevel[currentLevel] && currentLevel < maxLevel) {
             currentLevel += 1;
             currentExp -= expToNextLevel[currentLevel-1];
-        }
+        }*/
     }
+
+   /* private void FixedUpdate()
+    {
+      
+    }*/
     public void setExpBarWidth()
     {
         expBarCurrentWidth = (float)currentExp / (float)expToNextLevel[currentLevel] * expBarMaxWidth;
         expImg.sizeDelta = new Vector2(expBarCurrentWidth, expBarHeight);
-        Debug.Log(expBarCurrentWidth);
+        //Debug.Log(expBarCurrentWidth);
     }
     public void setLevelString()
     {
         levelStr.text = currentLevel.ToString();
+    }
+    public string getLevel()
+    {
+        return currentLevel.ToString();
     }
 }
