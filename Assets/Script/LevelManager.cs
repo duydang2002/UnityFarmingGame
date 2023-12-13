@@ -10,20 +10,18 @@ public class LevelManager : MonoBehaviour
     public TextMeshProUGUI levelStr;
     public RectTransform expImg;
     public static int currentLevel=1;
-    public static int maxLevel = 100;
-    public static int[] expToNextLevel = new int[maxLevel];
-    public static int currentExp = 0;
+    public static int[] expToNextLevel;
+    public int maxLevel = 100;
+    public int currentExp = 0;
 
     private float expBarMaxWidth = 64;
     private float expBarCurrentWidth;
     private float expBarHeight = 43;
-    public static int getCurrentMaxExp(int currentLevel)
-    {
-        return expToNextLevel[currentLevel];
-    }
+  
     // Start is called before the first frame update
     void Start()
     {
+        expToNextLevel = new int[maxLevel];
         expToNextLevel[1] = 100;
         for(int i = 2; i < expToNextLevel.Length; i++)
         {
