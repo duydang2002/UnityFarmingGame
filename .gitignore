@@ -1,4 +1,5 @@
 Library/*
+.vs/*
 Temp/UnityLockfile
 Temp/FSTimeGet-9a9f317fc16086644bb44cf42fd9b295
 Temp/workerlic
@@ -35,3 +36,4 @@ Logs/*
 Temp/*
 Logs/*
 >>>>>>> parent of 02029e9f (Merge Main into Duy)
+
