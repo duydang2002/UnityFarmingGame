@@ -72,21 +72,18 @@
     <Compile Include="Assets\Script\HightlightController.cs" />
     <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
-    <Compile Include="Assets\Transition.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
-    <Compile Include="Assets\GameSceneManager.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
-    <Compile Include="Assets\TransitionArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Element\Handle\ToolPng\license.txt" />
