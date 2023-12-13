@@ -9,13 +9,16 @@ public class NPCController : Interactable
 
     Transform player;
     Animator animatorMove;
+    
 
     DialogueContainer dialogueContainer;
+    //[SerializeField] GameObject character;
+    //Character character;
     [SerializeField] LevelManager levelManager;
     [SerializeField] GameObject introPanel;
     [SerializeField] HightlightController hightlightController;
     string  lastLevel;
-    bool questOn = false;
+    [SerializeField] bool questOn = false;
     bool start = true;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,6 @@ public class NPCController : Interactable
         player = GameManager.instance.player.transform;
         animatorMove = GetComponent<Animator>();
         lastLevel = levelManager.getLevel();
-       
     }
 
     // Update is called once per frame
@@ -38,13 +40,13 @@ public class NPCController : Interactable
         {
             string assetPath = "Dialogues/" + "Lv" + levelManager.getLevel();
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
+            hightlightController.QuestAppear(this.gameObject);
         }
         else
         {
             string assetPath = "Dialogues/" + "Idle" ;
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
         }
-
     }
     public override void Interact(Character character)
     {
