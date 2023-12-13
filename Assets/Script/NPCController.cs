@@ -7,24 +7,44 @@ using UnityEngine.TextCore.Text;
 public class NPCController : Interactable
 {
 
-    private BoxCollider2D boxCollider;
     Transform player;
     Animator animatorMove;
 
-    [SerializeField] DialogueContainer dialogueContainer;
+    DialogueContainer dialogueContainer;
+    [SerializeField] LevelManager levelManager;
     [SerializeField] GameObject introPanel;
+    [SerializeField] HightlightController hightlightController;
+    string  lastLevel;
+    bool questOn = false;
+    bool start = true;
     // Start is called before the first frame update
     void Start()
     {
         player = GameManager.instance.player.transform;
-        boxCollider = GetComponent<BoxCollider2D>();
         animatorMove = GetComponent<Animator>();
+        lastLevel = levelManager.getLevel();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-            
+        if (lastLevel != levelManager.getLevel())
+        {
+            questOn = true;
+            start = false;
+        }
+        if (questOn || start )
+        {
+            string assetPath = "Dialogues/" + "Lv" + levelManager.getLevel();
+            dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
+        }
+        else
+        {
+            string assetPath = "Dialogues/" + "Idle" ;
+            dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
+        }
+
     }
     public override void Interact(Character character)
     {
