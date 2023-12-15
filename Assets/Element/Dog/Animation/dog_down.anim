@@ -6,11 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Element/Dog/Animation/dog_down.anim
   m_Name: dog_down
-========
-  m_Name: Right
->>>>>>>> main:Assets/Element/NPC/Animation Idle/Right.anim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -25,7 +21,6 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-<<<<<<<< HEAD:Assets/Element/Dog/Animation/dog_down.anim
       value: {fileID: 899268272, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
     - time: 0.083333336
       value: {fileID: 2051612912, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
@@ -33,11 +28,6 @@ AnimationClip:
       value: {fileID: 1584766100, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
     - time: 0.25
       value: {fileID: 18734465, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
-========
-      value: {fileID: 21300000, guid: 7113ed198749009499a162b88f4c561f, type: 3}
-    - time: 0.083333336
-      value: {fileID: 21300000, guid: a6aa4575049d9ba4a83622a82811b060, type: 3}
->>>>>>>> main:Assets/Element/NPC/Animation Idle/Right.anim
     attribute: m_Sprite
     path: 
     classID: 212
@@ -60,25 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-<<<<<<<< HEAD:Assets/Element/Dog/Animation/dog_down.anim
     - {fileID: 899268272, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
     - {fileID: 2051612912, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
     - {fileID: 1584766100, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
     - {fileID: 18734465, guid: 3414a3cc1c37e2b4c85a04f2df74c5d1, type: 3}
-========
-    - {fileID: 21300000, guid: 7113ed198749009499a162b88f4c561f, type: 3}
-    - {fileID: 21300000, guid: a6aa4575049d9ba4a83622a82811b060, type: 3}
->>>>>>>> main:Assets/Element/NPC/Animation Idle/Right.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-<<<<<<<< HEAD:Assets/Element/Dog/Animation/dog_down.anim
     m_StopTime: 0.33333334
-========
-    m_StopTime: 0.16666667
->>>>>>>> main:Assets/Element/NPC/Animation Idle/Right.anim
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

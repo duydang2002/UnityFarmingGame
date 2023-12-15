@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickUpItem : Interactable
+public class PickUpItem : MonoBehaviour
 {
     Transform player;
     [SerializeField] float speed = 5f;
@@ -11,15 +11,12 @@ public class PickUpItem : Interactable
     [SerializeField] float ttl = 10f;
     [SerializeField] float waitingSecond = 1f;
 
-    private BoxCollider2D boxCollider;
-    bool pickUp = false;
     public Item item;
     public int count = 1;
 
     private void Awake()
     {
         player = GameManager.instance.player.transform;
-        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -44,19 +41,7 @@ public class PickUpItem : Interactable
         {
             return;
         }
-
-        if (Input.GetKeyDown("f"))
-        {
-            pickUp = true;
-            boxCollider.enabled = false;
-        }
-
-        if(pickUp == false)
-        {
-            return;
-        }
         
-
         // Use to smoothy move from lag to player
         // Mul deltaTime to make it frame rate independent
         transform.position = Vector3.MoveTowards(
@@ -75,11 +60,8 @@ public class PickUpItem : Interactable
                 Debug.LogWarning("No inventory container attached to the game manager");
             }
             Destroy(gameObject);
-            boxCollider.enabled = true;
         }
     }
-
-    
     public void Set(Item item, int count)
     {
         this.item = item;

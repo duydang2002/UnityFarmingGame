@@ -38,7 +38,6 @@ public class CharacterInteractController : MonoBehaviour
 
             if (hit != null)
             {
-                //Debug.Log(hit);
                 hit.Interact(character);
                 break;
             }
