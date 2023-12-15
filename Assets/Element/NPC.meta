@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Element/NPC.meta
 guid: 7ff3642f642d5be42b083647e45488d5
+========
+guid: fadb2bffc8a91a542acf1be0e2705b2b
+>>>>>>>> main:Assets/Element/Rain.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

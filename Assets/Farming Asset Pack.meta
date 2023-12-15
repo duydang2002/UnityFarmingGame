@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Farming Asset Pack.meta
 guid: 3e53d24bd568d5342857d06b298842a0
+========
+guid: 2c25a495bd4276942b0f5f6ceff1b70e
+>>>>>>>> main:Assets/Element/Snow.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

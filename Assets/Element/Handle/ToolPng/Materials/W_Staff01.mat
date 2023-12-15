@@ -7,7 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Element/Handle/ToolPng/Materials/W_Staff01.mat
   m_Name: W_Staff01
+========
+  m_Name: Dog house
+>>>>>>>> main:Assets/Element/Dog/Materials/Dog house.mat
   m_Shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,7 +32,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<<< HEAD:Assets/Element/Handle/ToolPng/Materials/W_Staff01.mat
         m_Texture: {fileID: 2800000, guid: cf09eda1cba8df34d81520f638a77ed1, type: 3}
+========
+        m_Texture: {fileID: 2800000, guid: 511943d49c35c2a4e9241c5e699a30a4, type: 3}
+>>>>>>>> main:Assets/Element/Dog/Materials/Dog house.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
