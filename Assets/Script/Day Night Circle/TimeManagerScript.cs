@@ -12,7 +12,7 @@ namespace DateTimeNameSpace {
         [Range(1, 30)]
         public int dateInMonth;
         [Range(1, 4)]
-        public static int season;
+        public int season;
         [Range(1, 99)]
         public int year;
         [Range(0, 24)]
