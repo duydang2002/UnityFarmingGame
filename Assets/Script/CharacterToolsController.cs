@@ -2,18 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 
     public class CharacterToolsController : MonoBehaviour
     {
-        MainCharacterControl character;
+        MainCharacterControl characterController;
         Rigidbody2D rgbd2d;
-        [SerializeField] float offsetDistance = 1f;
+        Character character;
+    [SerializeField] float offsetDistance = 1f;
         [SerializeField] float sizeOfInteractableArea = 0.4f;
         [SerializeField] private LayerMask playerMask;
         private void Awake()
         {
-            character = GetComponent<MainCharacterControl>();
+        characterController = GetComponent<MainCharacterControl>();
             rgbd2d = GetComponent<Rigidbody2D>();
         }
         // Start is called before the first frame update
@@ -32,7 +34,7 @@ using UnityEngine;
         }
         private void UseTool()
         {
-        Vector2 position = rgbd2d.position + character.lastMotionVector*offsetDistance;
+        Vector2 position = rgbd2d.position + characterController.lastMotionVector*offsetDistance;
             
             Collider2D[] collider2s = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
             
@@ -42,7 +44,7 @@ using UnityEngine;
             
             if (hit != null)
             {
-                hit.Hit();
+                hit.Hit(character);
                 break;
             }
         }
