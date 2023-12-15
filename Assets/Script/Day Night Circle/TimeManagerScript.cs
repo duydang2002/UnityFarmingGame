@@ -5,14 +5,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace DateTimeNameSpace {
+namespace DateTimeNameSpace
+{
     public class TimeManagerScript : MonoBehaviour
     {
         [Header("Date & Time Settings")]
         [Range(1, 30)]
         public int dateInMonth;
         [Range(1, 4)]
-        public int season;
+        public static int season;
         [Range(1, 99)]
         public int year;
         [Range(0, 24)]
@@ -31,10 +32,10 @@ namespace DateTimeNameSpace {
 
         private void Awake()
         {
-            
-            dateTime = new DateTime(1, 0, 1, 12, 0 );
-             
-           
+
+            dateTime = new DateTime(1, 0, 1, 12, 0);
+
+
             Debug.Log($"Summer Solstice :  {dateTime.SummerSolstice(4)}");
             Debug.Log($"Starting of a season :  {dateTime.StartOfSeason(1, 3)}");
         }
@@ -71,17 +72,17 @@ namespace DateTimeNameSpace {
         }
     }
 
-        [System.Serializable]    
-        public struct DateTime
-        {
+    [System.Serializable]
+    public struct DateTime
+    {
         #region Fields;
         private Days day;
         private int date;
-        
+
         private int year;
         private int hour;
         private int minute;
-        
+
         private Season season;
 
         private int totalNumDays;
@@ -104,11 +105,11 @@ namespace DateTimeNameSpace {
         public int Year => year;
         public int TotalNumDays => totalNumDays;
         public int TotalNumWeeks => totalNumWeeks;
-        public int CurrentWeek => totalNumWeeks %16 == 0 ? 16: totalNumWeeks %16;
+        public int CurrentWeek => totalNumWeeks % 16 == 0 ? 16 : totalNumWeeks % 16;
         #endregion
 
         #region Constructors
-        public DateTime(int date, int season, int year, int hour , int minutes)
+        public DateTime(int date, int season, int year, int hour, int minutes)
         {
             this.day = (Days)(date % 7);
             if (day == 0)
@@ -116,8 +117,8 @@ namespace DateTimeNameSpace {
                 day = (Days)7;
             }
             this.date = date;
-            this.season = (Season) season;
-            this.year = year;   
+            this.season = (Season)season;
+            this.year = year;
             this.hour = hour;
             this.minute = minutes;
 
@@ -140,7 +141,7 @@ namespace DateTimeNameSpace {
                 minute += SecondsToAdvanceBy;
             }
         }
-        
+
         private void AdvanceHour()
         {
             if (hour == 23)
@@ -227,7 +228,7 @@ namespace DateTimeNameSpace {
         }
         public DateTime SummerSolstice(int year)
         {
-            if ( year == 0 ) year = 1;
+            if (year == 0) year = 1;
             return new DateTime(28, 1, year, 6, 0);
         }
         public DateTime PumkinMarvest(int year)
@@ -248,7 +249,7 @@ namespace DateTimeNameSpace {
         #region To Strings
         public override string ToString()
         {
-            return$"Date {DateToString()} Season: {season} Time: {TimeToString()}" + 
+            return $"Date {DateToString()} Season: {season} Time: {TimeToString()}" +
                 $"\nTotal Days: {TotalNumDays} | Total Weeks: {totalNumWeeks}";
         }
         public string DateToString()
@@ -263,7 +264,8 @@ namespace DateTimeNameSpace {
             {
                 adjustedHour = 12;
             }
-            else if (hour ==24) {
+            else if (hour == 24)
+            {
                 adjustedHour = 12;
             }
             else if (hour >= 13)
@@ -282,7 +284,7 @@ namespace DateTimeNameSpace {
     [System.Serializable]
     public enum Days
     {
-        NULL = 0, 
+        NULL = 0,
         Mon = 1,
         Tue = 2,
         Wed = 3,
@@ -301,5 +303,3 @@ namespace DateTimeNameSpace {
         Winter = 3,
     }
 }
-
-
