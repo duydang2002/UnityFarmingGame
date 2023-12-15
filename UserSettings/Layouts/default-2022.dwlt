@@ -14,17 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 9
     y: 52
     width: 1902
     height: 971
-=======
-    x: 0
-    y: 43
-    width: 1920
-    height: 989
->>>>>>> parent of 37331a71 (.)
   m_ShowMode: 4
   m_Title: Console
   m_RootView: {fileID: 2}
@@ -51,13 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1902
     height: 971
-=======
-    width: 1920
-    height: 989
->>>>>>> parent of 37331a71 (.)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -81,11 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1902
-=======
-    width: 1920
->>>>>>> parent of 37331a71 (.)
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -106,13 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 951
     width: 1902
-=======
-    y: 969
-    width: 1920
->>>>>>> parent of 37331a71 (.)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -134,21 +113,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1902
     height: 921
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 102
-=======
-    width: 1920
-    height: 939
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 20
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,21 +138,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1902
     height: 921
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 103
-=======
-    width: 1920
-    height: 939
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 21
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,21 +164,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1902
     height: 623
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
   controlID: 55
-=======
-    width: 1920
-    height: 635
-  m_MinSize: {x: 300, y: 50}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 22
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,17 +187,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 399
     height: 623
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-=======
-    width: 403
-    height: 635
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> parent of 37331a71 (.)
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -266,17 +211,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 399
     y: 0
     width: 936
     height: 623
-=======
-    x: 403
-    y: 0
-    width: 945
-    height: 635
->>>>>>> parent of 37331a71 (.)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -301,11 +239,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1335
-=======
-    x: 1348
->>>>>>> parent of 37331a71 (.)
     y: 0
     width: 567
     height: 623
@@ -334,7 +268,6 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 623
     width: 1902
     height: 298
@@ -342,15 +275,6 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 104
-=======
-    y: 635
-    width: 1920
-    height: 304
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 123
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,13 +292,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 821
     height: 298
-=======
-    width: 829
-    height: 304
->>>>>>> parent of 37331a71 (.)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -397,7 +316,6 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 821
     y: 0
     width: 1081
@@ -405,26 +323,12 @@ MonoBehaviour:
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
-=======
-    x: 829
-    y: 0
-    width: 1091
-    height: 304
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
->>>>>>> parent of 37331a71 (.)
   m_Panes:
   - {fileID: 19}
   - {fileID: 21}
   - {fileID: 20}
-<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
-=======
-  m_Selected: 1
-  m_LastSelected: 0
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -445,17 +349,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 408
     y: 82
     width: 934
     height: 602
-=======
-    x: 403
-    y: 73
-    width: 943
-    height: 614
->>>>>>> parent of 37331a71 (.)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -827,11 +724,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
-=======
-    m_Target: {x: 0.18099982, y: -0.22299999, z: 0}
->>>>>>> parent of 37331a71 (.)
     speed: 2
     m_Value: {x: 0.18099982, y: -0.22299999, z: 0}
   m_RenderMode: 0
@@ -883,11 +776,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
     m_Target: 10
-=======
-    m_Target: 2.6044185
->>>>>>> parent of 37331a71 (.)
     speed: 2
     m_Value: 2.6044185
   m_Ortho:
@@ -934,17 +823,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 9
     y: 82
     width: 398
     height: 602
-=======
-    x: 0
-    y: 73
-    width: 402
-    height: 614
->>>>>>> parent of 37331a71 (.)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -958,15 +840,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
       m_SelectedIDs: ca160100
       m_LastClickedID: 0
       m_ExpandedIDs: a2c4fdff5ac5fdff4ec7fdff
-=======
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 38e6fdff
->>>>>>> parent of 37331a71 (.)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1071,25 +947,6 @@ MonoBehaviour:
       e11: 0.81742764
       e12: 0
       e13: 110.74081
-<<<<<<< HEAD
-=======
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.69789475
-      e01: 0
-      e02: 0
-      e03: -19.894745
-      e10: 0
-      e11: 0.69789475
-      e12: 0
-      e13: 186.30527
->>>>>>> parent of 37331a71 (.)
       e20: 0
       e21: 0
       e22: 1
@@ -1150,17 +1007,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1344
     y: 82
     width: 566
     height: 602
-=======
-    x: 1348
-    y: 73
-    width: 571
-    height: 614
->>>>>>> parent of 37331a71 (.)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1204,17 +1054,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 9
     y: 705
     width: 820
     height: 277
-=======
-    x: 0
-    y: 708
-    width: 828
-    height: 283
->>>>>>> parent of 37331a71 (.)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1236,11 +1079,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
     - Assets/Scenes
-=======
-    - Assets/Element/Dog/Animation
->>>>>>> parent of 37331a71 (.)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1256,11 +1095,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a8830000
     m_LastClickedID: 33704
-<<<<<<< HEAD
     m_ExpandedIDs: 
-=======
-    m_ExpandedIDs: 00000000ec060000200700002c070000540700005808000080080000b808000084090000540c0000780d0000040d0100
->>>>>>> parent of 37331a71 (.)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1285,17 +1120,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff0c06000068060000
-=======
-    scrollPos: {x: 0, y: 1091}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ec060000200700002c070000540700005808000080080000b808000084090000540c0000780d0000040d0100
->>>>>>> parent of 37331a71 (.)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1371,17 +1199,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 830
     y: 705
     width: 1080
     height: 277
-=======
-    x: 1034
-    y: 708
-    width: 885
-    height: 283
->>>>>>> parent of 37331a71 (.)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1462,11 +1283,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< HEAD
   m_LastSelectedObjectID: 31058
-=======
-  m_LastSelectedObjectID: -31506
->>>>>>> parent of 37331a71 (.)
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52

@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Element/Dog/Animation/dog_down.anim.meta
 guid: 55e0db566744e76449f2f69bdcfa66b3
 ========
 guid: 67bdd94863b0d5f49ba3f145f8382d34
 >>>>>>>> main:Assets/Element/NPC/Animation Idle/Front.anim.meta
-=======
-guid: 55e0db566744e76449f2f69bdcfa66b3
->>>>>>> parent of 37331a71 (.)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

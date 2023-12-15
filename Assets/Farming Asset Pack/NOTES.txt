@@ -1,0 +1,103 @@
+﻿---OVERAL NOTES FOR THE SPRITE SHEETS---
+
+
+--FOLDER CONTENT--
+In the Farming Asset Pack you'll find:
+- there are 7 sheets (grid is 32x32*): 3 for each animal, 1 for emotes*, 1 for tileset, stuff and icons, 1 for bigger houses and 1 for animated water
+*emotes size is 16x16
+
+--CONTENT OF EACH SHEET--
+
+The meaning of the icons / supposed content of the sheets. Order: from right to left and from top to bottom. 
+
+1. farming-tileset.png
+The content of each 32x32 tile from left to right:
+
+1st row:
+Grass Tile | Grass Tile | Grass Tile | Drying Grass Tile lvl 1 |  Drying Grass Tile lvl 2 |  Drying Grass Tile lvl 3 |  Drying Grass Tile lvl 4 | Dry Ground | Plough Field Tile |  Plough Field Tile With Seeds | Empty Chicken Nest | Chicken Nest with Eggs | Chicken Nest with Golden Eggs
+
+2nd row:
+One Tile Fence | Fence Upper Left Corner | Fence Upper | Fence Upper Right Corner | Fence Bottom Left Corner | Fence Bottom | Fence Bottom Right Corner | Fence Right | Fence Left | Fish | Fish Selected | Golden Fish | Golden Fish Selected
+
+3rd row:
+Oats lvl 1 | Wheat lvl 1 | Corn lvl 1 | Other Plants lvl 1 | Tree lvl 1 | Tree lvl 2 | Tree lvl 2 withered | Tree lvl 3 | Tree lvl 3 withered | Tree lvl 4 | Tree lvl 4 withered | Tree Chooped Off | Bush
+(lvl 1 means here the growing state)
+
+4th row:
+Oats lvl 2 | Wheat lvl 2 | Corn lvl 2 | Tomato Plant | Sweet Yellow Pepper Plant | Onion Plant | Potato Plant | White Carrot Plant  | Carrot Plant | Strawberry Plant | Peanut Plant | Apple Tree | Green Apple Tree
+(lvl 2 means here the ready-to-harvest state; Plants are in lvl 2 state, their lvl 1 is the same, the "Other Plants lvl 1" in the 3rd row)
+
+5th:
+Oat | Wheat | Corn | Tomato | Sweet Yellow Pepper | Onion | Potato | White Carrot | Carrot | Strawberry | Peanut | Apple | Green Apple
+
+6th row:
+Same as 5th row but Selected
+
+7th row:
+Bag of Oat | Wheat Flour | Corn Flour | Canned Tomato | Bag of Sweet Yellow Pepper | Bag of Onions | Bag of Potatos | Bag of White Carrots | Bag of Carrots | Strawberry Jam | Peanut Butter | Bag of Apples | Bag of Green Apples 
+
+8th row:
+Same as 7th row but Selected
+
+9th row:
+Scythe | Shovel | Axe | Fishing Rod | Watering Pot | Watering | Spray | Fertilizer | Medicine | Milk | Egg | Golden Egg | Golden Apple
+
+10th row:
+Same as 9th row but Selected
+
+11th row: 
+Golden Scythe | Golden Shovel | Golden Axe | Golden Fishing Rod | Golden Watering Pot | Golden Watering | Golden Spray | Golden Fertilizer | Golden Medicine | House v1 | House v2 | House v3 | Empty Bag
+
+12th row: 
+Golden Scythe Selected | Golden Shovel Selected | Golden Axe Selected | Golden Fishing Rod Selected | Golden Watering Pot Selected | Golden Watering Selected | Golden Spray Selected | Golden Fertilizer Selected | Golden Medicine Selected | House v4 | House v5 | House v6 | Empty Bag Selected 
+
+
+2. farming-water.png
+Water is animated, with or without fish, from light blue to dark blue.
+Each animation has 3 frames.
+Content according to rows:
+1st - light blue water
+2nd - light blue water with fish
+3rd - blue water
+4th - blue water with fish
+5th - dark water
+6th - dark water with fish
+
+
+3. farming-houses.png
+Some bigger houses with color variations.
+
+4. farming-cow.png
+Animal sprite, each row is an animation.
+Content according to rows:
+1st - Idle
+2nd - Walk
+3rd - Sleeping
+4th - Being sick
+
+5. farming-pig.png
+Animal sprite, each row is an animation.
+Content according to rows:
+1st - Idle
+2nd - Walk
+3rd - Sleeping
+4th - Being sick
+
+6. farming-chicken.png
+Animal sprite, each row is an animation.
+Content according to rows:
+1st - Idle
+2nd - Walk
+3rd - Sleeping
+4th - Being sick
+5th - Laying eggs
+
+7. farming-emotions.png
+Emoticons that can be used with the animals for expressing emotions.
+
+Sick | Sad | Needs water | Sleeping
+Love | Happy | Needs food (corn) | Needs food (grass) or Needs more space
+
+---END NOTES---
+
+Thank you for buying my asset, feel free to rate or write me an e-mail if you have any problems or suggestions! iphigenia.pixels@gmail.com

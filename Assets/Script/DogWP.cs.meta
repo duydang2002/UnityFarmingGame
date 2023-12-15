@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Script/DogWP.cs.meta
 guid: 4fe373ee9a5c57849977bb033dc85eaf
 ========
 guid: c77821956df6f1c4392b3e6b6b00f846
 >>>>>>>> main:Assets/Script/LevelManager.cs.meta
-=======
-guid: 4fe373ee9a5c57849977bb033dc85eaf
->>>>>>> parent of 37331a71 (.)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
