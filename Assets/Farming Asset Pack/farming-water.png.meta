@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
 guid: 548079c1be946ba439b4d76b2085ea31
 TextureImporter:
   internalIDToNameTable:
@@ -57,11 +56,6 @@ TextureImporter:
   - first:
       213: 21300034
     second: farming-water_17
-========
-guid: 48c0f0cca853622468f2dbf2ebcf20e7
-TextureImporter:
-  internalIDToNameTable: []
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,13 +88,8 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
     filterMode: 1
     aniso: 16
-========
-    filterMode: 0
-    aniso: 1
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -113,11 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
   spritePixelsToUnits: 100
-========
-  spritePixelsToUnits: 9
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,37 +117,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
   applyGammaDecoding: 1
   swizzle: 50462976
   cookieLightType: 1
-========
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
-========
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -172,11 +135,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
     buildTarget: WebGL
-========
-    buildTarget: Server
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -186,7 +145,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,15 +171,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
-========
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_0
       rect:
         serializedVersion: 2
@@ -229,15 +184,6 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,19 +191,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 02305410000000000800000000000000
       internalID: 21300000
-========
-      spriteID: 3735f265eb3b09748b3bb93848c7c710
-      internalID: -1139807475
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_1
       rect:
         serializedVersion: 2
@@ -265,15 +205,6 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_1
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,19 +212,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 22305410000000000800000000000000
       internalID: 21300002
-========
-      spriteID: 1ff67dbe7925cad49957a7c3cc848c36
-      internalID: 1110562611
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_2
       rect:
         serializedVersion: 2
@@ -301,15 +226,6 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_2
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,19 +233,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 42305410000000000800000000000000
       internalID: 21300004
-========
-      spriteID: 55e976e2dc8bd2a4192d298495b1e807
-      internalID: -1543626496
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_3
       rect:
         serializedVersion: 2
@@ -337,15 +247,6 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_3
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,19 +254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 62305410000000000800000000000000
       internalID: 21300006
-========
-      spriteID: 4d4811ff0e2a84247b957afac12db385
-      internalID: 1006714779
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_4
       rect:
         serializedVersion: 2
@@ -373,15 +268,6 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_4
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,19 +275,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 82305410000000000800000000000000
       internalID: 21300008
-========
-      spriteID: f23cff0c802c1934098698e730d31af1
-      internalID: 193247600
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_5
       rect:
         serializedVersion: 2
@@ -409,15 +289,6 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_5
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 19
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,19 +296,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: a2305410000000000800000000000000
       internalID: 21300010
-========
-      spriteID: b2180960b8108414aabf2da758523bd5
-      internalID: -220691229
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_6
       rect:
         serializedVersion: 2
@@ -445,15 +310,6 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_6
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3
-        width: 13
-        height: 13
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,19 +317,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: c2305410000000000800000000000000
       internalID: 21300012
-========
-      spriteID: 4ee0b3ae67f01a54fae10d0beb843b22
-      internalID: -1858962705
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_7
       rect:
         serializedVersion: 2
@@ -481,15 +331,6 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_7
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 11
-        width: 5
-        height: 5
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,19 +338,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: e2305410000000000800000000000000
       internalID: 21300014
-========
-      spriteID: 196c44382b6d8fa43b5f3d2061e777f5
-      internalID: 1931633222
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_8
       rect:
         serializedVersion: 2
@@ -517,15 +352,6 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_8
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 3
-        width: 5
-        height: 13
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,19 +359,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 03305410000000000800000000000000
       internalID: 21300016
-========
-      spriteID: 10c4e25dfc6babb4082e4de1a5e42f77
-      internalID: -1717939384
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_9
       rect:
         serializedVersion: 2
@@ -553,15 +373,6 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_9
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 11
-        width: 5
-        height: 5
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,19 +380,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 23305410000000000800000000000000
       internalID: 21300018
-========
-      spriteID: b4ca6b66de9abd742ac89efe2cf459fb
-      internalID: -1372649350
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_10
       rect:
         serializedVersion: 2
@@ -589,15 +394,6 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_10
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 10
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,19 +401,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 43305410000000000800000000000000
       internalID: 21300020
-========
-      spriteID: 9d382c68a7a553a4f9073735e6c43c25
-      internalID: 1398869394
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_11
       rect:
         serializedVersion: 2
@@ -625,15 +415,6 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_11
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 10
-        width: 7
-        height: 7
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,19 +422,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 63305410000000000800000000000000
       internalID: 21300022
-========
-      spriteID: 18efed4e27218d749a7c233df760c03e
-      internalID: -1868779283
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_12
       rect:
         serializedVersion: 2
@@ -661,15 +436,6 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_12
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 2
-        width: 13
-        height: 5
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,19 +443,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: 83305410000000000800000000000000
       internalID: 21300024
-========
-      spriteID: 68c4ff47334e30f4aa3758eead84d14d
-      internalID: -1589127155
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       name: farming-water_13
       rect:
         serializedVersion: 2
@@ -697,15 +457,6 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-========
-      name: pixel_snowflakes_13
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 2
-        width: 5
-        height: 5
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -713,7 +464,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       spriteID: a3305410000000000800000000000000
       internalID: 21300026
       vertices: []
@@ -800,10 +550,6 @@ TextureImporter:
       bones: []
       spriteID: 24305410000000000800000000000000
       internalID: 21300034
-========
-      spriteID: b6446f38f252eb244ad760b407031e44
-      internalID: 2080600932
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
       vertices: []
       indices: 
       edges: []
@@ -819,7 +565,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<<< HEAD:Assets/Farming Asset Pack/farming-water.png.meta
       farming-water_0: 21300000
       farming-water_1: 21300002
       farming-water_10: 21300020
@@ -838,22 +583,6 @@ TextureImporter:
       farming-water_7: 21300014
       farming-water_8: 21300016
       farming-water_9: 21300018
-========
-      pixel_snowflakes_0: -1139807475
-      pixel_snowflakes_1: 1110562611
-      pixel_snowflakes_10: 1398869394
-      pixel_snowflakes_11: -1868779283
-      pixel_snowflakes_12: -1589127155
-      pixel_snowflakes_13: 2080600932
-      pixel_snowflakes_2: -1543626496
-      pixel_snowflakes_3: 1006714779
-      pixel_snowflakes_4: 193247600
-      pixel_snowflakes_5: -220691229
-      pixel_snowflakes_6: -1858962705
-      pixel_snowflakes_7: 1931633222
-      pixel_snowflakes_8: -1717939384
-      pixel_snowflakes_9: -1372649350
->>>>>>>> main:Assets/Element/Snow/pixel_snowflakes.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

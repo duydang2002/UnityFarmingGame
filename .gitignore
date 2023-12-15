@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Library/*
-=======
-.vs
 Library/*
 .vs/*
 Temp/UnityLockfile
@@ -15,6 +11,9 @@ Temp/Burst/burst-aotvx5m45fk.wyw/lib_burst_generated_part_a185c62eba2497c9519714
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 Temp/*
 Logs/*
 =======
@@ -25,3 +24,16 @@ Library/ArtifactDB
 >>>>>>> parent of c8223c6a (Git update)
 =======
 >>>>>>> parent of c8223c6a (Git update)
+=======
+Temp/*
+Logs/*
+>>>>>>> parent of 02029e9f (Merge Main into Duy)
+=======
+Temp/*
+Logs/*
+>>>>>>> parent of 02029e9f (Merge Main into Duy)
+=======
+Temp/*
+Logs/*
+>>>>>>> parent of 02029e9f (Merge Main into Duy)
+.vs/*
