@@ -19,7 +19,7 @@ public class NPCController : Interactable
     [SerializeField] HightlightController hightlightController;
     int lastLevel;
     [SerializeField] bool questOn = false;
-    bool start = true;
+    [SerializeField] bool start = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +44,7 @@ public class NPCController : Interactable
         }
         else
         {
+            hightlightController.HideQuestMark();
             string assetPath = "Dialogues/" + "Idle" ;
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
         }
