@@ -8,7 +8,7 @@ public class MainCharacterControl : MonoBehaviour
 {
     public Rigidbody2D rigidbody2D;
     [SerializeField] float speed = 2f;
-    
+    [SerializeField] NPCController nPCController;
 
     Vector2 motionVector;
     Vector2 position;
@@ -35,6 +35,7 @@ public class MainCharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (nPCController.getQuestState() == true) { return; }
         if (auto) {
             MoveTo(position);
         }

@@ -66,5 +66,8 @@ public class NPCController : Interactable
     {
         introPanel.SetActive(false);
     }
-    //public void getQuestState()
+    public bool getQuestState()
+    {
+        return questOn;
+    }
 }

@@ -4103,7 +4103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb2e62099dc928845af39786901ea5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 1408733112}
+  menuPanel: {fileID: 0}
 --- !u!1 &647293967
 GameObject:
   m_ObjectHideFlags: 0
@@ -51950,7 +51950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb2e62099dc928845af39786901ea5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 1408733112}
+  menuPanel: {fileID: 0}
 --- !u!1 &828451460
 GameObject:
   m_ObjectHideFlags: 0
@@ -52244,6 +52244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   speed: 2
+  nPCController: {fileID: 1525261359}
   lastMotionVector: {x: 0, y: 0}
 --- !u!50 &901197326
 Rigidbody2D:
