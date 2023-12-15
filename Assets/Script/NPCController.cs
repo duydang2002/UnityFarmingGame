@@ -17,7 +17,7 @@ public class NPCController : Interactable
     [SerializeField] LevelManager levelManager;
     [SerializeField] GameObject introPanel;
     [SerializeField] HightlightController hightlightController;
-    string  lastLevel;
+    int lastLevel;
     [SerializeField] bool questOn = false;
     [SerializeField] bool start = true;
     // Start is called before the first frame update
@@ -66,4 +66,5 @@ public class NPCController : Interactable
     {
         introPanel.SetActive(false);
     }
+    //public void getQuestState()
 }

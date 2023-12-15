@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField]public int currentExp=0;
     [SerializeField]public int maxExp=0;
     [SerializeField] public int currentLevel = 0;
+    [SerializeField] LevelManager levelManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +27,9 @@ public class MenuManager : MonoBehaviour
     }
     public void getExpInfo()
     {
-        currentExp = LevelManager.currentExp;
-        currentLevel= LevelManager.currentLevel;
-        maxExp = LevelManager.getCurrentMaxExp(currentLevel) ;
+        currentExp = levelManager.getCurrentExp();
+        currentLevel =  levelManager.getLevel();
+        maxExp = levelManager.getCurrentMaxExp(currentLevel);
+
     }
 }
