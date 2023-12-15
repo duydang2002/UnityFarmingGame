@@ -60,6 +60,6 @@ public class CharacterInteractController : MonoBehaviour
                 return;
             }
         }
-        hightlightController.HideHighlighter();
+        hightlightController.Hide();
     }
 }
