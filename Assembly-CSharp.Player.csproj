@@ -79,6 +79,7 @@
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
+    <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
