@@ -94,6 +94,7 @@ public class DialogueSystem : MonoBehaviour
     {
         Debug.Log("The dialogue has ended");
         Show(false);
+        nPC.setInteracting(false);
     }
     private void Show (bool state)
     {

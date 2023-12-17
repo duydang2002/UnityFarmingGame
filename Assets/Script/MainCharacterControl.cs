@@ -15,6 +15,9 @@ public class MainCharacterControl : MonoBehaviour
     bool auto = false;
     public Vector2 lastMotionVector;
 
+    float diagonalSpeedMultiplier = 0.8f;
+    float adjustedSpeed;
+
     Animator animatorMove;
 
     bool moving;
@@ -35,7 +38,7 @@ public class MainCharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (nPCController.getQuestState() == true) { return; }
+
         if (auto) {
             MoveTo(position);
         }
@@ -53,6 +56,7 @@ public class MainCharacterControl : MonoBehaviour
             moving = horizontal != 0 || vertical != 0;
             animatorMove.SetBool("moving", moving);
 
+            adjustedSpeed = (horizontal != 0 && vertical != 0) ? speed * diagonalSpeedMultiplier : speed;
             if (moving)
             {
                 lastMotionVector = new Vector2(horizontal, vertical).normalized;
@@ -69,7 +73,15 @@ public class MainCharacterControl : MonoBehaviour
 
     private void Movement()
     {
-       rigidbody2D.velocity = motionVector*speed;
+        if (nPCController.getInteracting() == true)
+        {
+            rigidbody2D.velocity = new Vector2(0, 0);
+            Debug.Log(nPCController.getInteracting());
+            return;
+        }
+        Debug.Log(motionVector);
+        rigidbody2D.velocity = motionVector* adjustedSpeed;
+
         
     }
     public void MoveTo(Vector2 targetPosition)

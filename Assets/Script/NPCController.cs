@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
@@ -12,14 +14,15 @@ public class NPCController : Interactable
     
 
     DialogueContainer dialogueContainer;
-    //[SerializeField] GameObject character;
-    //Character character;
+
     [SerializeField] LevelManager levelManager;
     [SerializeField] GameObject introPanel;
     [SerializeField] HightlightController hightlightController;
+    [SerializeField] TextMeshProUGUI questText;
     int lastLevel;
-    [SerializeField] bool questOn = false;
-    [SerializeField] bool start = true;
+    [SerializeField] bool questOn = true;
+    [SerializeField] bool questAccept = false;
+    [SerializeField] bool interacting = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,13 +37,13 @@ public class NPCController : Interactable
         if (lastLevel != levelManager.getLevel())
         {
             questOn = true;
-            start = false;
+          
         }
-        if (questOn || start )
+        if (questOn)
         {
-            string assetPath = "Dialogues/" + "Lv" + levelManager.getLevel();
+            string assetPath = "Dialogues/" + "CurrentDialogue" ;
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
-            hightlightController.QuestAppear(this.gameObject);
+            hightlightController.QuestAppear(gameObject);
         }
         else
         {
@@ -48,9 +51,11 @@ public class NPCController : Interactable
             string assetPath = "Dialogues/" + "Idle" ;
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
         }
+        
     }
     public override void Interact(Character character)
     {
+        interacting = true;
         float horizontal = transform.position.y - player.position.y;
         float vertical = transform.position.x - player.position.x;
         
@@ -60,14 +65,30 @@ public class NPCController : Interactable
 
         //introPanel.SetActive(true);
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+        questAccept = true;
+        questText.gameObject.SetActive(true);
 
     }
     public void Hide()
     {
         introPanel.SetActive(false);
     }
-    public bool getQuestState()
+    public bool getInteracting()
     {
-        return questOn;
+        return interacting;
+    }
+    public void setInteracting(bool interact)
+    {
+        interacting = interact;
+       
+    }
+    public void setIdle()
+    {
+        questOn = false;
+        questText.gameObject.SetActive(false);
+    }
+    public bool getQuestAccept()
+    {
+        return questAccept;
     }
 }
