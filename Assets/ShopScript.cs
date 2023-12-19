@@ -12,7 +12,12 @@ public class ShopScript : MonoBehaviour
     private void Awake()
     {
         Container = transform.Find("Container");
-        ShopItemTemplate = Container.Find("ShopItemTemplate");
+        ShopItemTemplate = Container.Find("shopItemTemplate");
         ShopItemTemplate.gameObject.SetActive(false);
+    }
+
+    public void CreateItemButton()
+    {
+
     }
 }
