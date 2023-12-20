@@ -14,7 +14,8 @@ public class ShopController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.B))
         {
             Debug.Log("B key was pressed");
-            shopUI.SetActive(!shopUI.activeSelf);
+            shopUI.SetActive(!shopUI.activeInHierarchy);
         }
     }
+
 }

@@ -11,7 +11,7 @@ public class Item : ScriptableObject
     public bool stackable;
     public Sprite icon;
 
-    public float moneyValue;
+    public int moneyValue;
 
     
     public static Sprite getSprite(Item item)
