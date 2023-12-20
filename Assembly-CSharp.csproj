@@ -84,12 +84,13 @@
     <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\Script\ShopScript.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
-    <Compile Include="Assets\ShopScript.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
+    <Compile Include="Assets\Script\ShopController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Element\Handle\ToolPng\license.txt" />

@@ -435,9 +435,9 @@ GameObject:
   - component: {fileID: 27349479}
   - component: {fileID: 27349480}
   m_Layer: 5
-  m_Name: Shop
+  m_Name: ShopUI
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -458,7 +458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 64, y: 103}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27349480
@@ -2828,7 +2828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1530, y: 220}
+  m_AnchoredPosition: {x: -84.4, y: -3.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327331836
@@ -2962,7 +2962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1595, y: 220}
+  m_AnchoredPosition: {x: -20, y: -4}
   m_SizeDelta: {x: 458.8726, y: 62.3478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348015219
@@ -4312,7 +4312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1398, y: 223}
+  m_AnchoredPosition: {x: -217, y: -0.3}
   m_SizeDelta: {x: 54, y: 45.1633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525039459
@@ -52967,7 +52967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1793, y: 221}
+  m_AnchoredPosition: {x: 181, y: 3}
   m_SizeDelta: {x: 56.436, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804644272
@@ -53206,6 +53206,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8175758131547748442, guid: 27c2a9e64a80dab4d8ad0e5b80a1f7f1, type: 3}
   m_PrefabInstance: {fileID: 6261506432253920155}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &901197333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901197321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc401ce4089f6740bb31a729d1dc86f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopUI: {fileID: 27349478}
 --- !u!1001 &924832641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56232,7 +56245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3, y: 57}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1540592855
@@ -57812,7 +57825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768183205}
   m_Layer: 5
-  m_Name: shopItemTemplate
+  m_Name: ShopItemTemplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57839,8 +57852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1406, y: 535}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -44, y: 8}
+  m_SizeDelta: {x: 138.6261, y: -75.1291}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1771864862
 GameObject:
@@ -59028,7 +59041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1803, y: 215}
+  m_AnchoredPosition: {x: 189, y: -1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067853018
@@ -59792,7 +59805,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8967373504992789957, guid: 27c2a9e64a80dab4d8ad0e5b80a1f7f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 901197333}
   m_SourcePrefab: {fileID: 100100000, guid: 27c2a9e64a80dab4d8ad0e5b80a1f7f1, type: 3}
 --- !u!1001 &6671153463568484582
 PrefabInstance:
