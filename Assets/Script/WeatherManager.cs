@@ -35,7 +35,7 @@ public class WeatherManager : MonoBehaviour
 
     // Update is called once per frame
 
-  
+
     private void ChangeWeather()
     {
         if ((Season)TimeManagerScript.season == Season.Winter)
@@ -99,7 +99,7 @@ public class WeatherManager : MonoBehaviour
         int randomWeather = 0;
         if (forceSunny) randomWeather = (int)Weather.Sunny;
         else if (forceRain) randomWeather = (int)Weather.Rainny;
-        else if(forceSnow) randomWeather = (int)Weather.Snow;
+        else if (forceSnow) randomWeather = (int)Weather.Snow;
         else randomWeather = UnityEngine.Random.Range(0, 2);
         return (Weather)randomWeather;
     }
