@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0f2d47d9899304db854f3602876012, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  Name: Sword
+  Name: Sword1
   stackable: 0
   icon: {fileID: 21300000, guid: 78503e103bbad7f43b0233c822616736, type: 3}
   moneyValue: 200
