@@ -58,8 +58,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\StoreTransition.cs" />
     <Compile Include="Assets\Script\DialogueSystem.cs" />
     <Compile Include="Assets\Script\PickUpItem.cs" />
+    <Compile Include="Assets\Transtion.cs" />
+    <Compile Include="Assets\ShopColliderTrigger.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
@@ -74,6 +77,7 @@
     <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
     <Compile Include="Assets\Script\MenuManager.cs" />
+    <Compile Include="Assets\Script\UIController.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
@@ -82,11 +86,13 @@
     <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\Script\ShopScript.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
+    <Compile Include="Assets\Script\ShopController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Element\Handle\ToolPng\license.txt" />
