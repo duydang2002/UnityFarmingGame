@@ -11,13 +11,13 @@ public class LevelManager : MonoBehaviour
     public RectTransform expImg;
     public static int currentLevel=1;
     public static int maxLevel = 100;
-    public static int[] expToNextLevel = new int[maxLevel];
-    public static int currentExp = 0;
+    public int[] expToNextLevel = new int[maxLevel];
+    public int currentExp = 0;
 
     private float expBarMaxWidth = 64;
     private float expBarCurrentWidth;
     private float expBarHeight = 43;
-    public static int getCurrentMaxExp(int currentLevel)
+    public int getCurrentMaxExp(int currentLevel)
     {
         return expToNextLevel[currentLevel];
     }
@@ -47,10 +47,11 @@ public class LevelManager : MonoBehaviour
     public void AddExp(int expToAdd)
     {
         currentExp += expToAdd;
-        /*if(currentExp >= expToNextLevel[currentLevel] && currentLevel < maxLevel) {
+        if (currentExp >= expToNextLevel[currentLevel] && currentLevel < maxLevel)
+        {
             currentLevel += 1;
-            currentExp -= expToNextLevel[currentLevel-1];
-        }*/
+            currentExp -= expToNextLevel[currentLevel - 1];
+        }
     }
 
    /* private void FixedUpdate()
@@ -67,8 +68,16 @@ public class LevelManager : MonoBehaviour
     {
         levelStr.text = currentLevel.ToString();
     }
-    public string getLevel()
+    public int getLevel()
     {
-        return currentLevel.ToString();
+        return currentLevel;
     }
+    public int getCurrentExp()
+    {
+        return currentExp;
+    }
+    /*public int getCurrentMaxExp()
+    {
+        return current
+    }*/
 }

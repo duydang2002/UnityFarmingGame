@@ -15,6 +15,7 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] float visibleTextPercent;
     [SerializeField] float timePerletter = 0.05f;
     [SerializeField] GameObject levelManager;
+    [SerializeField] NPCController nPC;
     float totalTimetoType, currentTime;
     string lineToShow;
 
@@ -93,6 +94,7 @@ public class DialogueSystem : MonoBehaviour
     {
         Debug.Log("The dialogue has ended");
         Show(false);
+        nPC.setInteracting(false);
     }
     private void Show (bool state)
     {

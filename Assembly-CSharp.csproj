@@ -58,18 +58,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GoalFactory.cs" />
     <Compile Include="Assets\Script\DialogueSystem.cs" />
     <Compile Include="Assets\Script\PickUpItem.cs" />
+    <Compile Include="Assets\Script\DialogueAssetCreator.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
+    <Compile Include="Assets\Script\CreateGoalAsset.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
     <Compile Include="Assets\Script\Chicken\EggController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
+    <Compile Include="Assets\Script\GoalContainer.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\GoalController.cs" />
     <Compile Include="Assets\Script\ToolHit.cs" />
     <Compile Include="Assets\Script\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Script\MenuController.cs" />
+    <Compile Include="Assets\Script\GoalSystem.cs" />
     <Compile Include="Assets\Script\WeatherManager.cs" />
     <Compile Include="Assets\Script\HightlightController.cs" />
     <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
+    <Compile Include="Assets\Script\GoalSpawner.cs" />
     <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
