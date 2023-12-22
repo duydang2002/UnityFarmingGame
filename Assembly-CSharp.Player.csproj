@@ -93,6 +93,7 @@
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
+    <Compile Include="Assets\Script\Chicken\ChickenController.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
   </ItemGroup>
   <ItemGroup>
