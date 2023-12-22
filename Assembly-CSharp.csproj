@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
+    <Compile Include="Assets\Script\Chicken\EggController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />

@@ -9,22 +9,20 @@ public class ChickenController : MonoBehaviour
 {
     
     [SerializeField] float speed = 3f;
-    public Rigidbody2D rigidbody2D;
+
 
     Animator animatorMove;
     private Direction baseDirection;
  
-  
-
     private float currentTimeBetweenTicks = 0;
     private float maxTimeBetweenTick = 5; // 10s
-
+    
     Vector2 motionVector;
 
     private void Awake()
     {
         animatorMove = GetComponent<Animator>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+       
     }
     // Start is called before the first frame update
     void Start()
