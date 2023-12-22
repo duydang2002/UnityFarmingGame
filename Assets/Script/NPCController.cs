@@ -50,8 +50,12 @@ public class NPCController : Interactable
             hightlightController.HideQuestMark();
             string assetPath = "Dialogues/" + "Idle" ;
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
+            
         }
-        
+        if (!questAccept)
+            questText.gameObject.SetActive(false);
+        else questText.gameObject.SetActive(true);
+
     }
     public override void Interact(Character character)
     {
@@ -66,7 +70,7 @@ public class NPCController : Interactable
         //introPanel.SetActive(true);
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
         questAccept = true;
-        questText.gameObject.SetActive(true);
+        
 
     }
     public void Hide()

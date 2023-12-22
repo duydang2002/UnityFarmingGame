@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MainCharacterControl : MonoBehaviour
@@ -38,7 +39,11 @@ public class MainCharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (nPCController.getInteracting())
+        {
+            animatorMove.SetBool("moving", false);
+            return;
+        }
         if (auto) {
             MoveTo(position);
         }
@@ -73,13 +78,11 @@ public class MainCharacterControl : MonoBehaviour
 
     private void Movement()
     {
-        if (nPCController.getInteracting() == true)
+        if (nPCController.getInteracting())
         {
             rigidbody2D.velocity = new Vector2(0, 0);
-            Debug.Log(nPCController.getInteracting());
             return;
         }
-        Debug.Log(motionVector);
         rigidbody2D.velocity = motionVector* adjustedSpeed;
 
         

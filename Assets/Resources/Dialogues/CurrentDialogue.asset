@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line:
   - Here is your quest
-  - Reach 10 income per second
-  - Build 100 widgets
-  - Build 150 widgets
-  - Build 200 widgets
-  - Build 250 widgets
+  - Sell 50 Pigs
+  - Sell 100 Pigs
+  - Reach 30 Gold
+  - Plan 100 Tomatoes
+  - Sell 250 Pigs
   npc: {fileID: 11400000, guid: 1faf32b1715494940af3f8877c5fffe9, type: 2}

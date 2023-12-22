@@ -4,24 +4,29 @@ using UnityEngine;
 
 public class GoalSpawner : MonoBehaviour
 {
-    DialogueAssetCreator assetCreator;
+    [SerializeField] DialogueAssetCreator assetCreator;
     [SerializeField] NPCController npcController;
     [SerializeField] TextMeshProUGUI questText;
+    [SerializeField] CreateGoalAsset goalContainerCreator;
+    //[SerializeField] GoalController goalController;
+
     #region MonoBehavioiurs
-    void Start()
+    void Awake()
+    {
+        SpawnGoal();
+    }
+    public void SpawnGoal()
     {
         List<Objective> goals = new List<Objective>(5);
         for (int i = 0; i < 5; i++)
         {
             goals.Add(ObjectiveFactory.CreateGoal(i + 1));
         }
-        assetCreator = new DialogueAssetCreator();
+        //goalController = new GoalController(goals);
         assetCreator.CreateDialogueAsset(goals);
-        foreach (Objective obj in goals)
-        {
-            questText.text += obj.Description + "\n";
-        }
-        questText.gameObject.SetActive(false);
+        goalContainerCreator.CreateGoal(goals);
+
     }
+
     #endregion MonoBehavioiurs
 }

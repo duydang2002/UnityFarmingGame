@@ -1438,8 +1438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -763.19104, y: 224.8446}
-  m_SizeDelta: {x: 341.018, y: 43.6891}
+  m_AnchoredPosition: {x: -699.0843, y: 225.68811}
+  m_SizeDelta: {x: 469.2314, y: 42.0021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225395130
 MonoBehaviour:
@@ -2208,7 +2208,6 @@ GameObject:
   - component: {fileID: 279255181}
   - component: {fileID: 279255183}
   - component: {fileID: 279255182}
-  - component: {fileID: 279255184}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -2273,18 +2272,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279255180}
   m_CullTransparentMesh: 1
---- !u!114 &279255184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279255180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bebbf47aa392ff499ca67b661700526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &297399584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,6 +3391,9 @@ GameObject:
   - component: {fileID: 504339661}
   - component: {fileID: 504339662}
   - component: {fileID: 504339663}
+  - component: {fileID: 504339664}
+  - component: {fileID: 504339665}
+  - component: {fileID: 504339666}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3441,7 +3431,7 @@ MonoBehaviour:
   player: {fileID: 901197321}
   inventoryContainer: {fileID: 11400000, guid: 5a06b12b0aaa8a945b5b792afc831032, type: 2}
   dragAndDropController: {fileID: 504339662}
-  characterController: {fileID: 0}
+  characterController: {fileID: 901197330}
   dialogueSystem: {fileID: 37091106}
 --- !u!114 &504339661
 MonoBehaviour:
@@ -3486,6 +3476,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpItemPrefab: {fileID: 2956637031403407229, guid: 25416ffa3e0d9ae40b5f133f6881601a, type: 3}
+--- !u!114 &504339664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504339658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ffc5ddf62e1984e8d7e57e744902a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nPCController: {fileID: 1525261359}
+--- !u!114 &504339665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504339658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81e17b03bb6884aa693524e442e6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalContainer: {fileID: 11400000, guid: 72ca421f986eb614ba27bfc4e46a0cbf, type: 2}
+  questText: {fileID: 225395130}
+--- !u!114 &504339666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504339658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f7907e4fc64f64daf546ecbf03b1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questText: {fileID: 225395130}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,7 +4290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb2e62099dc928845af39786901ea5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 0}
+  menuPanel: {fileID: 1408733112}
 --- !u!1 &647293967
 GameObject:
   m_ObjectHideFlags: 0
@@ -52306,6 +52336,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8200513921964287535, guid: e70a2000778a9a248b822dc139fea3a4, type: 3}
   m_PrefabInstance: {fileID: 542232653514846617}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &901197330 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2257099669836088442, guid: e70a2000778a9a248b822dc139fea3a4, type: 3}
+  m_PrefabInstance: {fileID: 542232653514846617}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901197321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec6b71617532f143896cc3392e14ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &924832641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57437,9 +57478,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 225395130}
     - target: {fileID: 7682110217961101885, guid: f021a99016633ae4fb5b587f51518101, type: 3}
+      propertyPath: assetCreator
+      value: 
+      objectReference: {fileID: 504339664}
+    - target: {fileID: 7682110217961101885, guid: f021a99016633ae4fb5b587f51518101, type: 3}
       propertyPath: npcController
       value: 
       objectReference: {fileID: 1525261359}
+    - target: {fileID: 7682110217961101885, guid: f021a99016633ae4fb5b587f51518101, type: 3}
+      propertyPath: goalController
+      value: 
+      objectReference: {fileID: 504339665}
+    - target: {fileID: 7682110217961101885, guid: f021a99016633ae4fb5b587f51518101, type: 3}
+      propertyPath: goalContainerCreator
+      value: 
+      objectReference: {fileID: 504339666}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

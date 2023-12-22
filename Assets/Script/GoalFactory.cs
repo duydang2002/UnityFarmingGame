@@ -18,7 +18,7 @@ public static class ObjectiveFactory
     #endregion Ctor
 
     #region Methods
-    public static Objective CreateGoal(float targetModifier)
+    public static Objective CreateGoal(int targetModifier)
     {
         var ans = _goals.ElementAt(_rand.Next(_goals.Count()));
         return (Objective)Activator.CreateInstance(ans, targetModifier);

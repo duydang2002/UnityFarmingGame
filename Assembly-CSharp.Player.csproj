@@ -63,11 +63,14 @@
     <Compile Include="Assets\Script\PickUpItem.cs" />
     <Compile Include="Assets\Script\DialogueAssetCreator.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
+    <Compile Include="Assets\Script\CreateGoalAsset.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
+    <Compile Include="Assets\Script\GoalContainer.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\GoalController.cs" />
     <Compile Include="Assets\Script\ToolHit.cs" />
     <Compile Include="Assets\Script\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Script\MenuController.cs" />
