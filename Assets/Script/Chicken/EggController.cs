@@ -111,6 +111,7 @@ public class ChickensController : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
+            Debug.Log("Collision");
             highlightIcon.SetActive(false);
             isCollision = false;
         }
