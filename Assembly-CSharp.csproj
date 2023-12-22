@@ -68,26 +68,30 @@
     <Compile Include="Assets\Script\ToolHit.cs" />
     <Compile Include="Assets\Script\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Script\ToolBarController.cs" />
+    <Compile Include="Assets\Script\TileMapReadController.cs" />
     <Compile Include="Assets\Script\MenuController.cs" />
-    <Compile Include="Assets\ItemPanel.cs" />
     <Compile Include="Assets\Script\WeatherManager.cs" />
     <Compile Include="Assets\Script\HightlightController.cs" />
-    <Compile Include="Assets\ItemToolBarPanel.cs" />
     <Compile Include="Assets\Script\Day Night Circle\TimeManagerScript.cs" />
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
     <Compile Include="Assets\Script\MenuManager.cs" />
+    <Compile Include="Assets\Script\CropsManager.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
+    <Compile Include="Assets\Script\MarkerManager.cs" />
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />
+    <Compile Include="Assets\Script\GUI\ItemToolBarPanel.cs" />
     <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
     <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
+    <Compile Include="Assets\Script\TileData.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
+    <Compile Include="Assets\Script\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
   </ItemGroup>
   <ItemGroup>

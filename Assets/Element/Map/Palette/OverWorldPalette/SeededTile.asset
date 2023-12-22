@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Overworld_970
+  m_Name: SeededTile
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -449628286, guid: 91bf6b4f93e5b0d408b011f9a799001d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4bf930081c9db3846bcaa2d77d394479, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
