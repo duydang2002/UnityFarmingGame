@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slot:
   - item: {fileID: 11400000, guid: 78194333c6e107e4c978e097d7716862, type: 2}
-    count: 20
-  - item: {fileID: 0}
-    count: 0
+    count: 30
+  - item: {fileID: 11400000, guid: 392f3490a4bf35d4da7e6de0cd792c96, type: 2}
+    count: 40
   - item: {fileID: 11400000, guid: 82031792389b4464093fc5f9602ac79b, type: 2}
     count: 0
   - item: {fileID: 11400000, guid: 82031792389b4464093fc5f9602ac79b, type: 2}
     count: 0
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: ac5abd9baf9b8b040b8a5d4a61afeb2b, type: 2}
     count: 0
-  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: 37ba3a759cda65f40878351a1e745d07, type: 2}
     count: 0
   - item: {fileID: 0}
     count: 0

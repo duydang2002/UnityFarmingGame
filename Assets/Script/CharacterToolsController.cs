@@ -14,6 +14,7 @@ public class CharacterToolsController : MonoBehaviour
         MainCharacterControl characterController;
         Rigidbody2D rgbd2d;
         Character character;
+        ToolBarController toolbarController;
         [SerializeField] float offsetDistance = 1f;
         [SerializeField] float sizeOfInteractableArea = 0.4f;
         [SerializeField] private LayerMask playerMask;
@@ -30,6 +31,7 @@ public class CharacterToolsController : MonoBehaviour
         {
             characterController = GetComponent<MainCharacterControl>();
             rgbd2d = GetComponent<Rigidbody2D>();
+            toolbarController = GetComponent<ToolBarController>();
         }
         void Update()
         {
@@ -67,19 +69,20 @@ public class CharacterToolsController : MonoBehaviour
         private bool UseToolWorld()
         {
             Vector2 position = rgbd2d.position + characterController.lastMotionVector*offsetDistance;
-            
-            Collider2D[] collider2s = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
-            
-            foreach (Collider2D c in collider2s)
+
+            Item item = toolbarController.GetItem;
+            if (item == null)
             {
-                ToolHit hit = c.GetComponent<ToolHit>();
-                if (hit != null)
-                {
-                    hit.Hit(character);
-                    return true;
-                }
+                return false;
             }
-            return false;
+            if (item.onAction == null)
+            {
+                return false;
+            }
+
+            bool complete = item.onAction.OnApply(position);
+            
+            return complete;
         }
 
         private void UseToolGrid()
