@@ -18,16 +18,32 @@ public class GoalController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goalContainer = Resources.Load<GoalContainer>(assetPath);
-        if (goalContainer.CheckValueChange())
+        if (isFinished)
         {
-            questText.text = "";
-            for (int i = 0; i < goalContainer.keys.Count; i++)
+
+            return; 
+        }
+        goalContainer = Resources.Load<GoalContainer>(assetPath);
+        if (goalContainer != null)
+        {
+            if (goalContainer.CheckValueChange())
             {
-                questText.text += $"{goalContainer.keys[i]} ({goalContainer.values[i]}/ {goalContainer.require[i]}) \n";
+                questText.text = "";
+                for (int i = 0; i < goalContainer.keys.Count; i++)
+                {
+                    questText.text += $"{goalContainer.keys[i]} ({goalContainer.values[i]}/ {goalContainer.require[i]}) \n";
+                }
+                for (int i = 0; i < goalContainer.keys.Count; i++)
+                {
+                    if (goalContainer.values[i] < goalContainer.require[i])
+                    {
+                        return;
+                    }
+                }
+                isFinished = true;
+
             }
         }
-        
     }
 
 

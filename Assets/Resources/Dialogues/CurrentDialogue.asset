@@ -14,9 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line:
   - Here is your quest
-  - Sell 50 Pigs
-  - Sell 100 Pigs
-  - Reach 30 Gold
-  - Plan 100 Tomatoes
-  - Sell 250 Pigs
+  - Reach 10 Gold
+  - Sell 4 Pigs
   npc: {fileID: 11400000, guid: 1faf32b1715494940af3f8877c5fffe9, type: 2}

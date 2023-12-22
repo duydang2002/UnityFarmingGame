@@ -43,7 +43,7 @@ public class IncomeObjective : Objective
 public class PlanObjective : Objective
 {
     #region Members
-    private int _baseTarget = 25;
+    private int _baseTarget = 5;
     #endregion Members
 
     
@@ -77,7 +77,7 @@ public class PlanObjective : Objective
 public class HusbandryObjective : Objective
 {
     #region Members
-    private int _baseTarget = 50;
+    private int _baseTarget = 2;
     #endregion Members
 
     #region Ctor
