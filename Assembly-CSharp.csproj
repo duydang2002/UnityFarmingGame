@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\DialogueSystem.cs" />
     <Compile Include="Assets\Script\PickUpItem.cs" />
     <Compile Include="Assets\Transtion.cs" />
+    <Compile Include="Assets\ShopColliderTrigger.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />

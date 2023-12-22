@@ -4,6 +4,8 @@ public class UIController : MonoBehaviour
 {
     public GameObject shopUI;
     public GameObject panel;
+    public ShopColliderTrigger shopTrigger; // Assign in Inspector
+
     void Start()
     {
         shopUI.SetActive(false);
@@ -12,7 +14,7 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.B))
+        if (shopTrigger.isShopNear && Input.GetKeyUp(KeyCode.B))
         {
             shopUI.SetActive(!shopUI.activeInHierarchy);
             panel.SetActive(false);

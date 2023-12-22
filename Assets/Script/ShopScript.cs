@@ -9,7 +9,7 @@ public class ShopScript : MonoBehaviour
 
     private Transform Container;
     private Transform ShopItemTemplate;
-    public MoneyManager moneyManager; // Assign in Inspector
+    public MoneyManager moneyManager;
     public ItemContainer inventory;
 
     // Start is called before the first frame update
@@ -61,9 +61,16 @@ public class ShopScript : MonoBehaviour
             return;
         }
         else
-        { 
-            Debug.Log($"Item: {item.Name}");
-
+        {          
+            if (MoneyManager.currentMoney >= item.moneyValue)
+            {
+                MoneyManager.currentMoney -= item.moneyValue;
+                GameManager.instance.inventoryContainer.Add(item);
+            }
+            else
+            {
+                Debug.Log("Not enough money");
+            }
         }
         // rest of your code
     }
