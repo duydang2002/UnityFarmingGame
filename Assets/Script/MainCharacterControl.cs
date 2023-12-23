@@ -110,9 +110,7 @@ public class MainCharacterControl : MonoBehaviour
             animatorMove.SetBool("moving", moving);
 
             lastMotionVector = motionVector;
-            position = targetPosition;
-        
-        
+                
 
     }
     public void setPosition(Vector2 pos)
@@ -124,5 +122,8 @@ public class MainCharacterControl : MonoBehaviour
     {
         this.auto = auto;
     }
-
+    public bool getAuto()
+    {
+        return this.auto;
+    }
 }

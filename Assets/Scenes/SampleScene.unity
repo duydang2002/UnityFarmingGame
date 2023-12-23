@@ -4391,6 +4391,7 @@ MonoBehaviour:
   dragAndDropController: {fileID: 504339662}
   characterController: {fileID: 205867334182402436}
   dialogueSystem: {fileID: 37091106}
+  toolBarPanel: {fileID: 92728968}
 --- !u!114 &504339661
 MonoBehaviour:
   m_ObjectHideFlags: 0

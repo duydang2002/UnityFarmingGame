@@ -75,6 +75,8 @@ public class PickUpItem : Interactable
                 Debug.LogWarning("No inventory container attached to the game manager");
             }
             Destroy(gameObject);
+            GameManager.instance.toolBarPanel.SetActive(false);
+            GameManager.instance.toolBarPanel.SetActive(true);
             boxCollider.enabled = true;
         }
     }
