@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class TreeCuttable : Interactable
+public class TreeCuttable : ToolHit
 {
     [SerializeField] GameObject pickUpDrop;
     [SerializeField] int dropCount = 5;
     [SerializeField] float spread = 0.7f;
     [SerializeField] GameObject highLightMarker;
 
-    public override void Interact(Character character)
+    public override void Hit(Character character)
     {
         while (dropCount > 0)
         {
