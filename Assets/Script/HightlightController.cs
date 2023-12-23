@@ -41,9 +41,16 @@ public class HightlightController : MonoBehaviour
         questMark.transform.position = position;
     }
 
-    public void Hide()
+    public void HideHighlighter()
     {
         currentTarget = null;
         hightlighter.SetActive(false);
+       
     }
+    public void HideQuestMark()
+    {
+        currentTarget = null;
+        questMark.SetActive(false);
+    }
+
 }

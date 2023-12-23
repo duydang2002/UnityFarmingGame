@@ -64,5 +64,28 @@ public class ItemContainer : ScriptableObject
             
         }
     }
-    
+
+    public void Remove(Item item, int count = 1)
+    {
+        ItemSlot itemSlot = slot.Find(x => x.item == item);
+        if (itemSlot != null)
+        {
+            itemSlot.count -= count;
+
+            if (itemSlot.count <= 0)
+            {
+                itemSlot.Clear();
+            }
+        }
+        else
+        {
+            Debug.LogError("Item not in inventory");
+        }
+    }
+
+    public bool Contains(Item item)
+    {
+        return slot.Exists(x => x.item == item);
+    }
+
 }

@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MainCharacterControl : MonoBehaviour
 {
     public Rigidbody2D rigidbody2D;
     [SerializeField] float speed = 2f;
-    
+    [SerializeField] NPCController nPCController;
 
     Vector2 motionVector;
     Vector2 position;
     bool auto = false;
     public Vector2 lastMotionVector;
+
+    float diagonalSpeedMultiplier = 0.8f;
+    float adjustedSpeed;
 
     Animator animatorMove;
 
@@ -35,6 +39,11 @@ public class MainCharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (nPCController.getInteracting())
+        {
+            animatorMove.SetBool("moving", false);
+            return;
+        }
         if (auto) {
             MoveTo(position);
         }
@@ -52,6 +61,7 @@ public class MainCharacterControl : MonoBehaviour
             moving = horizontal != 0 || vertical != 0;
             animatorMove.SetBool("moving", moving);
 
+            adjustedSpeed = (horizontal != 0 && vertical != 0) ? speed * diagonalSpeedMultiplier : speed;
             if (moving)
             {
                 lastMotionVector = new Vector2(horizontal, vertical).normalized;
@@ -68,7 +78,13 @@ public class MainCharacterControl : MonoBehaviour
 
     private void Movement()
     {
-       rigidbody2D.velocity = motionVector*speed;
+        if (nPCController.getInteracting())
+        {
+            rigidbody2D.velocity = new Vector2(0, 0);
+            return;
+        }
+        rigidbody2D.velocity = motionVector* adjustedSpeed;
+
         
     }
     public void MoveTo(Vector2 targetPosition)

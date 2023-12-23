@@ -56,10 +56,10 @@ public class CharacterInteractController : MonoBehaviour
 
             if (hit != null)
             {
-                hightlightController.Hightlight(hit.gameObject);
-                return;
+                    hightlightController.Hightlight(hit.gameObject);
+                    return;
             }
         }
-        hightlightController.Hide();
+        hightlightController.HideHighlighter();
     }
 }
