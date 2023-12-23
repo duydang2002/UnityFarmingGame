@@ -9,6 +9,7 @@ public class InventoryController : MonoBehaviour
     private void Awake()
     {
         panel.SetActive(false);
+        toolbarPanel.SetActive(true);
     }
     private void Update()
     {
@@ -16,7 +17,6 @@ public class InventoryController : MonoBehaviour
         {
             Debug.Log("I key was pressed");
             panel.SetActive(!panel.activeInHierarchy);
-            toolbarPanel.SetActive(!toolbarPanel.activeInHierarchy);
         }
     }
 
