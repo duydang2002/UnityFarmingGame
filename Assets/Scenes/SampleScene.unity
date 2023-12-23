@@ -4352,7 +4352,6 @@ GameObject:
   - component: {fileID: 504339665}
   - component: {fileID: 504339669}
   - component: {fileID: 504339668}
-  - component: {fileID: 504339670}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4390,7 +4389,7 @@ MonoBehaviour:
   player: {fileID: 3069155170463630942}
   inventoryContainer: {fileID: 11400000, guid: 5a06b12b0aaa8a945b5b792afc831032, type: 2}
   dragAndDropController: {fileID: 504339662}
-  characterController: {fileID: 0}
+  characterController: {fileID: 205867334182402436}
   dialogueSystem: {fileID: 37091106}
 --- !u!114 &504339661
 MonoBehaviour:
@@ -4515,20 +4514,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1817621422}
-  tileDatas: []
---- !u!114 &504339670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504339658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec5422321abec7343825ab589d53b714, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toolbarSize: 12
+  tileDatas:
+  - {fileID: 11400000, guid: a5b458d3a00a1704280328f7950eb824, type: 2}
+  - {fileID: 11400000, guid: a31760681c86e40488215b66b36945a4, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6402,7 +6390,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3069155170463630942}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fc401ce4089f6740bb31a729d1dc86f, type: 3}
   m_Name: 
@@ -50266,7 +50254,7 @@ PrefabInstance:
     - target: {fileID: 530029710208299590, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: toolbarController
       value: 
-      objectReference: {fileID: 504339670}
+      objectReference: {fileID: 8749839313254626277}
     - target: {fileID: 647354162167974081, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -51303,6 +51291,7 @@ GameObject:
   - component: {fileID: 6546225881059121500}
   - component: {fileID: 901197333}
   - component: {fileID: 901197342}
+  - component: {fileID: 8749839313254626277}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Player
@@ -56281,7 +56270,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3069155170463630942}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3560f9ed241ff5c4f808e6de7b5905db, type: 3}
   m_Name: 
@@ -66031,6 +66020,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.68, y: 1.0911746}
   m_EdgeRadius: 0
+--- !u!114 &8749839313254626277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069155170463630942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5422321abec7343825ab589d53b714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toolbarSize: 12
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

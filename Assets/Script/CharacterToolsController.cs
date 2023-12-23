@@ -89,7 +89,7 @@ public class CharacterToolsController : MonoBehaviour
                 TileBase tileBase = tileMapReadController.GetTileBase(selectedTilePosition);
                 TileData tileData = tileMapReadController.GetTileData(tileBase);
 
-                if (tileData != plowableTiles)
+                if (tileData != plowableTiles )
                 {
                     return;
                 }
