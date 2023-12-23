@@ -9,24 +9,14 @@ public class InventoryController : MonoBehaviour
     private void Awake()
     {
         panel.SetActive(false);
+        toolbarPanel.SetActive(true);
     }
     private void Update()
     {
 
         if (Input.GetKeyUp(KeyCode.I))
         {
-            Debug.Log(panel.activeSelf);
-
-            if (panel.activeSelf == true)
-            {
-                panel.SetActive(true);
-            }
-            else
-            {
-                panel.SetActive(false);
-            }
-            //panel.SetActive(!panel.activeSelf);
-            toolbarPanel.SetActive(!toolbarPanel.activeSelf);            
+            panel.SetActive(!panel.activeSelf);
         }
     }
 }

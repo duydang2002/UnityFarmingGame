@@ -11,6 +11,7 @@ public class ShopScript : MonoBehaviour
     private Transform ShopItemTemplate;
     public MoneyManager moneyManager;
     public ItemContainer inventory;
+    private Item selectedItem;
 
     // Start is called before the first frame update
     private void Awake()
@@ -20,66 +21,95 @@ public class ShopScript : MonoBehaviour
         ShopItemTemplate.gameObject.SetActive(false);
     }
 
+    void SelectedItem(Item item)
+    {
+        this.selectedItem = item;
+        Debug.Log("Selected item: " + selectedItem.Name);
+        // Find your buy and sell buttons in the scene
+        Button buyButton = Container.Find("buyButton").GetComponent<Button>();
+        Button sellButton = Container.Find("sellButton").GetComponent<Button>();
+
+    // Remove old listeners
+        buyButton.onClick.RemoveAllListeners();
+        sellButton.onClick.RemoveAllListeners();
+
+    // Add new listeners
+        buyButton.onClick.AddListener(PurchaseItem);
+        sellButton.onClick.AddListener(SellItem);
+    }
+
     public void CreateItemButton(Item item)
     {
-        // Instantiate a new shop item from the template
         Transform shopItemTransform = Instantiate(ShopItemTemplate, Container);
         RectTransform shopItemRectTransform = shopItemTransform.GetComponent<RectTransform>();
 
-        shopItemRectTransform.anchoredPosition = new Vector2(0, -100 * Container.childCount);
+        shopItemRectTransform.anchoredPosition = new Vector2(0, -100 * (Container.childCount - 2));
         shopItemTransform.gameObject.SetActive(true);
-
-        // Debugging
-        //Debug.Log(shopItemTransform.Find("nameText") != null ? "Found nameText" : "Did not find nameText");
-        //Debug.Log(shopItemTransform.Find("nameText").GetComponent<TextMeshProUGUI>() != null ? "Found TextMeshProUGUI" : "Did not find TextMeshProUGUI");
-        //Debug.Log(item != null ? $"Item: {item.Name}" : "Item is null");
 
         shopItemTransform.Find("nameText").GetComponent<TextMeshProUGUI>().SetText(item.Name);
         shopItemTransform.Find("itemImage").GetComponent<Image>().sprite = item.icon;
         shopItemTransform.Find("priceText").GetComponent<TextMeshProUGUI>().SetText(item.moneyValue.ToString());
 
-        Button button = shopItemTransform.GetComponent<Button>();
-        if (button != null)
+        Button highlightButton = shopItemTransform.GetComponent<Button>();
+        if (highlightButton != null)
         {
-            button.onClick.AddListener(() => PurchaseItem(item));
+            highlightButton.onClick.AddListener(() => SelectedItem(item));
+            Debug.Log($"2light button: {item.Name}");
         }
         else
         {
             Debug.LogError("No Button component found on shop item template.");
         }
 
-
+       
     }
 
-    void PurchaseItem(Item item)
+    void PurchaseItem()
     {
-        if (item == null)
+        if (selectedItem != null)
         {
-            Debug.Log($"inventory: {inventory}");
-            Debug.Log($"item: {item}");
-            Debug.LogError("Item is null");
-            return;
-        }
-        else
-        {          
-            if (MoneyManager.currentMoney >= item.moneyValue)
+            if (MoneyManager.currentMoney >= selectedItem.moneyValue)
             {
-                MoneyManager.currentMoney -= item.moneyValue;
-                GameManager.instance.inventoryContainer.Add(item);
+                moneyManager.SubtractMoney(selectedItem.moneyValue);
+
+                GameManager.instance.inventoryContainer.Add(selectedItem);
             }
             else
             {
-                Debug.Log("Not enough money");
+                Debug.LogError("Not enough money to purchase this item");
             }
         }
-        // rest of your code
+        else
+        {
+            Debug.LogError("No item selected");
+        }
+    }
+
+    void SellItem()
+    {
+        if (selectedItem != null)
+        {
+            if (GameManager.instance.inventoryContainer.Contains(selectedItem))
+            {
+                GameManager.instance.inventoryContainer.Remove(selectedItem);
+
+                moneyManager.AddMoney(selectedItem.moneyValue);
+            }
+            else
+            {
+                Debug.LogError("Item not in inventory");
+            }
+        }
+        else
+        {
+            Debug.LogError("No item selected");
+        }
     }
 
 
     void Start()
     {
         Item sword = Resources.Load<Item>("Item/Sword");
-        //       Debug.Log(sword ? $"Loaded item yes: {sword.Name}" : "Failed to load item: Sword");
         Item stone = Resources.Load<Item>("Item/Stone");
         Item wood = Resources.Load<Item>("Item/Wood");
         

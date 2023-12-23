@@ -5,11 +5,13 @@ public class UIController : MonoBehaviour
     public GameObject shopUI;
     public GameObject panel;
     public ShopColliderTrigger shopTrigger; // Assign in Inspector
+    [SerializeField] GameObject toolbarPanel;
 
     void Start()
     {
         shopUI.SetActive(false);
         panel.SetActive(false);
+        toolbarPanel.SetActive(true);
     }
 
     void Update()
@@ -24,5 +26,9 @@ public class UIController : MonoBehaviour
             panel.SetActive(!panel.activeInHierarchy);
             shopUI.SetActive(false);
         }
+    }
+    public void CloseShopUI()
+    {
+        shopUI.SetActive(false);
     }
 }
