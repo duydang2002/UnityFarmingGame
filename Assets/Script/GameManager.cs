@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public ItemDragAndDropController dragAndDropController;
     public MainCharacterControl characterController;
     public DialogueSystem dialogueSystem;
+    
    /* public void MoveMainCharacterTo(Vector2 targetPosition)
     {
         

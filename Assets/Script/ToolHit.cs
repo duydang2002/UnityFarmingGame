@@ -9,15 +9,13 @@ public class ToolHit : MonoBehaviour
     {
         
     }
-    // Start is called before the first frame update
-    void Start()
+    public virtual void Hit()
     {
-        
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual bool CanBeHit(List<ResourceNodeType> canBeHit)
     {
-        
+        return true;
     }
 }
