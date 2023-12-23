@@ -29,5 +29,6 @@ public class Item : ScriptableObject
         return item.moneyValue;
     }
     
+    public ToolAction onAction;
 }
 

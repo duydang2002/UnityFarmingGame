@@ -147,3 +147,4 @@ MonoBehaviour:
   dropCount: 5
   spread: 0.7
   highLightMarker: {fileID: 6192624176202628466, guid: b7615ffa7c380d940bf22ea2aa292d07, type: 3}
+  nodeType: 1
