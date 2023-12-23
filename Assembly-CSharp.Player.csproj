@@ -66,6 +66,7 @@
     <Compile Include="Assets\Script\CreateGoalAsset.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
+    <Compile Include="Assets\Script\Chicken\EggController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
     <Compile Include="Assets\Script\GoalContainer.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Script\Data\Item.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
+    <Compile Include="Assets\Script\Chicken\ChickenController.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
   </ItemGroup>
   <ItemGroup>
