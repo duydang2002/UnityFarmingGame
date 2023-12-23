@@ -76,19 +76,15 @@ public class ChickenController : MonoBehaviour
         if(baseDirection == Direction.Up)
         {
             baseDirection = Direction.Down;
-            Move();
         }else if (baseDirection == Direction.Down)
         {
             baseDirection = Direction.Up;
-            Move();
         }else if (baseDirection == Direction.Right)
         {
             baseDirection = Direction.Left;
-            Move();
         }else
         {
             baseDirection = Direction.Right;
-            Move();
         }
     }
     private Direction getRandomDirection()
