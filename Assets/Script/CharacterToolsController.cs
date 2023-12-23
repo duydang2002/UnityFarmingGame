@@ -10,9 +10,12 @@ using UnityEngine.TextCore.Text;
         MainCharacterControl characterController;
         Rigidbody2D rgbd2d;
         Character character;
-    [SerializeField] float offsetDistance = 1f;
+        [SerializeField] float offsetDistance = 1f;
         [SerializeField] float sizeOfInteractableArea = 0.4f;
         [SerializeField] private LayerMask playerMask;
+        [SerializeField] MarkerManager markerManager;
+        [SerializeField] TileMapReadController tileMapReadController;
+
         private void Awake()
         {
         characterController = GetComponent<MainCharacterControl>();
@@ -27,10 +30,18 @@ using UnityEngine.TextCore.Text;
         // Update is called once per frame
         void Update()
         {
+            Marker();
             if (Input.GetMouseButtonDown(0))
             {
                 UseTool();
             }
+        }
+
+        private void Marker()
+        {
+            Vector3Int gridPosition = tileMapReadController.GetGridPosition(Input.mousePosition, true);
+            markerManager.markedCellPosition = gridPosition;
+
         }
         private void UseTool()
         {
