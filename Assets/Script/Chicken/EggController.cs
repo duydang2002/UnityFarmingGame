@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using static UnityEditor.Progress;
 
-public class ChickensController : MonoBehaviour
+public class EggsController : MonoBehaviour
 {
     //[SerializeField] GameObject chickenEggsBorder;
     [SerializeField] GameObject chickenEggsProgress;
@@ -14,7 +14,7 @@ public class ChickensController : MonoBehaviour
     [SerializeField] GameObject highlightIcon;
     Transform player;
     public Item item;
-    public int count = 1;
+    public int count = 3;
     [SerializeField] GameObject character;
     
 
@@ -53,7 +53,7 @@ public class ChickensController : MonoBehaviour
         if (!eggState)
         {
             currentEggTime += Time.deltaTime;
-            Debug.Log(currentEggTime);
+        
             //Debug.Log(currentEggTime);
             setChickensEggProgress();
             if (currentEggTime >= maxBetweenEggTime)
@@ -82,7 +82,7 @@ public class ChickensController : MonoBehaviour
     {
         chickenEggsProgress.SetActive(true);
         eggBarCurrentWidth = (float)currentEggTime / (float)maxBetweenEggTime * eggBarMaxWidth;
-        Debug.Log("Bar width: " + eggBarCurrentWidth);
+       
         chickenEggsRectTransform.localScale = new Vector2(eggBarCurrentWidth, eggBarHeight);
     }
     
