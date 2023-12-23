@@ -13,7 +13,9 @@ public class InventoryController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.I))
         {
+            Debug.Log("I key was pressed");
             panel.SetActive(!panel.activeInHierarchy);
         }
     }
+
 }
