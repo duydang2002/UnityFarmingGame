@@ -57059,6 +57059,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168270014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1312712245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4406444016325035917, guid: 9a59c9fd36c248048b139707ebc2b290, type: 3}
+  m_PrefabInstance: {fileID: 1681415307060153067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1312712251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312712245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c8c198a7214be4281def7a65a8b9ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpDrop: {fileID: 4944398878334311380, guid: 2a854cd992fccff4b94ede570c31d899, type: 3}
+  dropCount: 5
+  spread: 0.7
+  highLightMarker: {fileID: 6192624176202628466, guid: b7615ffa7c380d940bf22ea2aa292d07, type: 3}
 --- !u!198 &1316813527 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4966216145980611738, guid: 9c581739a53853a4a89da79b8c0a161e, type: 3}
@@ -63068,10 +63089,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6508601057850518277, guid: 9a59c9fd36c248048b139707ebc2b290, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4406444016325035917, guid: 9a59c9fd36c248048b139707ebc2b290, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1312712251}
   m_SourcePrefab: {fileID: 100100000, guid: 9a59c9fd36c248048b139707ebc2b290, type: 3}
 --- !u!1001 &5479056169162528336
 PrefabInstance:
