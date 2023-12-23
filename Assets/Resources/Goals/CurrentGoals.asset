@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - Pigs
-  - Gold
+  - Pigs
   values: 0000000000000000
-  require: 0200000014000000
+  require: 0200000004000000
   previousValues: 0000000000000000

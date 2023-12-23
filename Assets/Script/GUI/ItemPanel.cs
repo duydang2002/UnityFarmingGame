@@ -31,7 +31,7 @@ public class ItemPanel : MonoBehaviour
 
     public void Show()
     {
-        for (int i=0; i< inventory.slot.Count  && i < buttons.Count; i++)
+        for (int i=0; i< inventory.slot.Count && i < buttons.Count; i++)
         {
             if (inventory.slot[i].item == null)
             {
