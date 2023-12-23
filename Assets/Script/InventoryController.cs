@@ -12,10 +12,21 @@ public class InventoryController : MonoBehaviour
     }
     private void Update()
     {
+
         if (Input.GetKeyUp(KeyCode.I))
         {
-            panel.SetActive(!panel.activeInHierarchy);
-            toolbarPanel.SetActive(!toolbarPanel.activeInHierarchy);
+            Debug.Log(panel.activeSelf);
+
+            if (panel.activeSelf == true)
+            {
+                panel.SetActive(true);
+            }
+            else
+            {
+                panel.SetActive(false);
+            }
+            //panel.SetActive(!panel.activeSelf);
+            toolbarPanel.SetActive(!toolbarPanel.activeSelf);            
         }
     }
 }
