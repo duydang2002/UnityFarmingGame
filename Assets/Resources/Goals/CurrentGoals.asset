@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CurrentGoals
   m_EditorClassIdentifier: 
   keys:
-  - Pigs
-  - Gold
+  - Tomatoes
+  - Tomatoes
   values: 0000000000000000
-  require: 0200000014000000
+  require: 050000000a000000
   previousValues: 0000000000000000
