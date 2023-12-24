@@ -21,12 +21,12 @@ namespace DateTimeNameSpace
         [Range(0, 60)]
         public int minute;
 
-        private DateTime dateTime;
+        public static DateTime dateTime;
 
         [Header("Tick Settings")]
         public int tickSecondsIncrease = 10;
         public float timeBetweenTicks = 1;
-        private float currentTimeBetweenTicks = 0;
+        public float currentTimeBetweenTicks = 0;
 
         public static Action<DateTime> OnDateTimeChanged;
 
