@@ -56,7 +56,7 @@ public class PlanObjective : Objective
         switch (randomNumber)
         {
             case 1:
-                Name = "Egg";
+                Name = "Tomatoes";
                 break;
             case 2:
                 Name = "Egg";
@@ -90,6 +90,6 @@ public class HusbandryObjective : Objective
     #endregion Ctor
 
     #region Properties
-    public override string Description => $"Sell {TargetValue} Egg";
+    public override string Description => $"Sell {TargetValue} {Name}";
     #endregion Properties
 }

@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - Egg
-  - Egg
-  values: 0000000000000000
-  require: 0000000002000000
+  values: 00000000
+  require: 02000000
   moneyReward: 50
   expReward: 25
-  previousValues: 0000000000000000
+  previousValues: 00000000

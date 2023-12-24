@@ -20,20 +20,28 @@ public class NPCController : Interactable
     [SerializeField] HightlightController hightlightController;
     [SerializeField] TextMeshProUGUI questText;
     int lastLevel;
-    [SerializeField] bool questOn = true;
+    [SerializeField] bool questOn = false;
     [SerializeField] bool questAccept = false;
     [SerializeField] bool interacting = false;
+    public static bool start = true;
     // Start is called before the first frame update
     void Start()
     {
         player = GameManager.instance.player.transform;
         animatorMove = GetComponent<Animator>();
         lastLevel = levelManager.getLevel();
+        questText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (start)
+        {
+            string assetPath = "Dialogues/" + "Greeting";
+            dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
+            return;
+        }
         if (lastLevel != levelManager.getLevel())
         {
             questOn = true;
@@ -100,5 +108,13 @@ public class NPCController : Interactable
     public bool getQuestAccept()
     {
         return questAccept;
+    }
+    public bool GetQuestOn()
+    {
+        return questOn;
+    }
+    public void SetQuestOn()
+    {
+        questOn = true;
     }
 }
