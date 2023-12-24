@@ -19,9 +19,9 @@ public class GoalSpawner : MonoBehaviour
     public void SpawnGoal()
     {
         List<Objective> goals = new List<Objective>(5);
-        for (int i = 0; i < 1+ LevelManager.currentLevel % 5; i++)
-        {
-            goals.Add(ObjectiveFactory.CreateGoal(i + 1));
+        for (int i = 0; i < LevelManager.currentLevel % 5; i++)
+        {   
+            goals.Add(ObjectiveFactory.CreateGoal(i +1));
         }
         //goalController = new GoalController(goals);
         assetCreator.CreateDialogueAsset(goals);

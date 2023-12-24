@@ -94,7 +94,16 @@ public class ShopScript : MonoBehaviour
             if (GameManager.instance.inventoryContainer.Contains(selectedItem))
             {
                 GameManager.instance.inventoryContainer.Remove(selectedItem);
-
+                Debug.Log(selectedItem.Name);
+                string assetPath = "Goals/" + "CurrentGoals";
+                GoalContainer goalContainer = Resources.Load<GoalContainer>(assetPath);
+                for (int i = 0; i < goalContainer.keys.Count; i++)
+                {
+                    if (goalContainer.keys[i] == selectedItem.Name)
+                    {
+                        goalContainer.values[i] += 1;
+                    }
+                }
                 moneyManager.AddMoney(selectedItem.moneyValue);
                 GameManager.instance.toolBarPanel.SetActive(false);
                 GameManager.instance.toolBarPanel.SetActive(true);
@@ -113,11 +122,11 @@ public class ShopScript : MonoBehaviour
 
     void Start()
     {
-        Item sword = Resources.Load<Item>("Item/Sword");
+        Item Eggs = Resources.Load<Item>("Item/Egg");
         Item stone = Resources.Load<Item>("Item/Stone");
         Item wood = Resources.Load<Item>("Item/Wood");
         
-        CreateItemButton(sword);
+        CreateItemButton(Eggs);
         CreateItemButton(stone);
         CreateItemButton(wood);
     }

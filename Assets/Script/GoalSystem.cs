@@ -19,7 +19,7 @@ public abstract class Objective
     public virtual void CompleteGoal() => IsComplete = true;
     #endregion Methods
 }
-public class IncomeObjective : Objective
+/*public class IncomeObjective : Objective
 {
     #region Members
     private int _baseTarget = 10;
@@ -38,7 +38,7 @@ public class IncomeObjective : Objective
     #region Properties
     public override string Description => $"Reach {TargetValue} Gold";
     #endregion Properties
-}
+}*/
 
 public class PlanObjective : Objective
 {
@@ -56,10 +56,10 @@ public class PlanObjective : Objective
         switch (randomNumber)
         {
             case 1:
-                Name = "Tomatoes";
+                Name = "Egg";
                 break;
             case 2:
-                Name = "Corn";
+                Name = "Egg";
                 break;
             case 3:
                 Name = "Rice";
@@ -70,7 +70,7 @@ public class PlanObjective : Objective
     #endregion Ctor
 
     #region Properties
-    public override string Description => $"Plan {TargetValue} {Name}";
+    public override string Description => $"Sell {TargetValue} {Name}";
     #endregion Properties
 }
 
@@ -84,12 +84,12 @@ public class HusbandryObjective : Objective
     public HusbandryObjective(int targetModifier)
     {
         TargetValue = targetModifier * _baseTarget;
-        Name = "Pigs";
+        Name = "Egg";
         Id = 3;
     }
     #endregion Ctor
 
     #region Properties
-    public override string Description => $"Sell {TargetValue} Pigs";
+    public override string Description => $"Sell {TargetValue} Egg";
     #endregion Properties
 }

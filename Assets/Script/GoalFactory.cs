@@ -8,6 +8,7 @@ public static class ObjectiveFactory
     #region Members
     private static Random _rand = new Random();
     private static IEnumerable<Type> _goals;
+    private static List<int> Check;
     #endregion Member
 
     #region Ctor
@@ -20,7 +21,8 @@ public static class ObjectiveFactory
     #region Methods
     public static Objective CreateGoal(int targetModifier)
     {
-        var ans = _goals.ElementAt(_rand.Next(_goals.Count()));
+        int randomNumber = _rand.Next(_goals.Count());
+        var ans = _goals.ElementAt(randomNumber);
         return (Objective)Activator.CreateInstance(ans, targetModifier);
     }
     #endregion Methods

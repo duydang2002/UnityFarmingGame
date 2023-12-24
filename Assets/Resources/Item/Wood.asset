@@ -15,4 +15,5 @@ MonoBehaviour:
   Name: Wood
   stackable: 1
   icon: {fileID: 21300000, guid: cf09eda1cba8df34d81520f638a77ed1, type: 3}
+  onAction: {fileID: 11400000, guid: 2f86b876dca9895418421a1ac3a993af, type: 2}
   moneyValue: 10
