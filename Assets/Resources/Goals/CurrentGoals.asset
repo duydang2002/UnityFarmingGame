@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CurrentGoals
   m_EditorClassIdentifier: 
   keys:
-  - Tomatoes
+  - Egg
   values: 00000000
-  require: 05000000
+  require: 02000000
   moneyReward: 50
   expReward: 25
   previousValues: 00000000
