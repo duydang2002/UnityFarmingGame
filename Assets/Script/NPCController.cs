@@ -69,8 +69,11 @@ public class NPCController : Interactable
 
         //introPanel.SetActive(true);
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-        questAccept = true;
-        
+        if (questOn)
+        {
+            questAccept = true;
+        }
+
 
     }
     public void Hide()
@@ -90,6 +93,9 @@ public class NPCController : Interactable
     {
         questOn = false;
         questText.gameObject.SetActive(false);
+        questText.text = "";
+        questAccept = false;
+        lastLevel = LevelManager.currentLevel;
     }
     public bool getQuestAccept()
     {

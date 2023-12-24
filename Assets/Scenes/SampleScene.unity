@@ -4493,7 +4493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isShopNear: 0
-  uiController: {fileID: 0}
+  uiController: {fileID: 8749839313254626278}
 --- !u!114 &504339665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4506,6 +4506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f7907e4fc64f64daf546ecbf03b1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalController: {fileID: 504339666}
   questText: {fileID: 1005890347}
 --- !u!114 &504339666
 MonoBehaviour:
@@ -4520,6 +4521,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questText: {fileID: 1005890347}
+  levelManager: {fileID: 2097275357}
+  moneyManager: {fileID: 1424938615}
+  nPCController: {fileID: 1525261359}
 --- !u!114 &504339667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50729,6 +50733,18 @@ PrefabInstance:
       value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -50758,11 +50774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 24
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 1137500712097297329, guid: f41c8ea09c196ce4192faf77f2e3160d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

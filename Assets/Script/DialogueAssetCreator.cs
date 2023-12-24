@@ -12,8 +12,6 @@ public class DialogueAssetCreator : MonoBehaviour
     public void CreateQuest(List<Objective> goal) 
     { 
         CreateDialogueAsset(goal);
-   
-  
     }
     public void CreateDialogueAsset(List<Objective> goal)
     {

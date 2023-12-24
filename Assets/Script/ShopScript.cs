@@ -73,6 +73,8 @@ public class ShopScript : MonoBehaviour
                 moneyManager.SubtractMoney(selectedItem.moneyValue);
 
                 GameManager.instance.inventoryContainer.Add(selectedItem);
+                GameManager.instance.toolBarPanel.SetActive(false);
+                GameManager.instance.toolBarPanel.SetActive(true);
             }
             else
             {
@@ -94,6 +96,8 @@ public class ShopScript : MonoBehaviour
                 GameManager.instance.inventoryContainer.Remove(selectedItem);
 
                 moneyManager.AddMoney(selectedItem.moneyValue);
+                GameManager.instance.toolBarPanel.SetActive(false);
+                GameManager.instance.toolBarPanel.SetActive(true);
             }
             else
             {

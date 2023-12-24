@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CreateGoalAsset : MonoBehaviour
 {
-    DialogueContainer dialogueContainer;
+    [SerializeField] GoalController goalController;
 
     GoalContainer goalContainer;
 
@@ -14,10 +14,13 @@ public class CreateGoalAsset : MonoBehaviour
     public void CreateGoal(List<Objective> goal)
     {
         goalContainer = ScriptableObject.CreateInstance<GoalContainer>();
+        goalController.SetisFinished();
         goalContainer.require = new List<int>(goal.Count);
         goalContainer.keys = new List<string>(goal.Count);
         goalContainer.values = new List<int>(goal.Count);
         goalContainer.previousValues = new List<int>(goal.Count);
+        goalContainer.moneyReward = LevelManager.currentLevel * 50;
+        goalContainer.expReward = LevelManager.currentLevel * 25;
         foreach (Objective obj in goal)
         {
             goalContainer.keys.Add(obj.Name);
@@ -30,6 +33,7 @@ public class CreateGoalAsset : MonoBehaviour
         {
             questText.text += $"{goalContainer.keys[i]} ({goalContainer.values[i]}/ {goalContainer.require[i]}) \n";
         }
+        questText.text += $"Reward: {goalContainer.moneyReward} gold {goalContainer.expReward} exp";
         // Create the asset file for DialogueContainer
 #if UNITY_EDITOR
         string goalAssetPath = "Assets/Resources/Goals/CurrentGoals.asset"; // Set your desired path and filename

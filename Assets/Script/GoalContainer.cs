@@ -15,6 +15,11 @@ public class GoalContainer : ScriptableObject
     [SerializeField]
     public List<int> require;
 
+    [SerializeField]
+    public int moneyReward;
+
+    [SerializeField]
+    public int expReward;
 
     public List<int> previousValues;
 

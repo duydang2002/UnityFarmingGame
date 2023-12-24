@@ -155,6 +155,8 @@ public class EggsController : MonoBehaviour
                     Debug.LogWarning("No inventory container attached to the game manager");
                 }
 
+                GameManager.instance.toolBarPanel.SetActive(false);
+                GameManager.instance.toolBarPanel.SetActive(true);
                 eggState = false;
                 chickenEggs.GetComponent<BoxCollider2D>().enabled= true;
                 chickenEggs.SetActive(false);

@@ -7,7 +7,14 @@ public class GoalController : MonoBehaviour
 {
     GoalContainer goalContainer;
     private bool isFinished = false;
-    [SerializeField] TextMeshProUGUI questText;
+    [SerializeField] 
+    TextMeshProUGUI questText;
+    [SerializeField]
+    LevelManager levelManager;
+    [SerializeField]
+    MoneyManager moneyManager;
+    [SerializeField]
+    NPCController nPCController;
     string assetPath = "Goals/" + "CurrentGoals";
     // Start is called before the first frame update
     void Start()
@@ -20,7 +27,6 @@ public class GoalController : MonoBehaviour
     {
         if (isFinished)
         {
-
             return; 
         }
         goalContainer = Resources.Load<GoalContainer>(assetPath);
@@ -33,6 +39,7 @@ public class GoalController : MonoBehaviour
                 {
                     questText.text += $"{goalContainer.keys[i]} ({goalContainer.values[i]}/ {goalContainer.require[i]}) \n";
                 }
+                questText.text += $"Reward: {goalContainer.moneyReward} gold {goalContainer.expReward} exp";
                 for (int i = 0; i < goalContainer.keys.Count; i++)
                 {
                     if (goalContainer.values[i] < goalContainer.require[i])
@@ -40,10 +47,18 @@ public class GoalController : MonoBehaviour
                         return;
                     }
                 }
+                Debug.Log(isFinished + " is finished");
+                levelManager.AddExp(goalContainer.expReward);
+                moneyManager.AddMoney(goalContainer.moneyReward);
+                nPCController.setIdle();
                 isFinished = true;
 
             }
         }
+    }
+    public void SetisFinished()
+    {
+        isFinished = false ;
     }
 
 
