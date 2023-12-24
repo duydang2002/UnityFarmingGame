@@ -19,4 +19,4 @@ MonoBehaviour:
   crop: {fileID: 11400000, guid: dddc92070e04f4141952207525b5147d, type: 2}
   onTileMapAction: {fileID: 11400000, guid: 16a42dca098190448878172a0d2d3b37, type: 2}
   OnItemUsed: {fileID: 11400000, guid: 16a42dca098190448878172a0d2d3b37, type: 2}
-  moneyValue: 0
+  moneyValue: 1
