@@ -42,6 +42,10 @@ public class NPCController : Interactable
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
             return;
         }
+        else
+        {
+            dialogueContainer = null;
+        }
         if (lastLevel != levelManager.getLevel())
         {
             questOn = true;
@@ -75,7 +79,7 @@ public class NPCController : Interactable
         animatorMove.SetFloat("Horizontal", -horizontal);
         animatorMove.SetFloat("Vertical", -vertical);
 
-        //introPanel.SetActive(true);
+        
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
         if (questOn)
         {

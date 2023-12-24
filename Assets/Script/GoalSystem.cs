@@ -56,10 +56,10 @@ public class PlanObjective : Objective
         switch (randomNumber)
         {
             case 1:
-                Name = "Tomatoes";
+                Name = "Carrot";
                 break;
             case 2:
-                Name = "Egg";
+                Name = "Tomato";
                 break;
             case 3:
                 Name = "Rice";

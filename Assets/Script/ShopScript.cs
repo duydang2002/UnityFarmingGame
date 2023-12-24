@@ -13,6 +13,7 @@ public class ShopScript : MonoBehaviour
     public ItemContainer inventory;
     private Item selectedItem;
 
+
     // Start is called before the first frame update
     private void Awake()
     {

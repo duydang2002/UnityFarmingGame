@@ -5221,6 +5221,7 @@ MonoBehaviour:
   seeded: {fileID: 11400000, guid: 1c9b2895322f43141b56f395dd54ccf4, type: 2}
   targetTilemap: {fileID: 1960057206}
   cropSpritePrefab: {fileID: 3878404586047666739, guid: bc8082c1fc61e5a4b96aed0fff76871b, type: 3}
+  levelManager: {fileID: 2097275357}
 --- !u!114 &504339669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100457,6 +100458,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 3069155170463630942}
+    - target: {fileID: 6555180730519522491, guid: cbc12150c88b00f40b7e5ecea5dab9dd, type: 3}
+      propertyPath: levelManager
+      value: 
+      objectReference: {fileID: 2097275357}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -106063,11 +106068,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1064858948998717481, guid: 8fbb45769d4f51f40b152b364925b98e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 1064858948998717481, guid: 8fbb45769d4f51f40b152b364925b98e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.54
       objectReference: {fileID: 0}
     - target: {fileID: 1064858948998717481, guid: 8fbb45769d4f51f40b152b364925b98e, type: 3}
       propertyPath: m_LocalPosition.z

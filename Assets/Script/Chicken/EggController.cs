@@ -12,6 +12,7 @@ public class EggsController : MonoBehaviour
     [SerializeField] RectTransform chickenEggsRectTransform;
     [SerializeField]GameObject chickenEggs;
     [SerializeField] GameObject highlightIcon;
+    [SerializeField] LevelManager levelManager;
     Transform player;
     public Item item;
     public int count = 3;
@@ -157,6 +158,7 @@ public class EggsController : MonoBehaviour
 
                 GameManager.instance.toolBarPanel.SetActive(false);
                 GameManager.instance.toolBarPanel.SetActive(true);
+                levelManager.AddExp(15);
                 eggState = false;
                 chickenEggs.GetComponent<BoxCollider2D>().enabled= true;
                 chickenEggs.SetActive(false);

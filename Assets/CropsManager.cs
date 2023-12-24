@@ -13,6 +13,7 @@ public class CropTile
     public int growStage;
     public float damage;
     public Vector3Int position;
+
     public bool Complete
     {
         get
@@ -38,6 +39,7 @@ public class CropsManager : TimeManagerScript
     [SerializeField] TileBase seeded;
     [SerializeField] Tilemap targetTilemap;
     [SerializeField] GameObject cropSpritePrefab;
+    [SerializeField] LevelManager levelManager;
 
 
     Dictionary<Vector2Int, CropTile> crops;
@@ -141,7 +143,7 @@ public class CropsManager : TimeManagerScript
                 targetTilemap.CellToWorld(gridPosition), 
                 cropTile.crop.yield, 
                 cropTile.crop.count);
-
+            levelManager.AddExp(10);
             targetTilemap.SetTile(gridPosition, plowed);
             cropTile.Harvested();
         }

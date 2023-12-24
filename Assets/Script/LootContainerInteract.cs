@@ -28,6 +28,7 @@ public class LootContainerInteract : Interactable
             GameManager.instance.toolBarPanel.SetActive(true);
             closedChest.SetActive(false);
             openedChest.SetActive(true);
+
             NPCController.start = false;
             nPCController.SetQuestOn();
         }
