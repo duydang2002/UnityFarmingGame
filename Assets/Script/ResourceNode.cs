@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class TreeCuttable : ToolHit
+[RequireComponent(typeof(BoxCollider2D))]
+public class ResourceNode : ToolHit
 {
     [SerializeField] GameObject pickUpDrop;
+    //[SerializeField] Item item;
     [SerializeField] int dropCount = 5;
     [SerializeField] float spread = 0.7f;
     [SerializeField] GameObject highLightMarker;
+    [SerializeField] ResourceNodeType nodeType;
+
 
     public override void Hit(Character character)
     {
@@ -20,19 +24,15 @@ public class TreeCuttable : ToolHit
             position.y += spread * UnityEngine.Random.value - spread / 2;
             GameObject go = Instantiate(pickUpDrop);
             go.transform.position = position;
+            //ItemSpawnManager.instance.SpawnItem(position,item,itemCountInOneDrop);
+
         }
         Destroy(gameObject);
         
     }
-    // Start is called before the first frame update
-    void Awake()
+     
+    public override bool CanBeHit(List<ResourceNodeType> CanBeHit)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return CanBeHit.Contains(nodeType);
     }
 }

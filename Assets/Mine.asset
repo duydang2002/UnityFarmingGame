@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88440c28ccc453744b9bf11d4d8baa0b, type: 3}
-  m_Name: CutTrees
+  m_Name: Mine
   m_EditorClassIdentifier: 
   sizeOfInteractableArea: 1
-  canHitNodesOfType: 01000000
+  canHitNodesOfType: 02000000

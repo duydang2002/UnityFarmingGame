@@ -28,5 +28,7 @@ public class Item : ScriptableObject
         return item.moneyValue;
     }
     
+    public ToolAction onTileMapAction;
+    public ToolAction OnItemUsed;
 }
 
