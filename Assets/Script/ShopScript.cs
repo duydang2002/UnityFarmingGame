@@ -43,7 +43,7 @@ public class ShopScript : MonoBehaviour
         Transform shopItemTransform = Instantiate(ShopItemTemplate, Container);
         RectTransform shopItemRectTransform = shopItemTransform.GetComponent<RectTransform>();
 
-        shopItemRectTransform.anchoredPosition = new Vector2(0, -100 * (Container.childCount - 2));
+        shopItemRectTransform.anchoredPosition = new Vector2(0, -150 * (Container.childCount - 6));
         shopItemTransform.gameObject.SetActive(true);
 
         shopItemTransform.Find("nameText").GetComponent<TextMeshProUGUI>().SetText(item.Name);
