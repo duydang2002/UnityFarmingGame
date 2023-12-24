@@ -7,7 +7,6 @@ using UnityEngine.TextCore.Text;
 public class ResourceNode : ToolHit
 {
     [SerializeField] GameObject pickUpDrop;
-    //[SerializeField] Item item;
     [SerializeField] int dropCount = 5;
     [SerializeField] float spread = 0.7f;
     [SerializeField] GameObject highLightMarker;
@@ -24,11 +23,8 @@ public class ResourceNode : ToolHit
             position.y += spread * UnityEngine.Random.value - spread / 2;
             GameObject go = Instantiate(pickUpDrop);
             go.transform.position = position;
-            //ItemSpawnManager.instance.SpawnItem(position,item,itemCountInOneDrop);
-
         }
         Destroy(gameObject);
-        
     }
      
     public override bool CanBeHit(List<ResourceNodeType> CanBeHit)

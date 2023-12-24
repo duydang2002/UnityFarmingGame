@@ -125,10 +125,19 @@ public class ShopScript : MonoBehaviour
         Item Eggs = Resources.Load<Item>("Item/Egg");
         Item stone = Resources.Load<Item>("Item/Stone");
         Item wood = Resources.Load<Item>("Item/Wood");
+        Item axe = Resources.Load<Item>("Item/Axe");
+        //Item pickAxe = Resources.Load<Item>("Item/PickAxe");
+        //Item seed = Resources.Load<Item>("Item/Seeds");
+        //Item plow = Resources.Load<Item>("Item/Plow");
+
         
         CreateItemButton(Eggs);
         CreateItemButton(stone);
         CreateItemButton(wood);
+        CreateItemButton(axe);
+        //CreateItemButton(pickAxe);
+        //CreateItemButton(seed);
+        //CreateItemButton(plow);
     }
 
 }
