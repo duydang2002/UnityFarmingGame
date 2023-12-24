@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mine
   m_EditorClassIdentifier: 
   sizeOfInteractableArea: 1
-  canHitNodesOfType: 
+  canHitNodesOfType: 02000000
