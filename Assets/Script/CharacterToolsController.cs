@@ -7,9 +7,10 @@ using UnityEngine.Tilemaps;
 
 public class CharacterToolsController : MonoBehaviour
     {
-        MainCharacterControl characterController;
+        MainCharacterControl characterController; //vid: CharacterController2D character
         Rigidbody2D rgbd2d;
         Character character;
+        ToolbarController toolbarController;
         [SerializeField] float offsetDistance = 1f;
         [SerializeField] float sizeOfInteractableArea = 0.4f;
         [SerializeField] private LayerMask playerMask;
@@ -24,8 +25,9 @@ public class CharacterToolsController : MonoBehaviour
 
         private void Awake()
         {
-        characterController = GetComponent<MainCharacterControl>();
+            characterController = GetComponent<MainCharacterControl>();
             rgbd2d = GetComponent<Rigidbody2D>();
+            toolbarController = GetComponent<ToolbarController>();
         }
         
         void Update()
@@ -33,7 +35,7 @@ public class CharacterToolsController : MonoBehaviour
             SelectTile();
             CanSelectCheck();
             Marker();
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown("f"))
             {
                 if (UseToolWorld() == true)
                 {
@@ -54,6 +56,7 @@ public class CharacterToolsController : MonoBehaviour
             Vector2 cameraPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             selectable = Vector2.Distance(characterPosition, cameraPosition) < maxDistance;
             markerManager.Show(selectable);
+        
         }
 
         private void Marker()
@@ -65,21 +68,15 @@ public class CharacterToolsController : MonoBehaviour
 
         private bool UseToolWorld()
         {
-        Vector2 position = rgbd2d.position + characterController.lastMotionVector*offsetDistance;
+            Vector2 position = rgbd2d.position + characterController.lastMotionVector*offsetDistance;
             
-            Collider2D[] collider2s = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
-            
-            foreach (Collider2D c in collider2s)
-            {
-                ToolHit hit = c.GetComponent<ToolHit>();
+            Item item = toolbarController.GetItem;
+            if (item == null) { return false; }
+            if (item.onAction == null) { return false;}
 
-                if (hit != null)
-                {
-                    hit.Hit(character);
-                    return true;
-                }
-            }
-            return false;
+            bool complete = item.onAction.OnApply(position);
+            
+            return complete;
         }
         
         private void UseToolGrid()

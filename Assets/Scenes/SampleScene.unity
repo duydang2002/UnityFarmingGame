@@ -7352,6 +7352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarkerTilemap
       objectReference: {fileID: 0}
+    - target: {fileID: 3630720738791489249, guid: 836cf0aba5d068b45933e6e97bd7de76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3745496823288200431, guid: 836cf0aba5d068b45933e6e97bd7de76, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

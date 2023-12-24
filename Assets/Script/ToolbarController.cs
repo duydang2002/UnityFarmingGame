@@ -10,6 +10,13 @@ public class ToolbarController : MonoBehaviour
 
     public Action<int> onChange;
 
+    public Item GetItem
+    {
+        get {
+            return GameManager.instance.inventoryContainer.slot[selectedTool].item;
+        }
+    }
+
     private void Update()
     {
         float delta = Input.mouseScrollDelta.y;

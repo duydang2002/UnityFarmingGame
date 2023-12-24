@@ -70,6 +70,7 @@
     <Compile Include="Assets\Script\CreateGoalAsset.cs" />
     <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\NPCController.cs" />
+    <Compile Include="Assets\ToolAction.cs" />
     <Compile Include="Assets\Script\Chicken\EggController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
     <Compile Include="Assets\Script\GoalContainer.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\Script\DialogueContainer.cs" />
     <Compile Include="Assets\Script\TileData.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\GatherResourceNode.cs" />
     <Compile Include="Assets\Script\ShopScript.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
@@ -108,6 +110,7 @@
     <Compile Include="Assets\Script\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Script\Chicken\ChickenController.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
+    <Compile Include="Assets\Tree Cuttable va.cs" />
     <Compile Include="Assets\Script\ShopController.cs" />
   </ItemGroup>
   <ItemGroup>

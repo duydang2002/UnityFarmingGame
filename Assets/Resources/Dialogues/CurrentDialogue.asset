@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line:
   - Here is your quest
-  - Reach 10 Gold
+  - Sell 2 Pigs
   - Reach 20 Gold
-  - Plan 15 Tomatoes
   npc: {fileID: 11400000, guid: 1faf32b1715494940af3f8877c5fffe9, type: 2}
