@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
@@ -17,7 +18,7 @@ public class CharacterToolsController : MonoBehaviour
         [SerializeField] MarkerManager markerManager;
         [SerializeField] TileMapReadController tileMapReadController;
         [SerializeField] float maxDistance = 2f;
-
+        [SerializeField] ToolAction onTilePickUp;
 
         Vector3Int selectedTilePosition;
         bool selectable;
@@ -89,7 +90,10 @@ public class CharacterToolsController : MonoBehaviour
         if (selectable == true)
             {
                 Item item = toolbarController.GetItem;
-                if (item == null) { return ; }
+                    if (item == null) {
+                    PickUpTile();
+                        return ; 
+                }
                 if (item.onTileMapAction == null) { return ;}
 
                 //animator.SetTrigger("act")
@@ -104,4 +108,11 @@ public class CharacterToolsController : MonoBehaviour
                 } 
             }
         }
+
+    private void PickUpTile()
+    {
+        if (onTilePickUp == null) { return; }
+
+        onTilePickUp.OnApplyToTileMap(selectedTilePosition, tileMapReadController, null);
     }
+}

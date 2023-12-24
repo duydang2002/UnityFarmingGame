@@ -106,6 +106,7 @@
     <Compile Include="Assets\Script\ShopScript.cs" />
     <Compile Include="Assets\Script\Data\ItemContainer.cs" />
     <Compile Include="Assets\Script\Data\Item.cs" />
+    <Compile Include="Assets\Script\TilePickUpAction.cs" />
     <Compile Include="Assets\Script\MoneyManager.cs" />
     <Compile Include="Assets\Script\Day Night Circle\ClockManager.cs" />
     <Compile Include="Assets\Script\GUI\ItemPanel.cs" />

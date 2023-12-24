@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CarrotGrown
   m_EditorClassIdentifier: 
   timeToGrow: 20
-  yield: {fileID: 11400000, guid: 0dc447a4fc92fd54e9c169ee69caf3a3, type: 2}
-  count: 1
+  yield: {fileID: 11400000, guid: 67d64d2181481f544b668919913e0fec, type: 2}
+  count: 5
   sprites:
   - {fileID: 1134506027, guid: aa167ebddefb98647acd22880da7c411, type: 3}
   - {fileID: 1475545351, guid: aa167ebddefb98647acd22880da7c411, type: 3}
