@@ -17,6 +17,7 @@ public class InventoryController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.I))
         {
             panel.SetActive(!panel.activeSelf);
+            
         }
     }
 }

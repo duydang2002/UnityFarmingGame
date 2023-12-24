@@ -106,5 +106,8 @@ public class ItemDragAndDropController : MonoBehaviour
 
 
         }
+        GameManager.instance.toolBarPanel.SetActive(false);
+        GameManager.instance.toolBarPanel.SetActive(true);
+
     }
 }
