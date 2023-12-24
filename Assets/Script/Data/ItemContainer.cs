@@ -76,6 +76,8 @@ public class ItemContainer : ScriptableObject
             {
                 itemSlot.Clear();
             }
+            GameManager.instance.toolBarPanel.SetActive(false);
+            GameManager.instance.toolBarPanel.SetActive(true);
         }
         else
         {

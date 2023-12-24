@@ -92,6 +92,7 @@
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
     <Compile Include="Assets\Script\MenuManager.cs" />
     <Compile Include="Assets\Script\UIController.cs" />
+    <Compile Include="Assets\Script\Crop.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\MarkerManager.cs" />
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />

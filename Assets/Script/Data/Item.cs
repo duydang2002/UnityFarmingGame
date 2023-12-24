@@ -9,7 +9,9 @@ public class Item : ScriptableObject
     public bool stackable;
     public Sprite icon;
     public ToolAction onAction;
-
+    public Crop crop;
+    public ToolAction onTileMapAction;
+    public ToolAction OnItemUsed;
     public int moneyValue;
 
     
@@ -28,7 +30,6 @@ public class Item : ScriptableObject
         return item.moneyValue;
     }
     
-    public ToolAction onTileMapAction;
-    public ToolAction OnItemUsed;
+
 }
 

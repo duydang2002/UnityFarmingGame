@@ -65,6 +65,7 @@
     <Compile Include="Assets\Transtion.cs" />
     <Compile Include="Assets\ShopColliderTrigger.cs" />
     <Compile Include="Assets\Script\DialogueAssetCreator.cs" />
+    <Compile Include="Assets\SeedTile.cs" />
     <Compile Include="Assets\Script\Interactable.cs" />
     <Compile Include="Assets\Script\ToolbarController.cs" />
     <Compile Include="Assets\Script\CreateGoalAsset.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\ToolAction.cs" />
     <Compile Include="Assets\Script\Chicken\EggController.cs" />
     <Compile Include="Assets\Script\ItemSpawnManager.cs" />
+    <Compile Include="Assets\Script\ResourceNode.cs" />
     <Compile Include="Assets\Script\GoalContainer.cs" />
     <Compile Include="Assets\Script\LootContainerInteract.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
@@ -90,16 +92,15 @@
     <Compile Include="Assets\Script\MainCharacterControl.cs" />
     <Compile Include="Assets\Script\MenuManager.cs" />
     <Compile Include="Assets\Script\UIController.cs" />
+    <Compile Include="Assets\Script\Crop.cs" />
     <Compile Include="Assets\Script\CharacterToolsController.cs" />
     <Compile Include="Assets\Script\MarkerManager.cs" />
     <Compile Include="Assets\Script\GUI\InventoryPanel.cs" />
-    <Compile Include="Assets\Script\TreeCuttable.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\NPC.cs" />
     <Compile Include="Assets\Script\GoalSpawner.cs" />
     <Compile Include="Assets\DogWP.cs" />
     <Compile Include="Assets\Script\DialogueContainer.cs" />
-    <Compile Include="Assets\Script\TileData.cs" />
     <Compile Include="Assets\Script\ItemDragAndDropController.cs" />
     <Compile Include="Assets\GatherResourceNode.cs" />
     <Compile Include="Assets\Script\ShopScript.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Assets\Script\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Script\Chicken\ChickenController.cs" />
     <Compile Include="Assets\Script\CharacterInteractController.cs" />
+    <Compile Include="Assets\PlowTile.cs" />
     <Compile Include="Assets\Tree Cuttable va.cs" />
     <Compile Include="Assets\Script\ShopController.cs" />
   </ItemGroup>
