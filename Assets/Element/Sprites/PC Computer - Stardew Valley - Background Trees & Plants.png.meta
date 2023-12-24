@@ -1,0 +1,6507 @@
+fileFormatVersion: 2
+guid: b42a7fd339b8f51489e512c3d3335cb6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 621
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dd36e3ddf484a4eb8d5d548ec35cc6
+      internalID: 1813110571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 621
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826f5a6a38b9e844aa69b7905eff885d
+      internalID: 1726403204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 621
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbac7666b92349b4ca1805f1fde17903
+      internalID: 2072517767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 621
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cefd954e890e840befdbb777bb9716
+      internalID: 1800920285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4b13988aefb3242b6d503dc84e5628
+      internalID: -52863222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 609
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a8ce0a4efe02b40a349d2fc8ffc63a
+      internalID: 763984070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 609
+        width: 61
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733c91fc5bc4e2b439a54e3a5f6494e2
+      internalID: 1189870212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 608
+        width: 61
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5614537d505683a42ac38a3acb385687
+      internalID: 480929986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 612
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68b0e82c5f34674494148bef846a1bc
+      internalID: -864076463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 578
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acf32e534b60fa49936b58ec878bb71
+      internalID: -1988807089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 587
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0b6c509cbf4564782d9affba0a79c2
+      internalID: -639375050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 587
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd8769d332d2e419d8ab5414b301ad
+      internalID: -368837227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 577
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7ccc9656f3def4b83f45638d48c0c6
+      internalID: -1085424419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 578
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874e7f5a11ccb5a4eb98c58d41d80471
+      internalID: -442087589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 587
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d35b09f1e149434caeb7be36006c4ad
+      internalID: -153540514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 587
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c6f06af8224f046ab7ca0946f9487a
+      internalID: -1369224232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 577
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa4065b6fe1574498b059cb18d9bed5
+      internalID: 2020881276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 578
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275d621e6b644145bbb052900405179
+      internalID: 209159276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 587
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a79701e977d2499e06ade81aedee7
+      internalID: -129677720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 587
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3a5e3e92d9644c92937c279f50e0b
+      internalID: -325965420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 577
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09969274e1b967648858b73c9cf953dc
+      internalID: 720934575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 575
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cffa00711b40ec4cb0452801ce28158
+      internalID: 1889047620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 574
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044d22d28b6c59a4cb10ee16896c95db
+      internalID: -423070388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 563
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faf6e92e19c094ca9bdd8027cfb2b9
+      internalID: -1293277675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_24
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 563
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf531ef35c481014c8a7da2b8b01b413
+      internalID: 843354397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 560
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb9e4463cab85b4aa6ea6090955638a
+      internalID: 664737057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_26
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 560
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe687350cea5f4041ac46d0391e51624
+      internalID: 1876617891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 563
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e71b6df0e5d44a45a3e36e153f5695d
+      internalID: -1395293506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_28
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 563
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf520acf3815d14dac91be1681620ff
+      internalID: 818890421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_29
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 563
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb54ba4002904c94996057fc1ed7df70
+      internalID: -920842761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_30
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 564
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec26ba0e91f584ba2448f6db89ea52
+      internalID: 897484276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_31
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 564
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aa7fa6cb657d9469d092b73f15e255
+      internalID: -1728606729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_32
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 564
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbefc4949e2cf64398612275c862fd1
+      internalID: 1123416851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_33
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 564
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfa6bcf699b31a4ba442f05329aab62
+      internalID: 2115164251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 578
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f039eea011eb55c4b9faef3f6488c2a8
+      internalID: 1291868731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_35
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 578
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c296522a2f3c64f93909cdcba7c8a5
+      internalID: -1881586631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_36
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 578
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4836342194e9f4884a864f88900140
+      internalID: 2027295822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 565
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe744203c62b3a49b35c02a39e9848e
+      internalID: 2040300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 562
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62798f63809e79446a33ed383445d2db
+      internalID: 502003499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 565
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a576bd68a4cf4414491664d392414f11
+      internalID: -795066283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 565
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95faad363ae4e5348aef2feb8f95992d
+      internalID: -168318730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_41
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 562
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c14a7e2d282ba741a6d70ede86bd45b
+      internalID: 1558092320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 565
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2214c6cc630964d872de91b47ad437
+      internalID: 880900439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_43
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 565
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1e827706be8fe4ba15bf884526d1e9
+      internalID: 930490682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_44
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 562
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c60b5e18bf02fb459eb593616ecd722
+      internalID: -1348000702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_45
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 565
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf2c2fe0de3f9f42a72d7b2d4a367f7
+      internalID: 286719940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_46
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 561
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33a9fc7b02716c4ab8cec8489a22e72
+      internalID: -2135389602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 559
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7acd2e5f2c3184797162855d34e3a5
+      internalID: 1727313701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_48
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 562
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8161e8801319e14fb635596c6ac72ad
+      internalID: -1963530767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 545
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdafaad796d62b4789ad28b54f9d929
+      internalID: 408573333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_50
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 545
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0642765ff7379646acc6b2c7a323b49
+      internalID: 436470868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_51
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 545
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19910238085589a4ebc5f3c3dc05edbf
+      internalID: 542436758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_52
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 543
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cbc7aa0e657fc4dba717a8db425b40
+      internalID: 1062051452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_53
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 444
+        width: 79
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79416d7e85ee0904396b29d1a93dc69e
+      internalID: 2064298094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_54
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 444
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2ca70c6b8eb004a956aaa51cea6bb5
+      internalID: 1795934438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_55
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 441
+        width: 79
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c299f5f7af61ac4190e675ddaf70fff
+      internalID: -198321452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 444
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d02f90a87ea29479ade9ba1bc6b1f7
+      internalID: 1854566823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 449
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c452b94c0d7c646810acf7099a83ab
+      internalID: 1011201367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_58
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 449
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded0cf3ab7a658f428d29b3527eedc53
+      internalID: 1097718874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 449
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a473e10b03f484485d5006de066c6b
+      internalID: -406160766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_60
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 445
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b29fd46ff653843a0f0116ea69b14e
+      internalID: 2006616890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_61
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 431
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8cbdbafd9c39d47b81a4bfe2b0ac6b
+      internalID: 553921197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 404
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5d7644133236b4f86320eccad09101
+      internalID: -296644259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 411
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d9473a6c05fe459423f70bc82b305
+      internalID: 789801761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_64
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 413
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c3fa7a2a7373849a4d92b1987e3cdd
+      internalID: 1012762304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 403
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cbfee51dba0a5478ab37a5de3aa330
+      internalID: 1012122366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_66
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 404
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d45505bcd0c44ba1becf80f03eb9e
+      internalID: -785740503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_67
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 411
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf79a15ea9c21d4f969fc8a71361dae
+      internalID: 1181545278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_68
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 413
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd8633bbadc57f44ab83defb0a36dc5
+      internalID: 1041921116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 403
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd20a8b9e878ee4fa8c8b7d6f609938
+      internalID: -1394942285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 404
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d16203e21d27848b299fdb325872da
+      internalID: -284906288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 411
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7803cadeb8840e14a8ab7e8d4f472022
+      internalID: 304194982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_72
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 413
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0fea095b3fef54f8f353c6f07945d3
+      internalID: 847000296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 403
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0602db7331bd0d442ae99315bfa7c02c
+      internalID: -1648587638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_74
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 402
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec6ad02566d44a4a8475b224d85b650
+      internalID: -1936451064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_75
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 401
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0752b41d20732914e8508dc64c04b6ef
+      internalID: -1001760656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_76
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 403
+        width: 128
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d266b4809408f4b4d9120eca2888ce49
+      internalID: -2076823429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 406
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42858cb567faa84a9dbcd91fd14a6ea
+      internalID: -851434574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_78
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 405
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de98fb3f96521448b802a6ecb46a138
+      internalID: 757139600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_79
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 404
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7141b3d3e2fec428ae04d9579836f6
+      internalID: -804944121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_80
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 404
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe98fd498be979c4cbb966d69901cc4f
+      internalID: 1293974046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_81
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 406
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8ff6ffb21c9db4fadf05f80ae54780
+      internalID: 1012470318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_82
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 405
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861c01ad3cbd44c4d931a4ca3a8175f3
+      internalID: -2133663159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_83
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 404
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a5d381a4b8ac24e8ce284118ad9dbb
+      internalID: -1189963269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_84
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 404
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e532852c3de03449b4e5fb44bf778c
+      internalID: 1636610331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_85
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 406
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20a96beb9671a4f93a3f17dfe1ecfd
+      internalID: -1532839041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_86
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 405
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270dd1f6f9aa1f247bec7dd5beca8ea4
+      internalID: 1910006213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_87
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 404
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2442736a2ec054f48b339dc6df5d131b
+      internalID: -614861155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_88
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 404
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e82f27d49db248877a8f36c5be675
+      internalID: -1145229278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_89
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 408
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefb2cbc463909845a7bc3883e1c01d5
+      internalID: 408677900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_90
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 406
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f9438e4374f8848abe359a6cf36cb9
+      internalID: -368314821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_91
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 405
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086845be13d156c4d86683a1cb46c19b
+      internalID: -1482947188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_92
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 404
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f01ba2828470148b4eb2249f1d9c68
+      internalID: -506492062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_93
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 404
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717b6f65d79b3fd4a97edb87db1b9af2
+      internalID: -2105133111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_94
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 404
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ff07c09b6efa5418c6b5179cf1829f
+      internalID: 118167751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_95
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 404
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfdf060f827f8a43908698a6b0d81de
+      internalID: 1200690776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_96
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 393
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542ee54c6c3182b40b6ca78351960487
+      internalID: 1171541946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_97
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 391
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b253b9555ecab44ca51cde96e9ec119
+      internalID: -2073585663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_98
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 388
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940c39ad0582b6428ab4b389a7bd6f1
+      internalID: 1242778435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_99
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 392
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bdc45d17395de47ba39658b53b503d
+      internalID: -979304948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_100
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 391
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257b0593cac21149b6e5e930ff33cad
+      internalID: 2045629364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_101
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 388
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ded5f93f46440d4b855f1b21b9bd2d3
+      internalID: -2107345645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351dd1a742da5af4daa695ef43ca447a
+      internalID: 799956134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_103
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 391
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f208dcdcd10994a90aa19426f89285
+      internalID: 1047313279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_104
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 388
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43733a6ed3535f409706c360217fdf6
+      internalID: 655116780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_105
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6302c58c7d4c6ef47926cd65e4419b51
+      internalID: -16827116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_106
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 388
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c2d70484dee124fae116b96aa05526
+      internalID: -23562301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_107
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 386
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32febd95795d56641a060b066c039744
+      internalID: 641253691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_108
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 391
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d58e56f71b3654987e337c4b8949d4
+      internalID: 1475703456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_109
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 392
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a96db5553eae34ea9ce3785984710f
+      internalID: -799095237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_110
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 389
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b20a798fa3d8b438e3970f5b95aa56
+      internalID: 895413646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_111
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 390
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5127480d6a8864986c55362d6f340a
+      internalID: 1365863114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_112
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 392
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb873eba41621104ebe43cc4a2e96b21
+      internalID: 1371320078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_113
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 390
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7bb7857d5e28d4bad5e9a41da3b789
+      internalID: 1396602893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_114
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 393
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b3f546551e7be438bde96034005264
+      internalID: 1114290882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_115
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 388
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bad23b8430ea4d4caf4c6de3ce0d5e7
+      internalID: -1672052802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_116
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 390
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c962f81a5e4314ba7420f3e0ef8c0f
+      internalID: 1935407592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_117
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 390
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e22c01cc40714aaa1f3393c38ec5d
+      internalID: 1111690418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_118
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 392
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08db264045d00a845b330ce0c430b50c
+      internalID: -196345999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_119
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 390
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c96723689c8ec4ab5c2de8126d6395
+      internalID: 673674667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_120
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 393
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0f4131cb66444c90afa2a92e66052
+      internalID: 1615327770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_121
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 386
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf47fb36b3c6e3641bce94c936a3042c
+      internalID: -945719535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_122
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 388
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e644621c81e2741827d17bf72eb83d
+      internalID: 242133132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_123
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 390
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149323869c6464045b417ffe60cadee5
+      internalID: 965225739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_124
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 388
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c7e7213a0bac34ca2bd4aff78e2d75
+      internalID: 1594680511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_125
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 391
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d4c7456bb28624383dd4e3de056dc3
+      internalID: 703549617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_126
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 392
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eea64bb2bff0094ab96a260f199fc29
+      internalID: 982711312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_127
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 391
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207363496bdc36a49942a603f9476a37
+      internalID: 1503182590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_128
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 394
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d323112f396d43af361db4c55c7f7
+      internalID: -990831753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_129
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 376
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde53917c4d4a924b92297054a97f425
+      internalID: -698880058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_130
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 374
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdff83c7c97965d45a0976da66ef6f00
+      internalID: 1944626359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_131
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 374
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470efbcff3c86024794b40c04f289c83
+      internalID: 1695462556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_132
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 388
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281d09c110b188f458bd36cd00ef9900
+      internalID: 739787282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_133
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 373
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a663c110d16cd9468181feb41f80c34
+      internalID: -110224128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_134
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 374
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd29bfc0be0554a867148fbe6e9484
+      internalID: -1328046899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_135
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 371
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6784a1f038029479e9cd6aab984241
+      internalID: 1120480896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_136
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 371
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bea0e8b2a78e384fbaf31bf4d2d407b
+      internalID: 580997858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_137
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 371
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4b7ca7b08da2c4bb660acfcd6469d7
+      internalID: -80240801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_138
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 370
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec421f45c5145544d9f152f12a2a0892
+      internalID: -423842159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_139
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 374
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047ed0bcb3b5494595b73de652392fc
+      internalID: 544301568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_140
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 374
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0abe9cfaa66204bbe3d6dc678b303b
+      internalID: -421265282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_141
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 376
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf090f3491a0ba14999769413bb69cee
+      internalID: 2025198235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_142
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 374
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf46f14cfef8b44cb519d57f13ff4d5
+      internalID: -129221607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_143
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 374
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d31f48431ced14981e4b38e3dd7a96
+      internalID: -1855218478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_144
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 374
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b112458a0f13a14095c0c2ef8174159
+      internalID: -875959242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_145
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 374
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e9e9f1b02bb184985973b6d28bd122
+      internalID: -1958665086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_146
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 376
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8fcd7a8356914f90e58001a300963
+      internalID: -1329173350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_147
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 374
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82a494a00295154f93a1804f8851283
+      internalID: 1734257870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_148
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 374
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50df5f24405a1e7408d7ed6811cfddf5
+      internalID: -1673987940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_149
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 373
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a279d11df535a074f8faeea1cd5bd5fb
+      internalID: -872115838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_150
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 373
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c5ef8f2c69a3488a9a2766c7b766f
+      internalID: 1168855962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_151
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 373
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34f83c2ecc439046aec89377ce51547
+      internalID: -850227112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_152
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 269
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d1f29312366264388e043a0ff7ca81
+      internalID: 1468906675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_153
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 269
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b21c57ea16e9343a8ae5ca7846db86
+      internalID: 1485069015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_154
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 269
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978324c452d31e48ad321a0582123ff
+      internalID: 1197351261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_155
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 269
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a7ec64362bdd41a0e429f0d810cd5
+      internalID: -1319050740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_156
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 263
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b174dfef04a54d94fb8f9fc1ce40ac5a
+      internalID: -304743216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_157
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 260
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a555da9aac0244439d4f4fd6b9e701f
+      internalID: 1555113927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_158
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 258
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6da44a320af8624a979755cd6796e24
+      internalID: 1936860698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_159
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 259
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89bf40b0efbbd74e8f89eb08341c496
+      internalID: -625892467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_160
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 229
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de465bad9a59a94ca926586f118eae2
+      internalID: -1772812887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_161
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 229
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4edf513a2bcaa42ac4f82f57f117cf
+      internalID: 703059434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_162
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 228
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9269c678e13424f86ffcbffce3e9d6
+      internalID: 1291186541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_163
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 229
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d432a47232034f8b6907a5ef925bc
+      internalID: -1390551571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_164
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 229
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeda00b2b484294688a6f56ac5bd434
+      internalID: -44442834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_165
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 228
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933f1795ffd78a4a860e138ed35e7d5
+      internalID: -658659454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_166
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 229
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9048c995f41a46a419ed03424359fe10
+      internalID: 994849587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_167
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 229
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a379e1576e2c324e9dde7d72d1e895e
+      internalID: -2507752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_168
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 228
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c19d2d70cc03540a8bed2a89372a0f
+      internalID: 212925521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_169
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 200
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709d989db80261a419510d1c61c6900e
+      internalID: -1898879461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_170
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 200
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c7c8723c567a44894995e3687fa61
+      internalID: 2078378285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_171
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 198
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996ad251a020804096e6b2042ba87e7
+      internalID: 1707075939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_172
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 198
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9f2f7806d740547a0afeaffbfd5451
+      internalID: -1210159968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_173
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 206
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db9275cf80f0d42b27c5d1ff90f683
+      internalID: -1833777609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_174
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 206
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19fa5faf3d07848998d330674d57f5
+      internalID: 1967357194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_175
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 209
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08faad53e29666b499515ea8060dbbc9
+      internalID: -1852169501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_176
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 210
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03702f6e0cbc54799819227729fe1d
+      internalID: 517202472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_177
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 209
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21e3e604a9ee3c48a43ff690115c41e
+      internalID: 13943658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_178
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 210
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a1de82ff9c0f4b84fe637a8d10158
+      internalID: -52298071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_179
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 214
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61becdbbec01cb4883c1112dfec5358
+      internalID: 342880989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_180
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 214
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6587d4d32a4001f49807c8ba0f4991fc
+      internalID: 563019505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_181
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 217
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210a41eac8cf59b49bbd5da484bbbb12
+      internalID: 2055855971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_182
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 214
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d2743a07a62b43a30f866120cadfd
+      internalID: 968381794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_183
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 214
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0360b72d56bf0c34ca5ccb801efd256b
+      internalID: -1865864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_184
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 217
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d441975ce875664fa0f2e9a548f52a1
+      internalID: 162538686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_185
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 214
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a21330fced4f34fbfcef40c9479281
+      internalID: -604534539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_186
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 214
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aed9330f390ab24db1f190c3e1b7c25
+      internalID: 348700213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_187
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 217
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857aac208564b694e85712375abb71bd
+      internalID: 1471502835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_188
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 196
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d51a85d440f4154db743535cb5bbe68
+      internalID: 511026042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_189
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 196
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5571e5f71dd762743b2bdb3a777e5f9e
+      internalID: 2139107808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_190
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 196
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ee82fca4c23354c873c5d6cab6204c
+      internalID: -1849327434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_191
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 124
+        width: 18
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a6de1401fcc440ac9dd84b37c890e
+      internalID: 67326050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_192
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 97
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d51bf6859f68b48af3346a7b026f02
+      internalID: -301889330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_193
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 97
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17037d5c30b92e4385f672ba9954077
+      internalID: -387201158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_194
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 97
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2345f4e047c22b40bd7aeab2222ec9b
+      internalID: 1506197417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_195
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ecc25817932f046aeca8996b3b85c2
+      internalID: 1238561890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_196
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 118
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda08b8f17793d443a91d8ed1484d376
+      internalID: 1776626436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_197
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 117
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab90dd71491ea40bf19b2ab91138ef
+      internalID: 899088861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_198
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 117
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65da41a1a33c0494ea644fd9bc5e97f6
+      internalID: 505634745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_199
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 118
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9e44d6d2c5e944c953fd072037d82d
+      internalID: 748633465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_200
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 169
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f196a247580e42747826ff70610582db
+      internalID: -598456877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_201
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 169
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8120c84ea27c36d4cb40499df5c7b6af
+      internalID: 469707777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_202
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 169
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707eb20d0a44ef4ebea781e12c9c09d
+      internalID: -750460850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_203
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 110
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd2f456b07b14c44abc3222444030e4
+      internalID: 2115920013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_204
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 131
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea7f19bd34ac714a90588e0eb0c6408
+      internalID: -1928642603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_205
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 131
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfa2236f143cd8469db8015e8597403
+      internalID: 582354999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_206
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 131
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c20c6bebf1634db882f5f663006c9
+      internalID: 862520560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_207
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 114
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5260487041483494ca8f061b4e887962
+      internalID: 135864925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_208
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 97
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d89be8849af794191e3d7c8bd5a12d
+      internalID: 1318096346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_209
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 97
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485ce68993a90ac4abab4ae6a77ced67
+      internalID: -926198003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_210
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 85
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29de62b931383c4cb7ba34e9cadd4c8
+      internalID: -716762352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_211
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 88
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00e00dc1e4345d44bf9d9c7ef20ddd5
+      internalID: -2133771273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_212
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 75
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5027e64cfef70d418405f25902f5f39
+      internalID: 275080354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_213
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 72
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927350310628ca4f802529b90462db0
+      internalID: 1105305571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_214
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 72
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dc98e728acc3644bfc959a577137a3
+      internalID: -1831927594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_215
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 28
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265677ca0dcb0e8439a2a23426c3eeb0
+      internalID: 2119096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_216
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 97
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaba44adee9ce840aa1b9a1d141176b
+      internalID: 859784573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_217
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 86
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db03c62d288f254bbee30cb277ed4e6
+      internalID: 946571336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_218
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 74
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d8ea00e4a8c749afe864e76d2d6c9
+      internalID: 471646172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_219
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 72
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aa512b1c7cf3145b2380f20c6c33b8
+      internalID: -73507609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_220
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 72
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84eaaa238e62a94d826ad7001a40d7c
+      internalID: 488343184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_221
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 77
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c1e7415321b4f44837bd005ec93710
+      internalID: -1298107602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_222
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 76
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341178792414b9f41b7d5fe341e9a272
+      internalID: -258983676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_223
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 88
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d473a7aad92a4bb1335e7fa2e55ef
+      internalID: -48719657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_224
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 84
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcb5d2804b600a40a6d6c3ad62f0f3f
+      internalID: -132672177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_225
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 84
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc0e7b352c38064390a58b8b38bac77
+      internalID: 990793349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_226
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 82
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c063c3f98dc1ff44f9fed6da477b0a81
+      internalID: 614414619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_227
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 84
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0801c32ba61cfca4c8d7ec5133e2811f
+      internalID: -628450139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_228
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 82
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31cddc95825fc74aa3291caa5cfc779
+      internalID: -1782090156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_229
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 54
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5723ee10b7234c74fa7378edb46530a7
+      internalID: -961683838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_230
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95390ab12acb4429b49fecb8a26b2c
+      internalID: 1218148869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_231
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 54
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0175a50ed6e93d54db2a7a224800f566
+      internalID: -1939600688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_232
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 54
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5a3453a51c521438ea80550dc55720
+      internalID: 549174111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_233
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 75
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91964a09061217242a974a5e1cf05abc
+      internalID: 1418108966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_234
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 74
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038755b9fe006324f99a4b66e54fc118
+      internalID: -1386748990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_235
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 73
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945b359c8667d99478af567bebfe2fd4
+      internalID: -661875944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_236
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 73
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b466c6438dbae4c81ced4a95b6aefe
+      internalID: -1460651206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_237
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 38
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fe8651be8803648a6ff136003f2f6f
+      internalID: 2020152676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_238
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 38
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5908b9c54b563c4fa4aab10e9683c65
+      internalID: -1535815318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_239
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 40
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87fcc9e8c1052c47976794888ab4873
+      internalID: 679395888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_240
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668e35a17d35b234a8d6f2022358aec8
+      internalID: -474230703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_241
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 38
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27b553d24d60a40a9bf5cb87abf184
+      internalID: -2097600140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_242
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898fc098ba2f7674095e972797dd5d3b
+      internalID: 171197506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_243
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 53
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f4a6c06b6b6c4c838cbc930c5c97c
+      internalID: -1661208007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_244
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712b9507832b0d942a020cb89da5ddfa
+      internalID: -1294157048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_245
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 59
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fec0701511c3e4488b9838b6a5ba2b
+      internalID: -1901624402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_246
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 63
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd017648ac2e044a993d83de670ee0e
+      internalID: -869121726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_247
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 57
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7bbabedda76af4982cbcd8eea82b90
+      internalID: -724186975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_248
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 57
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed5f7120cb8d724dab59955a17244d0
+      internalID: -1321480781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_249
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 61
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c837c7640c71374780021e6821cd04f
+      internalID: -1907824350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_250
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 57
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce917ec99cc2df459cf16976a1f0cfd
+      internalID: -2032169054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_251
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 57
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5bba8e870e13240b7d762aa8db097a
+      internalID: -234869128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_252
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 61
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299fb97d0a10f96428a9fccd343c9ede
+      internalID: -1434197629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_253
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 40
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c4dccc2d0e6eb46a205abf962fd30d
+      internalID: -1190190184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_254
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 40
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f23126a0065b347b6135238f551868
+      internalID: 950371885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_255
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 40
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93a2eab2321637429a21871298ddcea
+      internalID: 1034848033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_256
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 40
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474379120840f3a43af243c4295da18a
+      internalID: -1334566567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_257
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 38
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e6e743c1b939459155093710a2cc7
+      internalID: 2081290702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_258
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 41
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83563cd76e4e24baa93e6845b70eac
+      internalID: -747582046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_259
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 43
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f62e24023aa9e4f8c62171f4b6573e
+      internalID: -1743326375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_260
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 43
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cf0c2d7c53ab14eaa655542834f4fc
+      internalID: -1096491759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_261
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 43
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04f2399fd0795f43bf8e68fa71ca874
+      internalID: -140537027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_262
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 41
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd371bbb9abce34598d8cefb8eb5a6b
+      internalID: -1766787132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_263
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 40
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a299a7b9d67b4297aca2c302e4705
+      internalID: 1347208229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_264
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 21
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6c05b59c22974eb1c23af68b67335
+      internalID: 1967848666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_265
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 21
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b62cc3efd00c347b992290a58a5005
+      internalID: -868175565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_266
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 21
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e2323843bc2c428fc6002a7385822
+      internalID: -130009873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_267
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eea57405dc77046a0b8fd37d636cc4
+      internalID: -1178236609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_268
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644db6919acbfff4eb4173af096e1f76
+      internalID: 1370483473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_269
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947f556221312de4a9e02a4c0e7d5510
+      internalID: 1548168717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_270
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 17
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b00f61a7749a941b1f2c9b005d0b53
+      internalID: -1943073801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_271
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 17
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83256ccbab95abd419e02392212919f3
+      internalID: -1117577731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_272
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b52755107ebd145b3b9108c1fd9a6c
+      internalID: 1229070436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_273
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 12
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc4fd5fd6ebfc042a5a10c49b8de430
+      internalID: -197837438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_274
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 11
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd90441b18dc7640a74651c66d5e200
+      internalID: 1010727552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_275
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 9
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd59b5a1019614794a12ee4bdd9ee9
+      internalID: -1592703317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_276
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 12
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7851a331a528c74594446b8b635e2ea
+      internalID: -2043258596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_277
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e8ea266652318459349aeaebf34881
+      internalID: -45763167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_278
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 13
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c2dcb4cfbde543a7fd22ba7fd21fa
+      internalID: 438568112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_279
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 13
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf033ce7b41f6c41a223791cacaf86e
+      internalID: 1860868898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_280
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 13
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad5927c8ccff3846a343af7cf9de49f
+      internalID: 524267397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_281
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 13
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b400c098ae7824c905bb1cbc762822
+      internalID: -1593769991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_282
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 12
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419722c7e071a6d438f37a64347d5b3c
+      internalID: -1683918386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_283
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 12
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d625c8a877666468d257e23f096684
+      internalID: -1508419385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_284
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 12
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6eff9160a66664391bf4d9145cff3e
+      internalID: 859005566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_285
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 10
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95248da4c0bebbb43a65babdd9173bd9
+      internalID: -1481399613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_286
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 11
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c7bbbc7fa48e248975a19517407c37
+      internalID: -334580370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_287
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 5
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aae9161c7b446c4cbc334ed398f6a8a
+      internalID: -515050727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_288
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 5
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a11e96181474914f9a67fcb847d5b6f
+      internalID: 520248304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Background Trees & Plants_289
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 5
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f480f79b98ef2468fbf703434d80a6
+      internalID: 1584262969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Background Trees & Plants_0: 1813110571
+      PC Computer - Stardew Valley - Background Trees & Plants_1: 1726403204
+      PC Computer - Stardew Valley - Background Trees & Plants_10: -639375050
+      PC Computer - Stardew Valley - Background Trees & Plants_100: 2045629364
+      PC Computer - Stardew Valley - Background Trees & Plants_101: -2107345645
+      PC Computer - Stardew Valley - Background Trees & Plants_102: 799956134
+      PC Computer - Stardew Valley - Background Trees & Plants_103: 1047313279
+      PC Computer - Stardew Valley - Background Trees & Plants_104: 655116780
+      PC Computer - Stardew Valley - Background Trees & Plants_105: -16827116
+      PC Computer - Stardew Valley - Background Trees & Plants_106: -23562301
+      PC Computer - Stardew Valley - Background Trees & Plants_107: 641253691
+      PC Computer - Stardew Valley - Background Trees & Plants_108: 1475703456
+      PC Computer - Stardew Valley - Background Trees & Plants_109: -799095237
+      PC Computer - Stardew Valley - Background Trees & Plants_11: -368837227
+      PC Computer - Stardew Valley - Background Trees & Plants_110: 895413646
+      PC Computer - Stardew Valley - Background Trees & Plants_111: 1365863114
+      PC Computer - Stardew Valley - Background Trees & Plants_112: 1371320078
+      PC Computer - Stardew Valley - Background Trees & Plants_113: 1396602893
+      PC Computer - Stardew Valley - Background Trees & Plants_114: 1114290882
+      PC Computer - Stardew Valley - Background Trees & Plants_115: -1672052802
+      PC Computer - Stardew Valley - Background Trees & Plants_116: 1935407592
+      PC Computer - Stardew Valley - Background Trees & Plants_117: 1111690418
+      PC Computer - Stardew Valley - Background Trees & Plants_118: -196345999
+      PC Computer - Stardew Valley - Background Trees & Plants_119: 673674667
+      PC Computer - Stardew Valley - Background Trees & Plants_12: -1085424419
+      PC Computer - Stardew Valley - Background Trees & Plants_120: 1615327770
+      PC Computer - Stardew Valley - Background Trees & Plants_121: -945719535
+      PC Computer - Stardew Valley - Background Trees & Plants_122: 242133132
+      PC Computer - Stardew Valley - Background Trees & Plants_123: 965225739
+      PC Computer - Stardew Valley - Background Trees & Plants_124: 1594680511
+      PC Computer - Stardew Valley - Background Trees & Plants_125: 703549617
+      PC Computer - Stardew Valley - Background Trees & Plants_126: 982711312
+      PC Computer - Stardew Valley - Background Trees & Plants_127: 1503182590
+      PC Computer - Stardew Valley - Background Trees & Plants_128: -990831753
+      PC Computer - Stardew Valley - Background Trees & Plants_129: -698880058
+      PC Computer - Stardew Valley - Background Trees & Plants_13: -442087589
+      PC Computer - Stardew Valley - Background Trees & Plants_130: 1944626359
+      PC Computer - Stardew Valley - Background Trees & Plants_131: 1695462556
+      PC Computer - Stardew Valley - Background Trees & Plants_132: 739787282
+      PC Computer - Stardew Valley - Background Trees & Plants_133: -110224128
+      PC Computer - Stardew Valley - Background Trees & Plants_134: -1328046899
+      PC Computer - Stardew Valley - Background Trees & Plants_135: 1120480896
+      PC Computer - Stardew Valley - Background Trees & Plants_136: 580997858
+      PC Computer - Stardew Valley - Background Trees & Plants_137: -80240801
+      PC Computer - Stardew Valley - Background Trees & Plants_138: -423842159
+      PC Computer - Stardew Valley - Background Trees & Plants_139: 544301568
+      PC Computer - Stardew Valley - Background Trees & Plants_14: -153540514
+      PC Computer - Stardew Valley - Background Trees & Plants_140: -421265282
+      PC Computer - Stardew Valley - Background Trees & Plants_141: 2025198235
+      PC Computer - Stardew Valley - Background Trees & Plants_142: -129221607
+      PC Computer - Stardew Valley - Background Trees & Plants_143: -1855218478
+      PC Computer - Stardew Valley - Background Trees & Plants_144: -875959242
+      PC Computer - Stardew Valley - Background Trees & Plants_145: -1958665086
+      PC Computer - Stardew Valley - Background Trees & Plants_146: -1329173350
+      PC Computer - Stardew Valley - Background Trees & Plants_147: 1734257870
+      PC Computer - Stardew Valley - Background Trees & Plants_148: -1673987940
+      PC Computer - Stardew Valley - Background Trees & Plants_149: -872115838
+      PC Computer - Stardew Valley - Background Trees & Plants_15: -1369224232
+      PC Computer - Stardew Valley - Background Trees & Plants_150: 1168855962
+      PC Computer - Stardew Valley - Background Trees & Plants_151: -850227112
+      PC Computer - Stardew Valley - Background Trees & Plants_152: 1468906675
+      PC Computer - Stardew Valley - Background Trees & Plants_153: 1485069015
+      PC Computer - Stardew Valley - Background Trees & Plants_154: 1197351261
+      PC Computer - Stardew Valley - Background Trees & Plants_155: -1319050740
+      PC Computer - Stardew Valley - Background Trees & Plants_156: -304743216
+      PC Computer - Stardew Valley - Background Trees & Plants_157: 1555113927
+      PC Computer - Stardew Valley - Background Trees & Plants_158: 1936860698
+      PC Computer - Stardew Valley - Background Trees & Plants_159: -625892467
+      PC Computer - Stardew Valley - Background Trees & Plants_16: 2020881276
+      PC Computer - Stardew Valley - Background Trees & Plants_160: -1772812887
+      PC Computer - Stardew Valley - Background Trees & Plants_161: 703059434
+      PC Computer - Stardew Valley - Background Trees & Plants_162: 1291186541
+      PC Computer - Stardew Valley - Background Trees & Plants_163: -1390551571
+      PC Computer - Stardew Valley - Background Trees & Plants_164: -44442834
+      PC Computer - Stardew Valley - Background Trees & Plants_165: -658659454
+      PC Computer - Stardew Valley - Background Trees & Plants_166: 994849587
+      PC Computer - Stardew Valley - Background Trees & Plants_167: -2507752
+      PC Computer - Stardew Valley - Background Trees & Plants_168: 212925521
+      PC Computer - Stardew Valley - Background Trees & Plants_169: -1898879461
+      PC Computer - Stardew Valley - Background Trees & Plants_17: 209159276
+      PC Computer - Stardew Valley - Background Trees & Plants_170: 2078378285
+      PC Computer - Stardew Valley - Background Trees & Plants_171: 1707075939
+      PC Computer - Stardew Valley - Background Trees & Plants_172: -1210159968
+      PC Computer - Stardew Valley - Background Trees & Plants_173: -1833777609
+      PC Computer - Stardew Valley - Background Trees & Plants_174: 1967357194
+      PC Computer - Stardew Valley - Background Trees & Plants_175: -1852169501
+      PC Computer - Stardew Valley - Background Trees & Plants_176: 517202472
+      PC Computer - Stardew Valley - Background Trees & Plants_177: 13943658
+      PC Computer - Stardew Valley - Background Trees & Plants_178: -52298071
+      PC Computer - Stardew Valley - Background Trees & Plants_179: 342880989
+      PC Computer - Stardew Valley - Background Trees & Plants_18: -129677720
+      PC Computer - Stardew Valley - Background Trees & Plants_180: 563019505
+      PC Computer - Stardew Valley - Background Trees & Plants_181: 2055855971
+      PC Computer - Stardew Valley - Background Trees & Plants_182: 968381794
+      PC Computer - Stardew Valley - Background Trees & Plants_183: -1865864
+      PC Computer - Stardew Valley - Background Trees & Plants_184: 162538686
+      PC Computer - Stardew Valley - Background Trees & Plants_185: -604534539
+      PC Computer - Stardew Valley - Background Trees & Plants_186: 348700213
+      PC Computer - Stardew Valley - Background Trees & Plants_187: 1471502835
+      PC Computer - Stardew Valley - Background Trees & Plants_188: 511026042
+      PC Computer - Stardew Valley - Background Trees & Plants_189: 2139107808
+      PC Computer - Stardew Valley - Background Trees & Plants_19: -325965420
+      PC Computer - Stardew Valley - Background Trees & Plants_190: -1849327434
+      PC Computer - Stardew Valley - Background Trees & Plants_191: 67326050
+      PC Computer - Stardew Valley - Background Trees & Plants_192: -301889330
+      PC Computer - Stardew Valley - Background Trees & Plants_193: -387201158
+      PC Computer - Stardew Valley - Background Trees & Plants_194: 1506197417
+      PC Computer - Stardew Valley - Background Trees & Plants_195: 1238561890
+      PC Computer - Stardew Valley - Background Trees & Plants_196: 1776626436
+      PC Computer - Stardew Valley - Background Trees & Plants_197: 899088861
+      PC Computer - Stardew Valley - Background Trees & Plants_198: 505634745
+      PC Computer - Stardew Valley - Background Trees & Plants_199: 748633465
+      PC Computer - Stardew Valley - Background Trees & Plants_2: 2072517767
+      PC Computer - Stardew Valley - Background Trees & Plants_20: 720934575
+      PC Computer - Stardew Valley - Background Trees & Plants_200: -598456877
+      PC Computer - Stardew Valley - Background Trees & Plants_201: 469707777
+      PC Computer - Stardew Valley - Background Trees & Plants_202: -750460850
+      PC Computer - Stardew Valley - Background Trees & Plants_203: 2115920013
+      PC Computer - Stardew Valley - Background Trees & Plants_204: -1928642603
+      PC Computer - Stardew Valley - Background Trees & Plants_205: 582354999
+      PC Computer - Stardew Valley - Background Trees & Plants_206: 862520560
+      PC Computer - Stardew Valley - Background Trees & Plants_207: 135864925
+      PC Computer - Stardew Valley - Background Trees & Plants_208: 1318096346
+      PC Computer - Stardew Valley - Background Trees & Plants_209: -926198003
+      PC Computer - Stardew Valley - Background Trees & Plants_21: 1889047620
+      PC Computer - Stardew Valley - Background Trees & Plants_210: -716762352
+      PC Computer - Stardew Valley - Background Trees & Plants_211: -2133771273
+      PC Computer - Stardew Valley - Background Trees & Plants_212: 275080354
+      PC Computer - Stardew Valley - Background Trees & Plants_213: 1105305571
+      PC Computer - Stardew Valley - Background Trees & Plants_214: -1831927594
+      PC Computer - Stardew Valley - Background Trees & Plants_215: 2119096607
+      PC Computer - Stardew Valley - Background Trees & Plants_216: 859784573
+      PC Computer - Stardew Valley - Background Trees & Plants_217: 946571336
+      PC Computer - Stardew Valley - Background Trees & Plants_218: 471646172
+      PC Computer - Stardew Valley - Background Trees & Plants_219: -73507609
+      PC Computer - Stardew Valley - Background Trees & Plants_22: -423070388
+      PC Computer - Stardew Valley - Background Trees & Plants_220: 488343184
+      PC Computer - Stardew Valley - Background Trees & Plants_221: -1298107602
+      PC Computer - Stardew Valley - Background Trees & Plants_222: -258983676
+      PC Computer - Stardew Valley - Background Trees & Plants_223: -48719657
+      PC Computer - Stardew Valley - Background Trees & Plants_224: -132672177
+      PC Computer - Stardew Valley - Background Trees & Plants_225: 990793349
+      PC Computer - Stardew Valley - Background Trees & Plants_226: 614414619
+      PC Computer - Stardew Valley - Background Trees & Plants_227: -628450139
+      PC Computer - Stardew Valley - Background Trees & Plants_228: -1782090156
+      PC Computer - Stardew Valley - Background Trees & Plants_229: -961683838
+      PC Computer - Stardew Valley - Background Trees & Plants_23: -1293277675
+      PC Computer - Stardew Valley - Background Trees & Plants_230: 1218148869
+      PC Computer - Stardew Valley - Background Trees & Plants_231: -1939600688
+      PC Computer - Stardew Valley - Background Trees & Plants_232: 549174111
+      PC Computer - Stardew Valley - Background Trees & Plants_233: 1418108966
+      PC Computer - Stardew Valley - Background Trees & Plants_234: -1386748990
+      PC Computer - Stardew Valley - Background Trees & Plants_235: -661875944
+      PC Computer - Stardew Valley - Background Trees & Plants_236: -1460651206
+      PC Computer - Stardew Valley - Background Trees & Plants_237: 2020152676
+      PC Computer - Stardew Valley - Background Trees & Plants_238: -1535815318
+      PC Computer - Stardew Valley - Background Trees & Plants_239: 679395888
+      PC Computer - Stardew Valley - Background Trees & Plants_24: 843354397
+      PC Computer - Stardew Valley - Background Trees & Plants_240: -474230703
+      PC Computer - Stardew Valley - Background Trees & Plants_241: -2097600140
+      PC Computer - Stardew Valley - Background Trees & Plants_242: 171197506
+      PC Computer - Stardew Valley - Background Trees & Plants_243: -1661208007
+      PC Computer - Stardew Valley - Background Trees & Plants_244: -1294157048
+      PC Computer - Stardew Valley - Background Trees & Plants_245: -1901624402
+      PC Computer - Stardew Valley - Background Trees & Plants_246: -869121726
+      PC Computer - Stardew Valley - Background Trees & Plants_247: -724186975
+      PC Computer - Stardew Valley - Background Trees & Plants_248: -1321480781
+      PC Computer - Stardew Valley - Background Trees & Plants_249: -1907824350
+      PC Computer - Stardew Valley - Background Trees & Plants_25: 664737057
+      PC Computer - Stardew Valley - Background Trees & Plants_250: -2032169054
+      PC Computer - Stardew Valley - Background Trees & Plants_251: -234869128
+      PC Computer - Stardew Valley - Background Trees & Plants_252: -1434197629
+      PC Computer - Stardew Valley - Background Trees & Plants_253: -1190190184
+      PC Computer - Stardew Valley - Background Trees & Plants_254: 950371885
+      PC Computer - Stardew Valley - Background Trees & Plants_255: 1034848033
+      PC Computer - Stardew Valley - Background Trees & Plants_256: -1334566567
+      PC Computer - Stardew Valley - Background Trees & Plants_257: 2081290702
+      PC Computer - Stardew Valley - Background Trees & Plants_258: -747582046
+      PC Computer - Stardew Valley - Background Trees & Plants_259: -1743326375
+      PC Computer - Stardew Valley - Background Trees & Plants_26: 1876617891
+      PC Computer - Stardew Valley - Background Trees & Plants_260: -1096491759
+      PC Computer - Stardew Valley - Background Trees & Plants_261: -140537027
+      PC Computer - Stardew Valley - Background Trees & Plants_262: -1766787132
+      PC Computer - Stardew Valley - Background Trees & Plants_263: 1347208229
+      PC Computer - Stardew Valley - Background Trees & Plants_264: 1967848666
+      PC Computer - Stardew Valley - Background Trees & Plants_265: -868175565
+      PC Computer - Stardew Valley - Background Trees & Plants_266: -130009873
+      PC Computer - Stardew Valley - Background Trees & Plants_267: -1178236609
+      PC Computer - Stardew Valley - Background Trees & Plants_268: 1370483473
+      PC Computer - Stardew Valley - Background Trees & Plants_269: 1548168717
+      PC Computer - Stardew Valley - Background Trees & Plants_27: -1395293506
+      PC Computer - Stardew Valley - Background Trees & Plants_270: -1943073801
+      PC Computer - Stardew Valley - Background Trees & Plants_271: -1117577731
+      PC Computer - Stardew Valley - Background Trees & Plants_272: 1229070436
+      PC Computer - Stardew Valley - Background Trees & Plants_273: -197837438
+      PC Computer - Stardew Valley - Background Trees & Plants_274: 1010727552
+      PC Computer - Stardew Valley - Background Trees & Plants_275: -1592703317
+      PC Computer - Stardew Valley - Background Trees & Plants_276: -2043258596
+      PC Computer - Stardew Valley - Background Trees & Plants_277: -45763167
+      PC Computer - Stardew Valley - Background Trees & Plants_278: 438568112
+      PC Computer - Stardew Valley - Background Trees & Plants_279: 1860868898
+      PC Computer - Stardew Valley - Background Trees & Plants_28: 818890421
+      PC Computer - Stardew Valley - Background Trees & Plants_280: 524267397
+      PC Computer - Stardew Valley - Background Trees & Plants_281: -1593769991
+      PC Computer - Stardew Valley - Background Trees & Plants_282: -1683918386
+      PC Computer - Stardew Valley - Background Trees & Plants_283: -1508419385
+      PC Computer - Stardew Valley - Background Trees & Plants_284: 859005566
+      PC Computer - Stardew Valley - Background Trees & Plants_285: -1481399613
+      PC Computer - Stardew Valley - Background Trees & Plants_286: -334580370
+      PC Computer - Stardew Valley - Background Trees & Plants_287: -515050727
+      PC Computer - Stardew Valley - Background Trees & Plants_288: 520248304
+      PC Computer - Stardew Valley - Background Trees & Plants_289: 1584262969
+      PC Computer - Stardew Valley - Background Trees & Plants_29: -920842761
+      PC Computer - Stardew Valley - Background Trees & Plants_3: 1800920285
+      PC Computer - Stardew Valley - Background Trees & Plants_30: 897484276
+      PC Computer - Stardew Valley - Background Trees & Plants_31: -1728606729
+      PC Computer - Stardew Valley - Background Trees & Plants_32: 1123416851
+      PC Computer - Stardew Valley - Background Trees & Plants_33: 2115164251
+      PC Computer - Stardew Valley - Background Trees & Plants_34: 1291868731
+      PC Computer - Stardew Valley - Background Trees & Plants_35: -1881586631
+      PC Computer - Stardew Valley - Background Trees & Plants_36: 2027295822
+      PC Computer - Stardew Valley - Background Trees & Plants_37: 2040300322
+      PC Computer - Stardew Valley - Background Trees & Plants_38: 502003499
+      PC Computer - Stardew Valley - Background Trees & Plants_39: -795066283
+      PC Computer - Stardew Valley - Background Trees & Plants_4: -52863222
+      PC Computer - Stardew Valley - Background Trees & Plants_40: -168318730
+      PC Computer - Stardew Valley - Background Trees & Plants_41: 1558092320
+      PC Computer - Stardew Valley - Background Trees & Plants_42: 880900439
+      PC Computer - Stardew Valley - Background Trees & Plants_43: 930490682
+      PC Computer - Stardew Valley - Background Trees & Plants_44: -1348000702
+      PC Computer - Stardew Valley - Background Trees & Plants_45: 286719940
+      PC Computer - Stardew Valley - Background Trees & Plants_46: -2135389602
+      PC Computer - Stardew Valley - Background Trees & Plants_47: 1727313701
+      PC Computer - Stardew Valley - Background Trees & Plants_48: -1963530767
+      PC Computer - Stardew Valley - Background Trees & Plants_49: 408573333
+      PC Computer - Stardew Valley - Background Trees & Plants_5: 763984070
+      PC Computer - Stardew Valley - Background Trees & Plants_50: 436470868
+      PC Computer - Stardew Valley - Background Trees & Plants_51: 542436758
+      PC Computer - Stardew Valley - Background Trees & Plants_52: 1062051452
+      PC Computer - Stardew Valley - Background Trees & Plants_53: 2064298094
+      PC Computer - Stardew Valley - Background Trees & Plants_54: 1795934438
+      PC Computer - Stardew Valley - Background Trees & Plants_55: -198321452
+      PC Computer - Stardew Valley - Background Trees & Plants_56: 1854566823
+      PC Computer - Stardew Valley - Background Trees & Plants_57: 1011201367
+      PC Computer - Stardew Valley - Background Trees & Plants_58: 1097718874
+      PC Computer - Stardew Valley - Background Trees & Plants_59: -406160766
+      PC Computer - Stardew Valley - Background Trees & Plants_6: 1189870212
+      PC Computer - Stardew Valley - Background Trees & Plants_60: 2006616890
+      PC Computer - Stardew Valley - Background Trees & Plants_61: 553921197
+      PC Computer - Stardew Valley - Background Trees & Plants_62: -296644259
+      PC Computer - Stardew Valley - Background Trees & Plants_63: 789801761
+      PC Computer - Stardew Valley - Background Trees & Plants_64: 1012762304
+      PC Computer - Stardew Valley - Background Trees & Plants_65: 1012122366
+      PC Computer - Stardew Valley - Background Trees & Plants_66: -785740503
+      PC Computer - Stardew Valley - Background Trees & Plants_67: 1181545278
+      PC Computer - Stardew Valley - Background Trees & Plants_68: 1041921116
+      PC Computer - Stardew Valley - Background Trees & Plants_69: -1394942285
+      PC Computer - Stardew Valley - Background Trees & Plants_7: 480929986
+      PC Computer - Stardew Valley - Background Trees & Plants_70: -284906288
+      PC Computer - Stardew Valley - Background Trees & Plants_71: 304194982
+      PC Computer - Stardew Valley - Background Trees & Plants_72: 847000296
+      PC Computer - Stardew Valley - Background Trees & Plants_73: -1648587638
+      PC Computer - Stardew Valley - Background Trees & Plants_74: -1936451064
+      PC Computer - Stardew Valley - Background Trees & Plants_75: -1001760656
+      PC Computer - Stardew Valley - Background Trees & Plants_76: -2076823429
+      PC Computer - Stardew Valley - Background Trees & Plants_77: -851434574
+      PC Computer - Stardew Valley - Background Trees & Plants_78: 757139600
+      PC Computer - Stardew Valley - Background Trees & Plants_79: -804944121
+      PC Computer - Stardew Valley - Background Trees & Plants_8: -864076463
+      PC Computer - Stardew Valley - Background Trees & Plants_80: 1293974046
+      PC Computer - Stardew Valley - Background Trees & Plants_81: 1012470318
+      PC Computer - Stardew Valley - Background Trees & Plants_82: -2133663159
+      PC Computer - Stardew Valley - Background Trees & Plants_83: -1189963269
+      PC Computer - Stardew Valley - Background Trees & Plants_84: 1636610331
+      PC Computer - Stardew Valley - Background Trees & Plants_85: -1532839041
+      PC Computer - Stardew Valley - Background Trees & Plants_86: 1910006213
+      PC Computer - Stardew Valley - Background Trees & Plants_87: -614861155
+      PC Computer - Stardew Valley - Background Trees & Plants_88: -1145229278
+      PC Computer - Stardew Valley - Background Trees & Plants_89: 408677900
+      PC Computer - Stardew Valley - Background Trees & Plants_9: -1988807089
+      PC Computer - Stardew Valley - Background Trees & Plants_90: -368314821
+      PC Computer - Stardew Valley - Background Trees & Plants_91: -1482947188
+      PC Computer - Stardew Valley - Background Trees & Plants_92: -506492062
+      PC Computer - Stardew Valley - Background Trees & Plants_93: -2105133111
+      PC Computer - Stardew Valley - Background Trees & Plants_94: 118167751
+      PC Computer - Stardew Valley - Background Trees & Plants_95: 1200690776
+      PC Computer - Stardew Valley - Background Trees & Plants_96: 1171541946
+      PC Computer - Stardew Valley - Background Trees & Plants_97: -2073585663
+      PC Computer - Stardew Valley - Background Trees & Plants_98: 1242778435
+      PC Computer - Stardew Valley - Background Trees & Plants_99: -979304948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
