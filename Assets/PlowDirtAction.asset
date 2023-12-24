@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced66bb9844359546aa07012830796c8, type: 3}
-  m_Name: CurrentGoals
+  m_Script: {fileID: 11500000, guid: ce22b4c2c2021da4ba3437289a4e6164, type: 3}
+  m_Name: PlowDirtAction
   m_EditorClassIdentifier: 
-  keys:
-  - Tomatoes
-  values: 00000000
-  require: 05000000
-  moneyReward: 50
-  expReward: 25
-  previousValues: 00000000
+  canPlow:
+  - {fileID: 11400000, guid: b3f182546348bf84697c3e7e3abca03d, type: 2}
