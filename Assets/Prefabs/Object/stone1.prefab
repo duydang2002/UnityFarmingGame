@@ -102,7 +102,7 @@ MonoBehaviour:
   pickUpDistance: 1.5
   ttl: 10
   waitingSecond: 1
-  item: {fileID: 11400000, guid: 78194333c6e107e4c978e097d7716862, type: 2}
+  item: {fileID: 11400000, guid: 2a694a5a592a17c419fc9af3ee729c7a, type: 2}
   count: 1
 --- !u!61 &-5556464240570299302
 BoxCollider2D:

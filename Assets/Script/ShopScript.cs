@@ -59,7 +59,7 @@ public class ShopScript : MonoBehaviour
         }
         else
         {
-            Debug.LogError("No Button component found on shop item template.");
+            Debug.Log("No Button component found on shop item template.");
         }
 
        
@@ -79,12 +79,12 @@ public class ShopScript : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Not enough money to purchase this item");
+                Debug.Log("Not enough money to purchase this item");
             }
         }
         else
         {
-            Debug.LogError("No item selected");
+            Debug.Log("No item selected");
         }
     }
 
@@ -109,14 +109,11 @@ public class ShopScript : MonoBehaviour
                 GameManager.instance.toolBarPanel.SetActive(false);
                 GameManager.instance.toolBarPanel.SetActive(true);
             }
-            else
-            {
-                Debug.LogError("Item not in inventory");
-            }
+            
         }
         else
         {
-            Debug.LogError("No item selected");
+            Debug.Log("No item selected");
         }
     }
 
@@ -126,10 +123,13 @@ public class ShopScript : MonoBehaviour
         Item Eggs = Resources.Load<Item>("Item/Egg");
         Item Carrot = Resources.Load<Item>("Item/Carrot");
         Item wood = Resources.Load<Item>("Item/Wood");
+        Item stone = Resources.Load<Item>("Item/Stone");
+
         
         CreateItemButton(Eggs);
         CreateItemButton(Carrot);
         CreateItemButton(wood);
+        CreateItemButton(stone);
     }
 
 }

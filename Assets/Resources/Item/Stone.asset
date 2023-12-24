@@ -15,4 +15,8 @@ MonoBehaviour:
   Name: Stone
   stackable: 1
   icon: {fileID: 21300000, guid: 566f50547ca318a4e83b7916372bacda, type: 3}
-  moneyValue: 100
+  onAction: {fileID: 0}
+  crop: {fileID: 0}
+  onTileMapAction: {fileID: 0}
+  OnItemUsed: {fileID: 0}
+  moneyValue: 5
