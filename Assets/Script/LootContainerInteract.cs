@@ -16,6 +16,12 @@ public class LootContainerInteract : Interactable
             opened = true;
             Item Axe = Resources.Load<Item>("Item/Axe");
             GameManager.instance.inventoryContainer.Add(Axe);
+            Item PickAxe = Resources.Load<Item>("Item/PickAxe");
+            GameManager.instance.inventoryContainer.Add(PickAxe);
+            Item Plow = Resources.Load<Item>("Item/Plow");
+            GameManager.instance.inventoryContainer.Add(Plow);
+            Item Seed = Resources.Load<Item>("Item/Seeds");
+            GameManager.instance.inventoryContainer.Add(Seed,5);
 
 
             GameManager.instance.toolBarPanel.SetActive(false);

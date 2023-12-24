@@ -123,11 +123,11 @@ public class ShopScript : MonoBehaviour
     void Start()
     {
         Item Eggs = Resources.Load<Item>("Item/Egg");
-        Item stone = Resources.Load<Item>("Item/Stone");
+        Item Carrot = Resources.Load<Item>("Item/Carrot");
         Item wood = Resources.Load<Item>("Item/Wood");
         
         CreateItemButton(Eggs);
-        CreateItemButton(stone);
+        CreateItemButton(Carrot);
         CreateItemButton(wood);
     }
 
