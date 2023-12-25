@@ -40,7 +40,7 @@ public class ItemContainer : ScriptableObject
             ItemSlot itemSlot = slot.Find(x=> x.item == item);
             if (itemSlot != null)
             {
-                itemSlot.count++;
+                itemSlot.count+=count;
             }
             else
             {   

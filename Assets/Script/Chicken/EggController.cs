@@ -112,7 +112,7 @@ public class EggsController : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Debug.Log("Collision");
+            //Debug.Log("Collision");
             highlightIcon.SetActive(false);
             isCollision = false;
         }
@@ -135,7 +135,7 @@ public class EggsController : MonoBehaviour
                 return;
             }
 
-            Debug.Log("Pick up " + pickUp);
+            //Debug.Log("Pick up " + pickUp);
 
 
             if (isCollision && pickUp)
@@ -149,6 +149,7 @@ public class EggsController : MonoBehaviour
                 // *TODO* should be moved into specified controller rather than being checked here
                 if (GameManager.instance.inventoryContainer != null)
                 {
+                    //Debug.Log("egg " + count);
                     GameManager.instance.inventoryContainer.Add(item, count);
                 }
                 else
