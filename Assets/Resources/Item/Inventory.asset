@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a22152a0a84cd0419b3db3bff373bac, type: 3}
+  m_Name: Inventory
+  m_EditorClassIdentifier: 
+  slot:
+  - item: {fileID: 11400000, guid: 78194333c6e107e4c978e097d7716862, type: 2}
+    count: 65
+  - item: {fileID: 11400000, guid: 82031792389b4464093fc5f9602ac79b, type: 2}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 11400000, guid: 397525bbb19f53d489b0d4dd1305e59a, type: 2}
+    count: 10
+  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: 392f3490a4bf35d4da7e6de0cd792c96, type: 2}
+    count: 1061
+  - item: {fileID: 11400000, guid: 82031792389b4464093fc5f9602ac79b, type: 2}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 11400000, guid: 2a1b824b182355f40b443d23f38b3c3f, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: c395631cb2e1fb143b047bd2953e1002, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 0dc447a4fc92fd54e9c169ee69caf3a3, type: 2}
+    count: 1000
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0

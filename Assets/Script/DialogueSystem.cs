@@ -79,8 +79,12 @@ public class DialogueSystem : MonoBehaviour
     {
         Show(true);
         currentDialogue = dialogueContainer;
+        Debug.Log(currentDialogue);
         currentTextLine = 0;
         CycleLine();
+        visibleTextPercent = 0f;
+        targetText.text = "";
+        currentTime = 0f;
         UpdatePortrait();
     }
 
@@ -94,6 +98,7 @@ public class DialogueSystem : MonoBehaviour
     {
         Debug.Log("The dialogue has ended");
         Show(false);
+        currentDialogue = null;
         nPC.setInteracting(false);
     }
     private void Show (bool state)

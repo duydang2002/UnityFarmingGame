@@ -54,6 +54,7 @@ public class NPCController : Interactable
         if (questOn)
         {
             string assetPath = "Dialogues/" + "CurrentDialogue" ;
+            //Debug.Log(start);
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
             hightlightController.QuestAppear(gameObject);
         }
@@ -75,11 +76,11 @@ public class NPCController : Interactable
         float horizontal = transform.position.y - player.position.y;
         float vertical = transform.position.x - player.position.x;
         
-        Debug.Log(horizontal + " " + vertical);
+        //Debug.Log(horizontal + " " + vertical);
         animatorMove.SetFloat("Horizontal", -horizontal);
         animatorMove.SetFloat("Vertical", -vertical);
 
-        
+        Debug.Log(dialogueContainer.line);
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
         if (questOn)
         {
