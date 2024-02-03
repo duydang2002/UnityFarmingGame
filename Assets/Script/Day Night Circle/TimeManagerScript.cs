@@ -35,9 +35,6 @@ namespace DateTimeNameSpace
 
             dateTime = new DateTime(1, 0, 1, 12, 0);
 
-
-            Debug.Log($"Summer Solstice :  {dateTime.SummerSolstice(4)}");
-            Debug.Log($"Starting of a season :  {dateTime.StartOfSeason(1, 3)}");
         }
 
         // Start is called before the first frame update
@@ -91,13 +88,7 @@ namespace DateTimeNameSpace
 
         #region Properties
         public Days Day => day;
-        /* public int Date {
-         * get 
-         *  {
-         *      return date;
-         *  }
-         * }
-         */
+
         public int Date => date;
         public int Hour => hour;
         public int Minute => minute;
@@ -220,32 +211,7 @@ namespace DateTimeNameSpace
         }
         #endregion
 
-        #region Key Dates
-        public DateTime NewYearDay(int year)
-        {
-            if (year == 0) year = 1;
-            return new DateTime(1, 0, year, 6, 0);
-        }
-        public DateTime SummerSolstice(int year)
-        {
-            if (year == 0) year = 1;
-            return new DateTime(28, 1, year, 6, 0);
-        }
-        public DateTime PumkinMarvest(int year)
-        {
-            if (year == 0) year = 1;
-            return new DateTime(28, 2, year, 6, 0);
-        }
 
-        #endregion
-
-        #region Start Of Season
-
-        public DateTime StartOfSeason(int season, int year)
-        {
-            return new DateTime(date, season, year, 6, 0);
-        }
-        #endregion
         #region To Strings
         public override string ToString()
         {

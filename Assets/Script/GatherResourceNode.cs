@@ -28,6 +28,7 @@ public class GatherResourceNode : ToolAction
                 ToolHit hit = c.GetComponent<ToolHit>();
                 if (hit != null)
                 {
+                    // Tim xem co Su dung tool dung khong
                     if (hit.CanBeHit(canHitNodesOfType) == true)
                     {
                         hit.Hit(character);
@@ -39,4 +40,4 @@ public class GatherResourceNode : ToolAction
         return false;
     }
 }
-    //Rigidbody2D rgbd2d;        //rgbd2d = GetComponent<Rigidbody2D>();
+    

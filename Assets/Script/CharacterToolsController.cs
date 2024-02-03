@@ -44,12 +44,13 @@ public class CharacterToolsController : MonoBehaviour
                 UseToolGrid();
             }
         }
-
+        // Lay vi tri con tro chuot
         private void SelectTile()
         {
             selectedTilePosition = tileMapReadController.GetGridPosition(Input.mousePosition, true);
         }
-
+        
+        // Kiem tra xem co nam trong pham vi tuong tac duoc khong
         void CanSelectCheck()
         {
             Vector2 characterPosition = transform.position;
@@ -65,18 +66,20 @@ public class CharacterToolsController : MonoBehaviour
             markerManager.markedCellPosition = selectedTilePosition;
 
         }
-
+        // Dung len 1 Object khac
         private bool UseToolWorld()
         {
             Vector2 position = rgbd2d.position + characterController.lastMotionVector*offsetDistance;
             
             Item item = toolbarController.GetItem;
             if (item == null) { return false; }
+            // neu Item do khong co action len item khac
             if (item.onAction == null) { return false;}
-
+            // OnAction chinh la 1 Object khac co kieu co the duoc su dung len boi Tool nay
             bool complete = item.onAction.OnApply(position);
             if (complete == true)
             {
+                // Neu ma Item do la 1 Item tieu thu thi - di 1
                 if (item.OnItemUsed != null)
                 {
                     item.OnItemUsed.OnItemUsed(item, GameManager.instance.inventoryContainer);
@@ -84,19 +87,19 @@ public class CharacterToolsController : MonoBehaviour
             }             
             return complete;
         }
-        
+        // Dung len map vi du nhu dao dat
         private void UseToolGrid()
         {
         if (selectable == true)
             {
                 Item item = toolbarController.GetItem;
                     if (item == null) {
+                // khi khong co item thi co the no la thu hoach
                     PickUpTile();
                         return ; 
                 }
                 if (item.onTileMapAction == null) { return ;}
 
-                //animator.SetTrigger("act")
                 bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadController,item);
 
                 if (complete == true)
@@ -112,6 +115,7 @@ public class CharacterToolsController : MonoBehaviour
     private void PickUpTile()
     {
         if (onTilePickUp == null) { return; }
+        // TileMapReadController la 1 script
 
         onTilePickUp.OnApplyToTileMap(selectedTilePosition, tileMapReadController, null);
     }

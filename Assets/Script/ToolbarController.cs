@@ -19,6 +19,7 @@ public class ToolbarController : MonoBehaviour
 
     private void Update()
     {
+        // Lan chuot de thay doi tool
         float delta = Input.mouseScrollDelta.y;
         if (delta != 0)
         {
@@ -31,7 +32,7 @@ public class ToolbarController : MonoBehaviour
                 selectedTool -= 1;
                 selectedTool = (selectedTool <= 0 ? toolbarSize - 1 : selectedTool);
             }
-            //Debug.Log(selectedTool);
+            
             onChange?.Invoke(selectedTool);
         }
     }

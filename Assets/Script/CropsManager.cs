@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+// Luu cac attribute cua 1 crop
 public class CropTile
 {
     public Crop crop;
@@ -41,7 +42,7 @@ public class CropsManager : TimeManagerScript
     [SerializeField] GameObject cropSpritePrefab;
     [SerializeField] LevelManager levelManager;
 
-
+    // Mot dictionary de luu vi tri cua Cay trong
     Dictionary<Vector2Int, CropTile> crops;
 
     private void Start()
@@ -51,6 +52,7 @@ public class CropsManager : TimeManagerScript
     }
     private void Update()
     {
+        // Tinh toan thoi gian thu hoach
         currentTimeBetweenTicks += Time.deltaTime;
         if (currentTimeBetweenTicks >= timeBetweenTicks)
         {
@@ -61,11 +63,13 @@ public class CropsManager : TimeManagerScript
                 {
                     continue;
                 }
+                // Moi cay chi ton tai trong 1 khoang tg
                 cropTile.damage += 0.02f;
 
                 if (cropTile.damage > 1f)
                 {
                     cropTile.Harvested();
+                    // dat hinh sau khi dat duoc cay
                     targetTilemap.SetTile(cropTile.position, plowed);
                     continue;
                 }
@@ -97,6 +101,7 @@ public class CropsManager : TimeManagerScript
     
     public void Plow(Vector3Int position)
     {
+        // Neu vi tri do da cay roi thi return
         if (crops.ContainsKey((Vector2Int)position))
         {
             return;
@@ -108,7 +113,7 @@ public class CropsManager : TimeManagerScript
     public void Seed(Vector3Int position, Crop toSeed)
     {
         targetTilemap.SetTile(position, seeded);
-
+        // Thay doi theo hat giong da duoc dat vao
         crops[(Vector2Int)position].crop = toSeed;
     }
     
@@ -118,9 +123,13 @@ public class CropsManager : TimeManagerScript
         CropTile crop = new CropTile();
         crops.Add((Vector2Int)position, crop);
 
+        // Tao 1 game object cropSpritePrefab (chi la 1 o vuong trang) chu yeu de buoc sau thay doi 
         GameObject go = Instantiate(cropSpritePrefab);
+
+        //TargetTileMap o day la CropTileMap
         go.transform.position = targetTilemap.CellToWorld(position);
         go.SetActive(false);
+        // Luc nay crop duoc luu ben trong crops van chi la hinh o vuong trang va sau do se thay doi khi goi ham Seed
         crop.renderer = go.GetComponent<SpriteRenderer>();
 
         crop.position = position;

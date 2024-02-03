@@ -26,8 +26,10 @@ public class CharacterInteractController : MonoBehaviour
             Interact();
         }
     }
+    // Neu co colide va sau kho an F thi goi ham interact
     private void Interact()
     {
+        // Tinh vi tri cua nhan vat cong them vi tri truoc mat cua MC 
         Vector2 position = rgbd2d.position + characterControl.lastMotionVector*offsetDistance;
 
         Collider2D[] collider2s = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
@@ -44,6 +46,7 @@ public class CharacterInteractController : MonoBehaviour
             }
         }
     }
+    // Kiem tra xem co collide khong
     public void Check()
     {
         Vector2 position = rgbd2d.position + characterControl.lastMotionVector * offsetDistance;
