@@ -11,7 +11,7 @@ public class NPCController : Interactable
 
     Transform player;
     Animator animatorMove;
-    
+
 
     DialogueContainer dialogueContainer;
 
@@ -27,6 +27,7 @@ public class NPCController : Interactable
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize references and set initial quest states
         player = GameManager.instance.player.transform;
         animatorMove = GetComponent<Animator>();
         lastLevel = levelManager.getLevel();
@@ -38,22 +39,25 @@ public class NPCController : Interactable
     {
         if (start)
         {
+            // Load initial greeting dialogue
             string assetPath = "Dialogues/" + "Greeting";
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
             return;
         }
         else
         {
+            // Reset dialogue container
             dialogueContainer = null;
         }
+        // Check for changes in player's level
         if (lastLevel != levelManager.getLevel())
         {
             questOn = true;
-          
+
         }
         if (questOn)
         {
-            string assetPath = "Dialogues/" + "CurrentDialogue" ;
+            string assetPath = "Dialogues/" + "CurrentDialogue";
             //Debug.Log(start);
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
             hightlightController.QuestAppear(gameObject);
@@ -61,10 +65,11 @@ public class NPCController : Interactable
         else
         {
             hightlightController.HideQuestMark();
-            string assetPath = "Dialogues/" + "Idle" ;
+            string assetPath = "Dialogues/" + "Idle";
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
-            
+
         }
+        // Show quest text based on quest acceptance status
         if (!questAccept)
             questText.gameObject.SetActive(false);
         else questText.gameObject.SetActive(true);
@@ -75,13 +80,17 @@ public class NPCController : Interactable
         interacting = true;
         float horizontal = transform.position.y - player.position.y;
         float vertical = transform.position.x - player.position.x;
-        
+
+        // Set animator parameters for NPC movement
         //Debug.Log(horizontal + " " + vertical);
         animatorMove.SetFloat("Horizontal", -horizontal);
         animatorMove.SetFloat("Vertical", -vertical);
 
         Debug.Log(dialogueContainer.line);
+
+        // Display NPC dialog
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
+        // Mark quest as accepted if a quest is available
         if (questOn)
         {
             questAccept = true;
@@ -89,6 +98,7 @@ public class NPCController : Interactable
 
 
     }
+    // Hide intro panel
     public void Hide()
     {
         introPanel.SetActive(false);
@@ -100,8 +110,9 @@ public class NPCController : Interactable
     public void setInteracting(bool interact)
     {
         interacting = interact;
-       
+
     }
+    // Set NPC to idle state and update quest-related variables
     public void setIdle()
     {
         questOn = false;
