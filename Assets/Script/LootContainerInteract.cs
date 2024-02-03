@@ -14,6 +14,8 @@ public class LootContainerInteract : Interactable
         if(opened == false)
         {
             opened = true;
+
+            // Load items from resources and add them to the inventory container
             Item Axe = Resources.Load<Item>("Item/Axe");
             GameManager.instance.inventoryContainer.Add(Axe);
             Item PickAxe = Resources.Load<Item>("Item/PickAxe");
@@ -23,12 +25,15 @@ public class LootContainerInteract : Interactable
             Item Seed = Resources.Load<Item>("Item/Seeds");
             GameManager.instance.inventoryContainer.Add(Seed,5);
 
-
+            // Disable and re-enable the toolbar panel to refresh the inventory display
             GameManager.instance.toolBarPanel.SetActive(false);
             GameManager.instance.toolBarPanel.SetActive(true);
+
+            // Disable the closed chest and enable the opened chest
             closedChest.SetActive(false);
             openedChest.SetActive(true);
 
+            // Disable the quest start and set the quest on
             NPCController.start = false;
             nPCController.SetQuestOn();
         }

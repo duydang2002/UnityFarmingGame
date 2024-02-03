@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class DogWP : MonoBehaviour
 {
+    // Array of waypoints for the dog to follow
     [SerializeField] Transform[] waypoints;
     [SerializeField] float moveSpeed = 2f;
 
@@ -16,6 +17,7 @@ public class DogWP : MonoBehaviour
 
     private void Start()
     {
+        // Set the initial position of the dog
         transform.position = waypoints[waypointIndex].transform.position;
     }
 
@@ -26,10 +28,13 @@ public class DogWP : MonoBehaviour
 
     private void Move()
     {
+        // Calculate the direction vector
         Vector2 direction = (Vector2)waypoints[waypointIndex].position - (Vector2)transform.position;
+
+        // Move the dog towards the waypoint
         transform.Translate(direction.normalized * moveSpeed * Time.deltaTime);
 
-        // Check if reached the waypoint
+        // Check if the dog has reached the current waypoint
         float distance = Vector2.Distance(transform.position, waypoints[waypointIndex].position);
         if (distance < 0.01f)
         {
