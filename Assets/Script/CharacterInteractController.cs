@@ -36,6 +36,7 @@ public class CharacterInteractController : MonoBehaviour
 
         foreach (Collider2D c in collider2s)
         {
+            // Lay cac vat collide
             Interactable hit = c.GetComponent<Interactable>();
 
             if (hit != null)

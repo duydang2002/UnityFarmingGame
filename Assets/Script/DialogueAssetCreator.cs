@@ -31,6 +31,7 @@ public class DialogueAssetCreator : MonoBehaviour
             dialogueContainer.line.Add($"{goal.ElementAt(i).Description}");
 
         }
+        // dinh npc cho container
         dialogueContainer.npc = existingNPC;
 
         // Create the asset file for DialogueContainer

@@ -37,6 +37,7 @@ public class NPCController : Interactable
     // Update is called once per frame
     void Update()
     {
+        // Neu moi bat dau game thi load greeting
         if (start)
         {
             // Load initial greeting dialogue
@@ -49,11 +50,10 @@ public class NPCController : Interactable
             // Reset dialogue container
             dialogueContainer = null;
         }
-        // Check for changes in player's level
+        // Neu len Level thi se bat quest len con khong thi de NPC la idle
         if (lastLevel != levelManager.getLevel())
         {
             questOn = true;
-
         }
         if (questOn)
         {
@@ -69,7 +69,7 @@ public class NPCController : Interactable
             dialogueContainer = Resources.Load<DialogueContainer>(assetPath);
 
         }
-        // Show quest text based on quest acceptance status
+        // Bat tien trinh nhiem vu
         if (!questAccept)
             questText.gameObject.SetActive(false);
         else questText.gameObject.SetActive(true);
@@ -78,6 +78,7 @@ public class NPCController : Interactable
     public override void Interact(Character character)
     {
         interacting = true;
+        // cho NPC quay nguoc ve vi tri cua nhan vat chinh
         float horizontal = transform.position.y - player.position.y;
         float vertical = transform.position.x - player.position.x;
 
@@ -87,10 +88,10 @@ public class NPCController : Interactable
         animatorMove.SetFloat("Vertical", -vertical);
 
         Debug.Log(dialogueContainer.line);
-
-        // Display NPC dialog
+        // Khoi tao hop thoai cho NPC
         GameManager.instance.dialogueSystem.Initialize(dialogueContainer);
-        // Mark quest as accepted if a quest is available
+
+        // dat trang thai thanh Accept Quest
         if (questOn)
         {
             questAccept = true;

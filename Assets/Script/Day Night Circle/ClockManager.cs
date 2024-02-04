@@ -40,7 +40,7 @@ public class Clock : MonoBehaviour
         TimeManagerScript.OnDateTimeChanged -= UpdateDateTime;
     }
 
-    bool lerpUp = true;
+    //bool lerpUp = true;
 
     public void UpdateDateTime(DateTime dateTime)
     {
@@ -53,12 +53,14 @@ public class Clock : MonoBehaviour
          
         //weatherSprite.sprite = weatherSprites[(int)WeatherManager.currentWeather];
 
-        // chia ra lam 24 lan thay doi do co 24 gio
+        // Tinh toan phan tram cua 1 ngay
         float t = (float)dateTime.Hour / 24f;
         
         // Noi suy vi tri moi sau khi thoi gian thay doi
         float newRotation = Mathf.Lerp(0, 360, t);
+        // Xoay them 1 goc New rotation
         ClockFace.localEulerAngles = new Vector3(0, 0, newRotation + startingRotation);
+        // Tinh toan gia tri cuong do sang
         float dayNightT = dayNightCurve.Evaluate(t);
         sunlight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, dayNightT);
 

@@ -19,7 +19,8 @@ public class GoalSpawner : MonoBehaviour
     public void SpawnGoal()
     {
         List<Objective> goals = new List<Objective>(5);
-        for (int i = 0; i < LevelManager.currentLevel % 5; i++)
+        // <5 thi co 1 nvu sau lv 5  thi tang len 
+        for (int i = 0; i <= LevelManager.currentLevel / 5; i++)
         {   
             goals.Add(ObjectiveFactory.CreateGoal(i +1));
         }

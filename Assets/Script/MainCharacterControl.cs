@@ -30,15 +30,12 @@ public class MainCharacterControl : MonoBehaviour
         animatorMove = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
 
     // Update is called once per frame
     void Update()
     {
+        // Ngat khi dang tuong tac voi NPC
         if (nPCController.getInteracting())
         {
             animatorMove.SetBool("moving", false);
@@ -49,19 +46,25 @@ public class MainCharacterControl : MonoBehaviour
         }
         else
         {
+            // Lay input
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
+
             motionVector = new Vector2(
                Input.GetAxis("Horizontal"),
                Input.GetAxis("Vertical")
                );
+            // Set cac animation phu hop voi vector
             animatorMove.SetFloat("Horizontal", horizontal);
             animatorMove.SetFloat("Vertical", vertical);
 
             moving = horizontal != 0 || vertical != 0;
             animatorMove.SetBool("moving", moving);
 
+            // Chinh toc do khi di cheo
             adjustedSpeed = (horizontal != 0 && vertical != 0) ? speed * diagonalSpeedMultiplier : speed;
+            
+            // Set huong cua nhan vat sau khi di chuyen
             if (moving)
             {
                 lastMotionVector = new Vector2(horizontal, vertical).normalized;
@@ -75,7 +78,7 @@ public class MainCharacterControl : MonoBehaviour
         Movement();
         
     }
-
+    // Tao van toc cho Maincharacter
     private void Movement()
     {
         if (nPCController.getInteracting())
@@ -89,6 +92,7 @@ public class MainCharacterControl : MonoBehaviour
     }
     public void MoveTo(Vector2 targetPosition)
     {
+        // Kiem tra xem da toi gan vi tri de dat do chua
             if (Vector2.Distance(transform.position, targetPosition) < 1.0f)
             {
                 rigidbody2D.velocity = Vector2.zero;
@@ -96,7 +100,7 @@ public class MainCharacterControl : MonoBehaviour
                 moving = false;
                 animatorMove.SetBool("moving", moving);
             }
-            
+            // Dua ve 1 vector voi do lon = 1
             motionVector = (targetPosition - (Vector2)transform.position).normalized;
 
             // Update the animator parameters if needed

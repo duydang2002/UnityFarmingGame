@@ -57,7 +57,7 @@ namespace DateTimeNameSpace
 
         void Tick()
         {
-            //Debug.Log("Ticked");
+            
             AdvanceTime();
         }
 

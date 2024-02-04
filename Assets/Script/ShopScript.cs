@@ -106,6 +106,7 @@ public class ShopScript : MonoBehaviour
                     }
                 }
                 moneyManager.AddMoney(selectedItem.moneyValue);
+
                 GameManager.instance.toolBarPanel.SetActive(false);
                 GameManager.instance.toolBarPanel.SetActive(true);
             }
